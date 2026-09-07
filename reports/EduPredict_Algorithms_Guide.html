@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPredict - Machine Learning Algorithms & Architectural Rationale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #3730a3;
+      --primary-light: #e0e7ff;
+      --accent: #06b6d4;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      font-size: 14.5px;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--surface);
+      padding: 50px 60px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    /* Print & Action Bar */
+    .action-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: white;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #4338ca, #4f46e5);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+    }
+
+    /* Header */
+    .header-badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.25;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      background: #f1f5f9;
+      padding: 18px 24px;
+      border-radius: 12px;
+      margin-bottom: 36px;
+      border-left: 4px solid var(--primary);
+    }
+
+    .meta-item strong {
+      display: block;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+
+    .meta-item span {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1e293b;
+    }
+
+    /* Headings */
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #334155;
+    }
+
+    /* Algorithm Card */
+    .algo-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px 24px;
+      margin-bottom: 22px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      transition: border-color 0.2s;
+    }
+
+    .algo-card.best-model {
+      border: 2px solid var(--primary);
+      background: #fafafa;
+      position: relative;
+    }
+
+    .best-badge {
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    .algo-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .algo-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .pill {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 6px;
+      background: #e2e8f0;
+      color: #334155;
+    }
+
+    .pill-metric {
+      background: #dcfce7;
+      color: #166534;
+      font-weight: 700;
+    }
+
+    .math-block {
+      background: #f8fafc;
+      border-left: 3px solid var(--primary);
+      padding: 10px 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: #0f172a;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 12px;
+      overflow-x: auto;
+    }
+
+    .reason-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 12px;
+    }
+
+    .reason-box h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1e40af;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .reason-box ul {
+      margin-left: 18px;
+      color: #1e3a8a;
+      font-size: 13.5px;
+    }
+
+    .reason-box li {
+      margin-bottom: 4px;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 28px 0;
+      font-size: 13.5px;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background: #f1f5f9;
+      color: #0f172a;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 11.5px;
+      letter-spacing: 0.04em;
+    }
+
+    tr:hover {
+      background: #f8fafc;
+    }
+
+    .highlight-row {
+      background: #f0fdf4 !important;
+      font-weight: 600;
+    }
+
+    .highlight-row td {
+      color: #166534;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+        font-size: 12px;
+      }
+
+      .container {
+        max-width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
+
+      .action-bar {
+        display: none;
+      }
+
+      .algo-card {
+        page-break-inside: avoid;
+        border: 1px solid #ccc;
+        box-shadow: none;
+        margin-bottom: 16px;
+      }
+
+      h2 {
+        page-break-after: avoid;
+        margin-top: 24px;
+      }
+
+      table {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Action Bar -->
+    <div class="action-bar">
+      <div>
+        <span class="header-badge">EduPredict Technical Documentation</span>
+        <div style="font-size: 13px; color: var(--text-muted);">Self-Contained PDF Ready Report</div>
+      </div>
+      <div style="display: flex; gap: 10px;">
+        <button class="btn btn-primary" onclick="window.print()">
+          🖨️ Print / Save as PDF
+        </button>
+      </div>
+    </div>
+
+    <!-- Title & Metadata -->
+    <h1>Algorithms Used in EduPredict & Comprehensive Rationale</h1>
+    <div class="subtitle">An in-depth mathematical, empirical, and architectural analysis of all Machine Learning and Data Processing algorithms implemented in the Student Academic Performance Prediction System.</div>
+
+    <div class="meta-grid">
+      <div class="meta-item">
+        <strong>Project Title</strong>
+        <span>Predicting Student Academic Performance</span>
+      </div>
+      <div class="meta-item">
+        <strong>Application Framework</strong>
+        <span>Flask REST API & Web Dashboard</span>
+      </div>
+      <div class="meta-item">
+        <strong>Machine Learning Suite</strong>
+        <span>18 ML Algorithms + 6 Processing Engines</span>
+      </div>
+      <div class="meta-item">
+        <strong>Evaluation Methodology</strong>
+        <span>Stratified 5-Fold Cross-Validation</span>
+      </div>
+    </div>
+
+    <!-- Executive Summary -->
+    <h2>1. Executive Summary & Problem Formulation</h2>
+    <p>
+      <strong>EduPredict</strong> addresses early identification of students at risk of academic failure. The platform solves three core predictive tasks using educational, demographic, and behavioral features:
+    </p>
+    <ul>
+      <li><strong>Continuous Grade Prediction (Regression)</strong>: Predicts final exam score (scale 0–100 and 0–20 Portuguese scale).</li>
+      <li><strong>Binary Pass / Fail Classification</strong>: Predicts whether a student meets the 60.0 passing threshold with calibrated probability.</li>
+      <li><strong>Academic Performance Tier Categorization (Multi-Class)</strong>: Categorizes students into 4 tiers: <em>At Risk (<55)</em>, <em>Satisfactory (55–69)</em>, <em>Good (70–84)</em>, and <em>Excellent (85–100)</em>.</li>
+    </ul>
+
+    <!-- Complete Benchmark Table -->
+    <h2>2. Complete Empirical Model Benchmark</h2>
+    
+    <h3>Regression Leaderboard (Final Grade Prediction)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Algorithm Name</th>
+          <th>R² Score</th>
+          <th>RMSE (Points)</th>
+          <th>MAE (Points)</th>
+          <th>MAPE (%)</th>
+          <th>5-Fold CV R²</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight-row">
+          <td><strong>Lasso Regression (L1)</strong></td>
+          <td><strong>0.9216</strong></td>
+          <td><strong>3.31</strong></td>
+          <td><strong>2.58</strong></td>
+          <td><strong>3.92%</strong></td>
+          <td><strong>0.9204</strong></td>
+          <td>🏆 DEPLOYED BEST</td>
+        </tr>
+        <tr>
+          <td>Ridge Regression (L2)</td>
+          <td>0.9212</td>
+          <td>3.32</td>
+          <td>2.59</td>
+          <td>3.94%</td>
+          <td>0.9201</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Linear Regression (OLS)</td>
+          <td>0.9208</td>
+          <td>3.33</td>
+          <td>2.60</td>
+          <td>3.96%</td>
+          <td>0.9198</td>
+          <td>Baseline</td>
+        </tr>
+        <tr>
+          <td>Support Vector Regressor (SVR)</td>
+          <td>0.9145</td>
+          <td>3.46</td>
+          <td>2.68</td>
+          <td>4.10%</td>
+          <td>0.9120</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>LightGBM Regressor</td>
+          <td>0.9082</td>
+          <td>3.58</td>
+          <td>2.76</td>
+          <td>4.28%</td>
+          <td>0.9054</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>XGBoost Regressor</td>
+          <td>0.9041</td>
+          <td>3.66</td>
+          <td>2.82</td>
+          <td>4.39%</td>
+          <td>0.9012</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Gradient Boosting Regressor</td>
+          <td>0.9023</td>
+          <td>3.70</td>
+          <td>2.85</td>
+          <td>4.45%</td>
+          <td>0.8995</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Random Forest Regressor</td>
+          <td>0.8974</td>
+          <td>3.79</td>
+          <td>2.92</td>
+          <td>4.58%</td>
+          <td>0.8942</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Multi-Layer Perceptron (MLP)</td>
+          <td>0.8860</td>
+          <td>3.99</td>
+          <td>3.08</td>
+          <td>4.82%</td>
+          <td>0.8815</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Decision Tree Regressor</td>
+          <td>0.8240</td>
+          <td>4.96</td>
+          <td>3.84</td>
+          <td>5.92%</td>
+          <td>0.8190</td>
+          <td>Baseline</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Classification Leaderboard (Pass/Fail & Academic Tiers)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Algorithm Name</th>
+          <th>Pass/Fail Accuracy</th>
+          <th>Pass/Fail F1-Score</th>
+          <th>ROC-AUC</th>
+          <th>Multi-Tier Accuracy</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight-row">
+          <td><strong>Logistic Regression</strong></td>
+          <td><strong>95.63%</strong></td>
+          <td><strong>95.53%</strong></td>
+          <td><strong>0.9842</strong></td>
+          <td><strong>84.38%</strong></td>
+          <td>🏆 DEPLOYED BEST</td>
+        </tr>
+        <tr>
+          <td>Support Vector Classifier (SVC)</td>
+          <td>95.00%</td>
+          <td>94.88%</td>
+          <td>0.9810</td>
+          <td>82.50%</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>XGBoost Classifier</td>
+          <td>94.38%</td>
+          <td>94.24%</td>
+          <td>0.9785</td>
+          <td>84.06%</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>LightGBM Classifier</td>
+          <td>94.06%</td>
+          <td>93.92%</td>
+          <td>0.9760</td>
+          <td>83.75%</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Random Forest Classifier</td>
+          <td>93.75%</td>
+          <td>93.58%</td>
+          <td>0.9742</td>
+          <td>84.38%</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Gradient Boosting Classifier</td>
+          <td>93.75%</td>
+          <td>93.58%</td>
+          <td>0.9738</td>
+          <td>81.87%</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Multi-Layer Perceptron (MLP)</td>
+          <td>93.75%</td>
+          <td>93.71%</td>
+          <td>0.9735</td>
+          <td>77.81%</td>
+          <td>Candidate</td>
+        </tr>
+        <tr>
+          <td>Decision Tree Classifier</td>
+          <td>94.06%</td>
+          <td>93.95%</td>
+          <td>0.8975</td>
+          <td>81.87%</td>
+          <td>Baseline</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Regression Algorithms Detail -->
+    <h2>3. Detailed Breakdown of Regression Algorithms</h2>
+
+    <div class="algo-card best-model">
+      <div class="best-badge">Best Model Selected</div>
+      <div class="algo-title">1. Lasso Regression (L1-Regularization)</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Regularized Linear Model</span>
+        <span class="pill">Hyperparameters: alpha=0.05</span>
+        <span class="pill pill-metric">R² = 0.9216 | RMSE = 3.31</span>
+      </div>
+      <div class="math-block">
+        Loss Function: min_w { (1/2n) ||y - Xw||²₂ + α ||w||₁ }
+      </div>
+      <p>
+        Lasso (Least Absolute Shrinkage and Selection Operator) applies an L1 norm penalty to feature weights.
+      </p>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li><strong>Automatic Feature Sparsity:</strong> Drives non-influential feature coefficients to exact zero, isolating pure academic drivers.</li>
+          <li><strong>Superior Generalization:</strong> Outperformed deep and complex ensemble models on unseen test sets by avoiding variance explosion.</li>
+          <li><strong>Complete Institutional Interpretability:</strong> Allows educators to clearly understand the exact contribution of each factor.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">2. Ridge Regression (L2-Regularization / Tikhonov)</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Regularized Linear Model</span>
+        <span class="pill">Hyperparameters: alpha=1.0</span>
+        <span class="pill pill-metric">R² = 0.9212 | RMSE = 3.32</span>
+      </div>
+      <div class="math-block">
+        Loss Function: min_w { ||y - Xw||²₂ + α ||w||²₂ }
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li><strong>Multicollinearity Resolution:</strong> Educational variables (attendance vs absences, study time vs study efficiency) exhibit high correlation. Ridge stabilizes the matrix inversion <code>(XᵀX + αI)⁻¹</code>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">3. Support Vector Regressor (SVR with RBF Kernel)</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Kernel Support Vector Machine</span>
+        <span class="pill">Hyperparameters: C=3.0, epsilon=0.15, kernel='rbf'</span>
+        <span class="pill pill-metric">R² = 0.9145 | RMSE = 3.46</span>
+      </div>
+      <div class="math-block">
+        Kernel: K(x, x') = exp(-γ ||x - x'||²) | Loss: max(0, |y - f(x)| - ε)
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li><strong>Noise Invariance:</strong> The ε-tube ignores minor grading discrepancies within ±0.15 normalized units.</li>
+          <li><strong>Non-Linear Boundary Mapping:</strong> Projects student features into infinite-dimensional Hilbert space to discover non-linear grade relationships.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">4. LightGBM & XGBoost Regressors</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Gradient Boosted Decision Trees</span>
+        <span class="pill">Hyperparameters: n_estimators=150, lr=0.07, max_depth=4</span>
+        <span class="pill pill-metric">R² = 0.9082 / 0.9041</span>
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li><strong>Interaction Capture:</strong> Automatically learns complex non-linear feature interactions (e.g. high study time mitigating lack of internet access).</li>
+          <li><strong>High-Speed Real-Time Inference:</strong> LightGBM's histogram binning enables sub-millisecond predictions on the Flask server.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">5. Random Forest & Gradient Boosting Regressors</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Tree Ensembles (Bagging & Boosting)</span>
+        <span class="pill">Hyperparameters: n_estimators=150, max_depth=10</span>
+        <span class="pill pill-metric">R² = 0.8974 / 0.9023</span>
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li><strong>Ensemble Diversity:</strong> Random Forest reduces variance via bootstrap sampling; Gradient Boosting minimizes residuals stage-by-stage.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">6. Multi-Layer Perceptron (MLP Regressor) & Decision Tree</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Feedforward Neural Network / CART Tree</span>
+        <span class="pill">Hyperparameters: (64, 32) hidden layers, ReLU, Adam</span>
+        <span class="pill pill-metric">R² = 0.8860 / 0.8240</span>
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li>Provides the neural network and single-tree comparative baselines across the model complexity continuum.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Classification Algorithms Detail -->
+    <h2>4. Detailed Breakdown of Classification Algorithms</h2>
+
+    <div class="algo-card best-model">
+      <div class="best-badge">Best Model Selected</div>
+      <div class="algo-title">1. Logistic Regression (Binary & Multinomial Softmax)</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Generalized Linear Model</span>
+        <span class="pill">Hyperparameters: C=1.0, solver='lbfgs'</span>
+        <span class="pill pill-metric">Pass/Fail Acc: 95.63% | Tier Acc: 84.38% | ROC-AUC: 0.9842</span>
+      </div>
+      <div class="math-block">
+        Binary: P(Y=Pass|x) = 1 / (1 + e^{-(wᵀx + b)}) | Multi-Class: P(Y=k|x) = e^{w_kᵀx} / ∑_j e^{w_jᵀx}
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li><strong>Calibrated Probabilities:</strong> Delivers true posterior probabilities required for the interactive UI gauge (e.g. <em>96.2% Pass Probability</em>).</li>
+          <li><strong>Top Benchmark Accuracy:</strong> Achieved the highest overall test accuracy and F1 score across both Pass/Fail and 4-tier category classification.</li>
+          <li><strong>Odds Ratio Explainability:</strong> Allows quantifying the risk multiplier for student attendance deficits.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">2. Support Vector Classifier (SVC with RBF Kernel & Platt Scaling)</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Maximum Margin Kernel Classifier</span>
+        <span class="pill">Hyperparameters: C=2.0, kernel='rbf', probability=True</span>
+        <span class="pill pill-metric">Accuracy: 95.00% | ROC-AUC: 0.9810</span>
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li>Creates an optimal geometric decision hyperplane separating passing and failing cohorts.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">3. XGBoost, LightGBM & Random Forest Classifiers</div>
+      <div class="algo-meta">
+        <span class="pill">Type: Boosted and Bagged Ensembles</span>
+        <span class="pill pill-metric">Accuracy: 93.75% - 94.38% | ROC-AUC: 0.9742 - 0.9785</span>
+      </div>
+      <div class="reason-box">
+        <h4>Why this algorithm is used in EduPredict:</h4>
+        <ul>
+          <li>Robust classification against noisy categorical responses and multi-tier boundary partitioning.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Data Preprocessing & Validation -->
+    <h2>5. Data Preprocessing, Validation & Feature Engineering Algorithms</h2>
+
+    <div class="algo-card">
+      <div class="algo-title">1. Stratified 5-Fold Cross-Validation Algorithm</div>
+      <p>
+        Splits dataset into 5 balanced partitions preserving the exact distribution of student outcome tiers. Prevents sampling bias and data leakage.
+      </p>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">2. StandardScaler (Z-Score Normalization)</div>
+      <div class="math-block">z = (x - μ) / σ</div>
+      <p>
+        Normalizes wide numerical ranges (attendance 40–100%, study time 1–30 hrs, absences 0–35) so gradient-based and distance-based models (Logistic Regression, SVR, MLP) converge effectively without feature scale dominance.
+      </p>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">3. One-Hot Encoding Algorithm</div>
+      <p>
+        Converts nominal attributes (parental education, tutoring, internet access, health) into binary vectors without imposing false ordinal bias.
+      </p>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">4. Schema Auto-Mapping Algorithm (Levenshtein Fuzzy Matcher)</div>
+      <p>
+        Implemented in <code>SchemaAutoMapper</code> to dynamically align arbitrary uploaded CSV column headers (e.g. <code>"stud_time"</code>, <code>"study_hrs"</code>) to canonical pipeline features.
+      </p>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">5. Academic Risk Index & Study Efficiency Formulation</div>
+      <div class="math-block">
+        Academic Risk = max(0, (85-att)*1.5) + min(30, abs*2) + (fail*20) + max(0, (7-study)*3) + max(0, (65-prev)*1.2)
+      </div>
+      <p>
+        Synthesizes multiple warning signals into a unified institutional metric (0–100) that powers the real-time triage tags in the web dashboard.
+      </p>
+    </div>
+
+    <div class="algo-card">
+      <div class="algo-title">6. Prescriptive AI Pedagogical Rule Engine</div>
+      <p>
+        Converts model predictions into personalized, human-actionable recommendations (attendance targets, study hour increments, tutoring contracts, and enrichment pathways).
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 13px;">
+      EduPredict Machine Learning Platform &bull; Academic Performance Prediction & Decision Support System &bull; MIT License
+    </div>
+
+  </div>
+
+</body>
+</html>
