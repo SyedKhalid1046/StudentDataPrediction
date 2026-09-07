@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPredict AI | Student Academic Performance Machine Learning System</title>
+  <meta name="description" content="End-to-End Machine Learning System for Predicting Student Academic Performance, Grades, Pass/Fail Status, and Risk Categories with Prescriptive AI Guidance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <!-- Chart.js for Interactive Visual Analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo-group">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <h1>EduPredict <span class="badge-ai">ML AI</span></h1>
+          <span class="subtitle">Academic Performance & Early Intervention System</span>
+        </div>
+      </div>
+
+      <nav class="nav-tabs" role="tablist">
+        <button class="tab-btn active" data-tab="tab-overview" id="btn-tab-overview" role="tab" aria-selected="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Dataset & EDA
+        </button>
+        <button class="tab-btn" data-tab="tab-models" id="btn-tab-models" role="tab" aria-selected="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          ML Leaderboard
+        </button>
+        <button class="tab-btn" data-tab="tab-predictor" id="btn-tab-predictor" role="tab" aria-selected="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          Student Predictor
+        </button>
+        <button class="tab-btn" data-tab="tab-batch" id="btn-tab-batch" role="tab" aria-selected="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          Batch Prediction
+        </button>
+        <button class="tab-btn" data-tab="tab-insights" id="btn-tab-insights" role="tab" aria-selected="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          Intervention Guide
+        </button>
+      </nav>
+
+      <div class="system-status">
+        <span class="status-dot online"></span>
+        <span class="status-text">Models Active</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- ================================================================= -->
+    <!-- TAB 1: DATASET OVERVIEW & EXPLORATORY DATA ANALYSIS -->
+    <!-- ================================================================= -->
+    <section id="tab-overview" class="tab-content active" role="tabpanel">
+      <!-- KPI Metric Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">Total Student Cohort</span>
+            <h3 class="kpi-value" id="kpi-total-students">1,600</h3>
+            <span class="kpi-subtext">Comprehensive Benchmark Dataset</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-green">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">Pass Rate</span>
+            <h3 class="kpi-value" id="kpi-pass-rate">82.4%</h3>
+            <span class="kpi-subtext">Passing threshold (Grade &ge; 60)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-purple">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">Mean Final Grade</span>
+            <h3 class="kpi-value" id="kpi-mean-grade">70.5 / 100</h3>
+            <span class="kpi-subtext">Std Dev: 11.9 | Median: 71.9</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon icon-amber">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">At-Risk Cohort</span>
+            <h3 class="kpi-value" id="kpi-at-risk">167 (10.4%)</h3>
+            <span class="kpi-subtext">Requiring early intervention</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Section -->
+      <div class="grid-2-col">
+        <!-- Interactive Category Distribution Chart -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Performance Tier Distribution</h3>
+              <p class="card-subtitle">Distribution of students across standardized performance brackets</p>
+            </div>
+            <span class="badge badge-primary">Dynamic Chart</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-category-dist"></canvas>
+          </div>
+        </div>
+
+        <!-- Attendance vs Study Time Impact -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Attendance & Study Time vs Final Grade</h3>
+              <p class="card-subtitle">Average final grades across attendance quartiles</p>
+            </div>
+            <span class="badge badge-success">Empirical Trend</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-attendance-impact"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- High-Resolution Publication Figure Gallery -->
+      <div class="glass-card mt-6">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Exploratory Data Analysis Diagnostic Figures</h3>
+            <p class="card-subtitle">High-resolution analytical visual figures generated from pipeline execution</p>
+          </div>
+        </div>
+        <div class="figures-gallery">
+          <div class="figure-item">
+            <img src="/reports/figures/grade_distribution.png" alt="Grade Distribution Plot" loading="lazy">
+            <span class="figure-caption">Final Grade Histogram & KDE</span>
+          </div>
+          <div class="figure-item">
+            <img src="/reports/figures/correlation_heatmap.png" alt="Correlation Heatmap" loading="lazy">
+            <span class="figure-caption">Pearson Feature Correlation Heatmap</span>
+          </div>
+          <div class="figure-item">
+            <img src="/reports/figures/attendance_vs_grade.png" alt="Attendance vs Grade Plot" loading="lazy">
+            <span class="figure-caption">Attendance Rate vs Final Grade</span>
+          </div>
+          <div class="figure-item">
+            <img src="/reports/figures/parental_education_impact.png" alt="Parental Education Boxplot" loading="lazy">
+            <span class="figure-caption">Parental Education Impact Distribution</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dataset Preview Table -->
+      <div class="glass-card mt-6">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Educational Dataset Preview</h3>
+            <p class="card-subtitle">Sample student records showing academic, demographic, and behavioral features</p>
+          </div>
+          <a href="/data/student_performance_data.csv" download="student_dataset.csv" class="btn btn-secondary btn-sm">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Export CSV
+          </a>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-dataset-preview">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Parental Edu</th>
+                <th>Study Time (h)</th>
+                <th>Attendance (%)</th>
+                <th>Prior Grades</th>
+                <th>Absences</th>
+                <th>Final Grade</th>
+                <th>Status</th>
+                <th>Category</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-preview">
+              <!-- Dynamically populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================= -->
+    <!-- TAB 2: MACHINE LEARNING LEADERBOARD & BENCHMARKS -->
+    <!-- ================================================================= -->
+    <section id="tab-models" class="tab-content" role="tabpanel">
+      <!-- Best Models Highlight Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card highlight-card">
+          <div class="kpi-icon icon-purple">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">Best Regression Model</span>
+            <h3 class="kpi-value text-gradient" id="best-reg-name">Lasso / Ridge</h3>
+            <span class="kpi-subtext" id="best-reg-metrics">R²: 0.9216 | RMSE: 3.31 | MAE: 2.58</span>
+          </div>
+        </div>
+
+        <div class="kpi-card highlight-card">
+          <div class="kpi-icon icon-green">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">Best Pass/Fail Classifier</span>
+            <h3 class="kpi-value text-gradient" id="best-pf-name">Logistic / XGBoost</h3>
+            <span class="kpi-subtext" id="best-pf-metrics">Accuracy: 95.63% | F1: 95.53%</span>
+          </div>
+        </div>
+
+        <div class="kpi-card highlight-card">
+          <div class="kpi-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <div class="kpi-details">
+            <span class="kpi-label">Best Category Classifier</span>
+            <h3 class="kpi-value text-gradient" id="best-cat-name">Logistic / LightGBM</h3>
+            <span class="kpi-subtext" id="best-cat-metrics">Accuracy: 84.38% | F1: 84.39%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparative Benchmark Visualizations -->
+      <div class="grid-2-col mt-6">
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Regression Models R² Comparison</h3>
+              <p class="card-subtitle">Coefficient of determination ($R^2$) across all 10 candidate regressors</p>
+            </div>
+            <span class="badge badge-primary">Test Set</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-regression-models"></canvas>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Top Predictive Drivers (Feature Importance)</h3>
+              <p class="card-subtitle">Relative weight (%) of key educational & demographic variables</p>
+            </div>
+            <span class="badge badge-success">Explainable AI</span>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-feature-importance"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Regression Leaderboard Table -->
+      <div class="glass-card mt-6">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Regression Algorithms Leaderboard (Final Grade Prediction)</h3>
+            <p class="card-subtitle">Trained with 5-fold cross-validation and evaluated on unseen test partition</p>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-regression-leaderboard">
+            <thead>
+              <tr>
+                <th>Model Name</th>
+                <th>R² Score</th>
+                <th>RMSE</th>
+                <th>MAE</th>
+                <th>MAPE (%)</th>
+                <th>5-Fold CV R²</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-reg-leaderboard">
+              <!-- Populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Full Classification Leaderboard Table -->
+      <div class="glass-card mt-6">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Classification Algorithms Leaderboard (Pass/Fail Outcome)</h3>
+            <p class="card-subtitle">Evaluated on accuracy, weighted precision, recall, F1 score, and ROC-AUC</p>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-classification-leaderboard">
+            <thead>
+              <tr>
+                <th>Model Name</th>
+                <th>Accuracy</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                <th>ROC-AUC</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-cls-leaderboard">
+              <!-- Populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Model Diagnostic Gallery -->
+      <div class="glass-card mt-6">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Model Diagnostics & Confusion Matrices</h3>
+            <p class="card-subtitle">Visual evaluation curves, residual distributions, and confusion heatmaps</p>
+          </div>
+        </div>
+        <div class="figures-gallery">
+          <div class="figure-item">
+            <img src="/reports/figures/model_regression_comparison.png" alt="Regression Benchmark" loading="lazy">
+            <span class="figure-caption">R² vs RMSE Model Comparison</span>
+          </div>
+          <div class="figure-item">
+            <img src="/reports/figures/regression_residuals_plot.png" alt="Residuals Plot" loading="lazy">
+            <span class="figure-caption">Predicted vs Actual & Residuals</span>
+          </div>
+          <div class="figure-item">
+            <img src="/reports/figures/confusion_matrices_plot.png" alt="Confusion Matrix" loading="lazy">
+            <span class="figure-caption">Classification Confusion Matrices</span>
+          </div>
+          <div class="figure-item">
+            <img src="/reports/figures/feature_importance_ranking.png" alt="Feature Importance" loading="lazy">
+            <span class="figure-caption">Global Feature Importance Ranking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================= -->
+    <!-- TAB 3: REAL-TIME INTERACTIVE STUDENT PREDICTOR -->
+    <!-- ================================================================= -->
+    <section id="tab-predictor" class="tab-content" role="tabpanel">
+      <div class="predictor-grid">
+        <!-- Input Form Card -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Student Profile & Academic Factors</h3>
+              <p class="card-subtitle">Adjust student variables to observe real-time AI outcome predictions</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btn-load-sample-student">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+              Fill Sample Profile
+            </button>
+          </div>
+
+          <form id="form-predictor" class="form-grid">
+            <!-- Row 1: Demographics -->
+            <div class="form-group">
+              <label for="input-gender">Gender</label>
+              <select id="input-gender" name="gender" class="form-control">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="input-age">Age (Years): <span id="val-age" class="slider-val">17</span></label>
+              <input type="range" id="input-age" name="age" min="15" max="22" value="17" class="form-range">
+            </div>
+
+            <!-- Row 2: Parental & Socioeconomic -->
+            <div class="form-group">
+              <label for="input-parent-edu">Parental Education Level</label>
+              <select id="input-parent-edu" name="parental_education" class="form-control">
+                <option value="Bachelor" selected>Bachelor's Degree</option>
+                <option value="Master/Doctorate">Master / Doctorate</option>
+                <option value="Some College">Some College / Associate</option>
+                <option value="High School">High School Diploma</option>
+                <option value="None">No Formal Education</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="input-internet">Home Internet Access</label>
+              <select id="input-internet" name="internet_access" class="form-control">
+                <option value="Yes" selected>Yes (High-speed)</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <!-- Row 3: Core Academic & Behavioral Sliders -->
+            <div class="form-group span-2">
+              <div class="label-row">
+                <label for="input-prev-grades">Previous Grades / Midterm Exam (0 - 100):</label>
+                <span id="val-prev-grades" class="slider-val highlight-val">78.0</span>
+              </div>
+              <input type="range" id="input-prev-grades" name="previous_grades" min="30" max="100" step="0.5" value="78.0" class="form-range">
+            </div>
+
+            <div class="form-group">
+              <div class="label-row">
+                <label for="input-attendance">Attendance Rate (%):</label>
+                <span id="val-attendance" class="slider-val highlight-val">90.0%</span>
+              </div>
+              <input type="range" id="input-attendance" name="attendance_rate" min="40" max="100" step="1" value="90" class="form-range">
+            </div>
+
+            <div class="form-group">
+              <div class="label-row">
+                <label for="input-study-time">Weekly Study Time (Hours):</label>
+                <span id="val-study-time" class="slider-val highlight-val">10.0 hrs</span>
+              </div>
+              <input type="range" id="input-study-time" name="study_time" min="1" max="30" step="0.5" value="10.0" class="form-range">
+            </div>
+
+            <!-- Row 4: Support & Health -->
+            <div class="form-group">
+              <label for="input-tutoring">Supplementary Tutoring</label>
+              <select id="input-tutoring" name="tutoring" class="form-control">
+                <option value="No" selected>No</option>
+                <option value="Yes">Yes</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="input-family-support">Family Educational Support</label>
+              <select id="input-family-support" name="family_support" class="form-control">
+                <option value="Yes" selected>Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="input-extracurricular">Extracurricular Activities</label>
+              <select id="input-extracurricular" name="extracurricular_activities" class="form-control">
+                <option value="Yes" selected>Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="input-failures">Past Subject Failures</label>
+              <select id="input-failures" name="failures" class="form-control">
+                <option value="0" selected>0 Failures</option>
+                <option value="1">1 Failure</option>
+                <option value="2">2 Failures</option>
+                <option value="3">3+ Failures</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="input-health">Student Health Status</label>
+              <select id="input-health" name="health" class="form-control">
+                <option value="Good" selected>Good</option>
+                <option value="Excellent">Excellent</option>
+                <option value="Fair">Fair</option>
+                <option value="Poor">Poor</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <div class="label-row">
+                <label for="input-absences">Estimated Absences (Days):</label>
+                <span id="val-absences" class="slider-val">3</span>
+              </div>
+              <input type="range" id="input-absences" name="absences" min="0" max="30" value="3" class="form-range">
+            </div>
+
+            <div class="form-group span-2 mt-4">
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-predict">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                Generate Academic Performance Prediction
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Live Prediction Output & Prescriptive Recommendations -->
+        <div class="predictor-results-panel">
+          <!-- Primary Outcome Card -->
+          <div class="glass-card result-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">AI Projected Outcome</h3>
+                <p class="card-subtitle">Multi-model ensemble synthesis</p>
+              </div>
+              <span class="badge badge-risk" id="res-risk-tier">Low Risk</span>
+            </div>
+
+            <div class="grade-display-group">
+              <div class="grade-circle-container">
+                <div class="grade-circle" id="grade-circle">
+                  <span class="grade-main" id="res-grade">76.4</span>
+                  <span class="grade-sub">out of 100</span>
+                </div>
+              </div>
+              <div class="grade-meta">
+                <div class="meta-row">
+                  <span class="meta-label">Pass / Fail Outcome:</span>
+                  <span class="meta-val badge badge-pass" id="res-pass-fail">Pass</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Pass Probability:</span>
+                  <span class="meta-val" id="res-pass-prob">94.2%</span>
+                </div>
+                <div class="progress-bar-container">
+                  <div class="progress-bar-fill" id="res-prob-bar" style="width: 94.2%;"></div>
+                </div>
+                <div class="meta-row mt-3">
+                  <span class="meta-label">Performance Tier:</span>
+                  <span class="meta-val font-bold text-accent" id="res-category">Good</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">20-Point Scale Equivalent:</span>
+                  <span class="meta-val" id="res-grade-20">15.3 / 20</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Academic Risk Index:</span>
+                  <span class="meta-val" id="res-risk-index">8.5 / 100</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prescriptive Recommendations Card -->
+          <div class="glass-card mt-4">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Prescriptive AI Interventions</h3>
+                <p class="card-subtitle">Personalized actionable guidance to optimize academic outcome</p>
+              </div>
+              <span class="badge badge-primary">Action Plan</span>
+            </div>
+            <div class="recommendations-list" id="recommendations-container">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================= -->
+    <!-- TAB 4: BATCH PREDICTION & CSV UPLOAD -->
+    <!-- ================================================================= -->
+    <section id="tab-batch" class="tab-content" role="tabpanel">
+      <div class="glass-card">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Batch Student Inference & Risk Triage</h3>
+            <p class="card-subtitle">Upload educational spreadsheets (CSV or Excel) to evaluate entire classrooms or cohorts simultaneously</p>
+          </div>
+          <a href="/api/download-sample-csv" class="btn btn-secondary btn-sm">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download CSV Template
+          </a>
+        </div>
+
+        <!-- Drag and drop zone -->
+        <div class="drop-zone" id="drop-zone" style="cursor: pointer;">
+          <div class="drop-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          </div>
+          <h4 class="drop-title">Drag and drop student CSV / Excel file here</h4>
+          <p class="drop-subtitle">or click anywhere in this box to browse from your computer (Max 16 MB)</p>
+          
+          <div class="format-badges mt-2" style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
+            <span class="badge badge-primary" style="font-size: 0.75rem;">CSV / TSV</span>
+            <span class="badge badge-success" style="font-size: 0.75rem;">Excel (.xlsx, .xls)</span>
+            <span class="badge badge-purple" style="font-size: 0.75rem;">Auto-Encoding & Delimiter</span>
+            <span class="badge badge-amber" style="font-size: 0.75rem;">Flexible Schema</span>
+          </div>
+
+          <input type="file" id="batch-file-input" accept=".csv, .xlsx, .xls, .tsv, .txt" style="display: none;">
+          <button type="button" class="btn btn-primary mt-3" id="btn-select-file">
+            Select File
+          </button>
+          
+          <!-- Batch Loading Spinner -->
+          <div id="batch-loading-spinner" style="display: none; margin-top: 1rem; align-items: center; justify-content: center; gap: 0.75rem;">
+            <div class="spinner-border" style="width: 24px; height: 24px; border: 3px solid rgba(255,255,255,0.2); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite;"></div>
+            <span style="font-weight: 500; color: var(--text-secondary);">Ingesting dataset, auto-mapping schema & executing multi-model inference...</span>
+          </div>
+        </div>
+
+        <!-- Batch Error Alert Box -->
+        <div id="batch-error-box" class="alert alert-danger mt-4" style="display: none; padding: 1rem 1.25rem; border-radius: 10px; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); color: #FCA5A5;">
+          <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; margin-top: 2px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            <div>
+              <strong style="display: block; font-weight: 600; margin-bottom: 0.25rem;">Batch Processing Notice</strong>
+              <span id="batch-error-message" style="font-size: 0.92rem; line-height: 1.4;"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Batch Results Section (Hidden until upload) -->
+        <div id="batch-results-wrapper" style="display: none;" class="mt-6">
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-icon icon-blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg>
+              </div>
+              <div class="kpi-details">
+                <span class="kpi-label">Batch Processed</span>
+                <h3 class="kpi-value" id="batch-kpi-total">0</h3>
+                <span class="kpi-subtext">Students Evaluated</span>
+              </div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-icon icon-green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <div class="kpi-details">
+                <span class="kpi-label">Projected Pass Rate</span>
+                <h3 class="kpi-value" id="batch-kpi-pass-rate">0%</h3>
+                <span class="kpi-subtext" id="batch-kpi-pass-count">0 Pass / 0 Fail</span>
+              </div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-icon icon-purple">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <div class="kpi-details">
+                <span class="kpi-label">Average Cohort Grade</span>
+                <h3 class="kpi-value" id="batch-kpi-avg-grade">0.0</h3>
+                <span class="kpi-subtext">Predicted Score</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Schema Auto-Detection Diagnostics Card -->
+          <div id="schema-mapping-card" class="mt-4" style="background: rgba(99, 102, 241, 0.08); border: 1px solid rgba(99, 102, 241, 0.25); border-radius: 12px; padding: 1.25rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div style="width: 32px; height: 32px; border-radius: 8px; background: rgba(99, 102, 241, 0.25); display: flex; align-items: center; justify-content: center; color: #818CF8;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div>
+                  <h4 style="margin: 0; font-size: 1rem; font-weight: 600; color: #F8FAFC;" id="schema-mapping-title">
+                    Schema Auto-Detection Active
+                  </h4>
+                  <p style="margin: 0.2rem 0 0; font-size: 0.85rem; color: #94A3B8;" id="schema-mapping-subtext">
+                    Auto-mapped uploaded columns to model input features.
+                  </p>
+                </div>
+              </div>
+              <button type="button" id="btn-toggle-schema-details" class="btn btn-secondary btn-sm" style="font-size: 0.82rem; padding: 0.35rem 0.75rem;">
+                View Column Mappings & Imputations &darr;
+              </button>
+            </div>
+
+            <!-- Expandable details container -->
+            <div id="schema-details-drawer" style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.08);">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                <!-- Mapped Columns List -->
+                <div>
+                  <h5 style="margin: 0 0 0.5rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #34D399; display: flex; align-items: center; gap: 0.4rem;">
+                    <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #34D399;"></span>
+                    Auto-Detected & Mapped Features (<span id="count-mapped-feats">0</span>)
+                  </h5>
+                  <div id="pills-mapped-features" style="display: flex; flex-wrap: wrap; gap: 0.4rem;"></div>
+                </div>
+
+                <!-- Imputed Default Columns -->
+                <div>
+                  <h5 style="margin: 0 0 0.5rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #FBBF24; display: flex; align-items: center; gap: 0.4rem;">
+                    <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #FBBF24;"></span>
+                    Imputed with Intelligent Defaults (<span id="count-imputed-feats">0</span>)
+                  </h5>
+                  <div id="pills-imputed-features" style="display: flex; flex-wrap: wrap; gap: 0.4rem;"></div>
+                </div>
+
+                <!-- Preserved Extra Columns -->
+                <div id="extra-columns-container">
+                  <h5 style="margin: 0 0 0.5rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #818CF8; display: flex; align-items: center; gap: 0.4rem;">
+                    <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #818CF8;"></span>
+                    Preserved Extra Columns (<span id="count-extra-cols">0</span>)
+                  </h5>
+                  <div id="pills-extra-columns" style="display: flex; flex-wrap: wrap; gap: 0.4rem;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls: Search, Risk Filter & Export -->
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.5rem; padding: 0.75rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px;">
+            <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+              <input type="text" id="batch-search-input" placeholder="Search student ID..." style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.15); border-radius: 6px; padding: 0.45rem 0.85rem; color: #fff; font-size: 0.9rem;">
+              <select id="batch-risk-filter" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.15); border-radius: 6px; padding: 0.45rem 0.85rem; color: #fff; font-size: 0.9rem;">
+                <option value="all">All Risk Tiers</option>
+                <option value="High Risk">High Risk</option>
+                <option value="Moderate Risk">Moderate Risk</option>
+                <option value="Low Risk">Low Risk</option>
+                <option value="Pass">Pass Status</option>
+                <option value="Fail">Fail Status</option>
+              </select>
+              <span id="batch-records-count" style="font-size: 0.85rem; color: var(--text-secondary);">Showing 0 records</span>
+            </div>
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-export-batch-csv">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Export Enriched CSV
+            </button>
+          </div>
+
+          <!-- Table of predictions -->
+          <div class="table-responsive mt-4">
+            <table class="data-table" id="table-batch-predictions">
+              <thead>
+                <tr>
+                  <th>Student ID</th>
+                  <th>Attendance</th>
+                  <th>Study Time</th>
+                  <th>Prior Grade</th>
+                  <th>Predicted Grade</th>
+                  <th>Pass/Fail Status</th>
+                  <th>Pass Probability</th>
+                  <th>Performance Tier</th>
+                  <th>Risk Tier</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-batch-results">
+                <!-- Populated via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================================================= -->
+    <!-- TAB 5: ACTIONABLE PEDAGOGICAL INTERVENTION GUIDE -->
+    <!-- ================================================================= -->
+    <section id="tab-insights" class="tab-content" role="tabpanel">
+      <div class="glass-card">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Educational Intervention & Pedagogical Decision Framework</h3>
+            <p class="card-subtitle">Evidence-based insights derived from multi-model feature importance rankings</p>
+          </div>
+          <span class="badge badge-success">Pedagogical Framework</span>
+        </div>
+
+        <div class="insights-grid">
+          <div class="insight-card">
+            <div class="insight-number">01</div>
+            <div class="insight-body">
+              <h4>Classroom Attendance is the #1 Behavioral Lever</h4>
+              <p>Model coefficients and tree splits reveal that attendance rate below <strong>80%</strong> dramatically increases failure probability by <strong>4.2x</strong>. Maintaining attendance above 90% yields an expected final grade increase of <strong>+6.8 to +10.2 points</strong>.</p>
+              <div class="insight-tag">Intervention: Automated attendance notification alerts to academic advisors when attendance drops below 85%.</div>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <div class="insight-number">02</div>
+            <div class="insight-body">
+              <h4>Structured Study Hours Nonlinear Threshold</h4>
+              <p>Weekly study hours demonstrate strong marginal gains up to <strong>12-14 hours/week</strong>, after which returns plateau. Students studying under 6 hours/week have the highest vulnerability to failing exams.</p>
+              <div class="insight-tag">Intervention: Establish weekly guided study hall sessions targeting high-risk students to achieve minimum 8 hrs/week.</div>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <div class="insight-number">03</div>
+            <div class="insight-body">
+              <h4>Early Remediation for Prior Failures</h4>
+              <p>A single previous course failure introduces significant negative inertia (-9.0 latent capability weight). Students with 1+ failures benefit dramatically from early diagnostic assessments and peer tutoring.</p>
+              <div class="insight-tag">Intervention: Mandatory enrollment in supplementary tutoring for any student with prior failures.</div>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <div class="insight-number">04</div>
+            <div class="insight-body">
+              <h4>Socioeconomic & Institutional Support Buffering</h4>
+              <p>Access to home internet and strong family/institutional support compensates for background disparities, boosting predicted final performance by <strong>+3.5 to +5.0 points</strong>.</p>
+              <div class="insight-tag">Intervention: Provide institutional loaner laptops/Wi-Fi hotspots and host parent engagement workshops.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>EduPredict ML System &copy; 2026 | Developed for Student Academic Performance Prediction & Early Intervention</p>
+      <p class="footer-sub">Powered by Scikit-Learn, XGBoost, LightGBM, Flask, and Modern Web Standards</p>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

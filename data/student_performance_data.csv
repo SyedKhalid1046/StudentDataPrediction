@@ -1,0 +1,1601 @@
+student_id,gender,age,parental_education,study_time,attendance_rate,previous_grades,extracurricular_activities,internet_access,tutoring,family_support,health,absences,failures,final_grade,pass_fail_status,performance_category
+STU_1000,Female,16,Some College,5.3,88.4,74.0,Yes,Yes,No,Yes,Fair,6,0,77.7,Pass,Good
+STU_1001,Male,16,Some College,8.3,68.8,61.9,No,No,No,Yes,Good,13,1,60.1,Pass,Satisfactory
+STU_1002,Male,16,High School,10.1,86.4,72.9,Yes,Yes,Yes,No,Good,6,1,77.0,Pass,Good
+STU_1003,Male,17,Bachelor,10.0,80.9,69.7,Yes,No,No,Yes,Excellent,8,1,65.0,Pass,Satisfactory
+STU_1004,Female,15,Bachelor,25.1,84.6,81.8,No,Yes,No,No,Excellent,8,1,86.6,Pass,Excellent
+STU_1005,Female,17,Bachelor,6.0,85.7,74.2,No,No,Yes,Yes,Excellent,6,0,79.3,Pass,Good
+STU_1006,Female,15,Bachelor,6.7,78.0,61.5,No,Yes,No,Yes,Excellent,11,0,60.8,Pass,Satisfactory
+STU_1007,Male,18,Bachelor,7.4,54.1,46.8,Yes,Yes,Yes,No,Fair,19,2,38.9,Fail,At Risk
+STU_1008,Male,16,Some College,10.2,80.6,78.7,Yes,Yes,No,Yes,Poor,9,0,72.3,Pass,Good
+STU_1009,Male,17,Some College,1.0,72.3,55.6,No,No,Yes,No,Good,12,1,51.4,Fail,At Risk
+STU_1010,Female,19,High School,9.4,62.0,51.8,No,Yes,No,Yes,Fair,15,3,35.4,Fail,At Risk
+STU_1011,Male,17,Bachelor,4.1,82.9,78.0,Yes,Yes,No,No,Good,6,0,79.4,Pass,Good
+STU_1012,Male,17,High School,4.7,94.9,65.5,No,No,No,Yes,Good,4,0,62.5,Pass,Satisfactory
+STU_1013,Female,16,Bachelor,6.8,85.4,77.6,Yes,Yes,Yes,Yes,Poor,9,0,78.2,Pass,Good
+STU_1014,Female,16,High School,3.7,81.0,53.1,No,Yes,No,No,Excellent,7,1,43.9,Fail,At Risk
+STU_1015,Female,17,High School,2.2,87.7,61.8,No,Yes,No,No,Fair,5,0,68.0,Pass,Satisfactory
+STU_1016,Female,21,High School,7.1,85.6,72.5,No,Yes,No,No,Good,7,0,74.1,Pass,Good
+STU_1017,Male,17,None,11.8,85.2,71.5,No,No,No,No,Good,8,0,65.1,Pass,Satisfactory
+STU_1018,Female,17,Bachelor,9.0,82.3,69.9,No,Yes,No,No,Good,7,1,68.1,Pass,Satisfactory
+STU_1019,Female,18,Bachelor,14.0,64.7,61.6,Yes,Yes,No,Yes,Good,12,2,55.4,Fail,Satisfactory
+STU_1020,Male,17,Some College,2.4,90.7,67.5,Yes,No,No,Yes,Poor,5,0,67.3,Pass,Satisfactory
+STU_1021,Female,15,High School,6.3,87.6,72.2,Yes,Yes,No,Yes,Good,6,0,72.1,Pass,Good
+STU_1022,Female,17,High School,8.1,53.6,50.5,Yes,Yes,No,Yes,Excellent,18,2,37.6,Fail,At Risk
+STU_1023,Female,19,None,4.7,94.5,71.4,No,Yes,No,Yes,Excellent,3,1,65.5,Pass,Satisfactory
+STU_1024,Female,16,High School,8.3,93.8,80.6,Yes,Yes,Yes,Yes,Good,3,1,71.0,Pass,Good
+STU_1025,Male,17,Master/Doctorate,13.6,83.9,78.5,Yes,Yes,No,Yes,Good,7,1,76.7,Pass,Good
+STU_1026,Female,16,High School,10.4,95.6,77.1,No,No,No,Yes,Good,3,0,70.9,Pass,Good
+STU_1027,Female,17,High School,14.6,74.3,73.5,No,Yes,Yes,Yes,Excellent,10,0,78.3,Pass,Good
+STU_1028,Male,15,High School,9.2,54.5,58.3,Yes,Yes,No,Yes,Fair,17,0,49.2,Fail,At Risk
+STU_1029,Female,17,High School,7.5,95.7,80.6,Yes,Yes,No,Yes,Good,2,0,79.5,Pass,Good
+STU_1030,Male,18,Some College,16.8,93.2,87.8,Yes,Yes,Yes,No,Excellent,3,0,93.3,Pass,Excellent
+STU_1031,Female,16,Some College,8.4,71.5,56.4,No,No,No,No,Good,12,1,59.7,Fail,Satisfactory
+STU_1032,Female,17,High School,18.7,81.7,71.0,Yes,No,Yes,Yes,Fair,6,1,78.8,Pass,Good
+STU_1033,Male,18,None,12.7,89.6,76.7,No,Yes,Yes,Yes,Good,8,0,81.4,Pass,Good
+STU_1034,Male,19,High School,5.3,79.7,73.7,Yes,Yes,No,Yes,Fair,10,0,68.0,Pass,Satisfactory
+STU_1035,Male,16,High School,7.1,84.4,76.9,Yes,Yes,Yes,Yes,Good,7,0,78.4,Pass,Good
+STU_1036,Female,17,High School,16.7,89.6,86.6,No,Yes,Yes,Yes,Good,4,0,88.8,Pass,Excellent
+STU_1037,Female,16,Master/Doctorate,14.0,90.7,87.8,Yes,Yes,No,Yes,Excellent,5,0,89.3,Pass,Excellent
+STU_1038,Male,21,Some College,11.7,90.8,74.9,Yes,Yes,Yes,Yes,Good,4,1,73.2,Pass,Good
+STU_1039,Female,19,Some College,11.0,96.3,76.8,Yes,Yes,No,Yes,Fair,1,0,85.0,Pass,Excellent
+STU_1040,Female,17,Some College,3.5,90.8,70.3,Yes,Yes,No,No,Fair,5,0,66.6,Pass,Satisfactory
+STU_1041,Female,18,Some College,4.0,91.0,73.1,Yes,Yes,Yes,No,Excellent,3,0,70.7,Pass,Good
+STU_1042,Female,17,Some College,9.0,86.4,83.1,Yes,Yes,Yes,Yes,Fair,6,1,79.1,Pass,Good
+STU_1043,Male,17,Bachelor,4.7,95.4,80.1,Yes,Yes,No,Yes,Good,4,0,72.6,Pass,Good
+STU_1044,Female,15,Bachelor,6.8,87.8,78.6,Yes,Yes,No,Yes,Fair,5,0,77.3,Pass,Good
+STU_1045,Male,18,High School,6.5,88.8,73.3,No,Yes,Yes,Yes,Excellent,7,2,70.6,Pass,Good
+STU_1046,Female,16,Some College,10.7,83.1,71.1,No,No,No,No,Good,7,0,73.0,Pass,Good
+STU_1047,Male,18,Some College,9.2,85.6,87.3,Yes,Yes,Yes,Yes,Good,7,0,84.1,Pass,Good
+STU_1048,Male,18,Bachelor,13.4,91.7,84.2,No,Yes,No,No,Good,3,0,82.5,Pass,Good
+STU_1049,Female,18,Some College,9.3,90.7,80.8,Yes,Yes,Yes,Yes,Excellent,4,0,76.7,Pass,Good
+STU_1050,Male,15,Some College,8.9,63.3,52.0,Yes,Yes,Yes,No,Good,14,2,50.4,Fail,At Risk
+STU_1051,Male,16,High School,7.9,84.8,56.8,Yes,No,Yes,Yes,Good,6,1,58.9,Fail,Satisfactory
+STU_1052,Male,16,Some College,14.5,82.9,73.3,Yes,Yes,No,No,Excellent,7,1,73.2,Pass,Good
+STU_1053,Male,17,High School,8.0,75.8,70.4,Yes,Yes,No,Yes,Excellent,9,0,59.9,Fail,Satisfactory
+STU_1054,Male,15,High School,5.2,87.2,59.5,Yes,No,No,Yes,Good,6,0,63.5,Pass,Satisfactory
+STU_1055,Male,19,High School,11.3,96.0,76.9,No,Yes,No,Yes,Excellent,2,0,84.6,Pass,Good
+STU_1056,Female,17,Bachelor,7.4,74.6,73.3,No,Yes,Yes,Yes,Poor,11,0,76.4,Pass,Good
+STU_1057,Female,16,High School,12.6,95.0,80.9,Yes,Yes,Yes,No,Good,6,0,83.3,Pass,Good
+STU_1058,Female,17,High School,15.3,88.8,72.3,No,Yes,No,No,Excellent,5,0,71.9,Pass,Good
+STU_1059,Female,17,Master/Doctorate,7.1,94.9,75.6,No,Yes,No,No,Fair,4,0,78.0,Pass,Good
+STU_1060,Female,17,High School,15.0,71.5,75.4,No,Yes,No,Yes,Fair,12,1,69.0,Pass,Satisfactory
+STU_1061,Female,17,Some College,12.8,81.1,68.9,Yes,Yes,Yes,No,Good,7,0,71.6,Pass,Good
+STU_1062,Male,19,Some College,5.8,84.4,66.5,Yes,No,No,Yes,Good,6,0,65.3,Pass,Satisfactory
+STU_1063,Female,17,None,4.8,96.9,83.1,Yes,Yes,Yes,Yes,Good,1,0,87.0,Pass,Excellent
+STU_1064,Female,21,Bachelor,4.6,92.8,76.1,Yes,Yes,No,Yes,Good,4,0,72.1,Pass,Good
+STU_1065,Male,18,None,4.0,80.0,61.1,No,Yes,Yes,Yes,Excellent,9,0,59.1,Fail,Satisfactory
+STU_1066,Female,16,Some College,14.3,84.1,84.9,Yes,Yes,No,Yes,Good,8,0,84.1,Pass,Good
+STU_1067,Male,19,Some College,7.1,87.4,76.2,Yes,Yes,Yes,Yes,Fair,4,0,83.9,Pass,Good
+STU_1068,Female,16,Some College,18.0,87.2,90.9,No,No,No,Yes,Excellent,6,0,88.3,Pass,Excellent
+STU_1069,Male,18,Bachelor,5.4,77.8,78.6,No,Yes,No,No,Fair,8,0,67.9,Pass,Satisfactory
+STU_1070,Male,17,High School,6.0,82.6,66.8,Yes,Yes,No,Yes,Fair,7,1,54.6,Fail,At Risk
+STU_1071,Female,18,None,10.4,88.1,78.5,No,Yes,No,Yes,Fair,5,0,83.5,Pass,Good
+STU_1072,Female,18,Bachelor,17.5,85.0,86.4,Yes,Yes,No,Yes,Good,5,1,77.2,Pass,Good
+STU_1073,Male,18,Some College,5.8,80.8,65.9,Yes,No,No,Yes,Fair,9,0,65.0,Pass,Satisfactory
+STU_1074,Male,18,Bachelor,12.0,81.0,80.1,Yes,Yes,No,Yes,Fair,9,0,73.5,Pass,Good
+STU_1075,Male,16,Bachelor,7.9,75.4,67.2,No,No,Yes,Yes,Good,10,0,66.3,Pass,Satisfactory
+STU_1076,Male,15,Bachelor,10.5,78.8,76.9,No,Yes,No,Yes,Fair,7,0,73.6,Pass,Good
+STU_1077,Female,17,Some College,5.0,75.1,72.3,Yes,Yes,No,Yes,Good,11,0,60.7,Pass,Satisfactory
+STU_1078,Female,16,High School,11.4,83.9,69.2,Yes,Yes,Yes,Yes,Excellent,6,2,68.6,Pass,Satisfactory
+STU_1079,Female,17,Bachelor,6.8,70.6,68.2,Yes,Yes,No,No,Excellent,11,1,63.2,Pass,Satisfactory
+STU_1080,Male,16,Some College,6.1,95.8,81.3,Yes,Yes,Yes,Yes,Fair,1,0,80.6,Pass,Good
+STU_1081,Male,20,High School,7.8,69.2,63.8,Yes,Yes,Yes,Yes,Fair,11,2,53.7,Fail,At Risk
+STU_1082,Female,17,Bachelor,10.8,84.0,77.1,Yes,Yes,Yes,No,Excellent,8,1,78.4,Pass,Good
+STU_1083,Female,18,Master/Doctorate,7.2,88.6,79.9,No,Yes,Yes,Yes,Poor,5,0,81.6,Pass,Good
+STU_1084,Female,16,Some College,6.2,89.1,70.3,No,Yes,No,Yes,Excellent,8,0,76.1,Pass,Good
+STU_1085,Female,18,None,7.4,69.9,60.7,Yes,Yes,No,No,Fair,12,1,52.0,Fail,At Risk
+STU_1086,Male,19,High School,7.3,79.4,59.9,Yes,No,No,Yes,Excellent,9,1,57.9,Fail,Satisfactory
+STU_1087,Male,17,Bachelor,10.4,59.2,63.4,Yes,Yes,No,Yes,Good,15,2,49.8,Fail,At Risk
+STU_1088,Male,17,Master/Doctorate,6.4,75.5,82.9,Yes,Yes,Yes,Yes,Good,10,0,77.9,Pass,Good
+STU_1089,Female,18,High School,6.3,85.5,70.9,No,Yes,No,Yes,Good,6,0,72.2,Pass,Good
+STU_1090,Female,16,None,5.0,83.1,65.5,No,Yes,No,Yes,Good,6,1,63.0,Pass,Satisfactory
+STU_1091,Male,17,Bachelor,10.7,80.6,67.3,Yes,Yes,No,Yes,Good,8,1,71.6,Pass,Good
+STU_1092,Male,17,High School,8.5,89.4,76.8,Yes,Yes,No,Yes,Good,4,0,76.5,Pass,Good
+STU_1093,Male,16,Some College,14.5,72.3,68.0,No,Yes,No,Yes,Good,11,2,65.0,Pass,Satisfactory
+STU_1094,Male,17,Master/Doctorate,13.5,88.1,85.6,Yes,No,No,Yes,Poor,4,0,88.3,Pass,Excellent
+STU_1095,Female,15,None,9.0,59.9,51.9,No,Yes,No,Yes,Poor,16,1,44.5,Fail,At Risk
+STU_1096,Male,15,Some College,7.5,94.0,80.4,Yes,Yes,Yes,Yes,Good,2,0,76.6,Pass,Good
+STU_1097,Female,16,None,8.0,71.8,61.3,No,Yes,Yes,Yes,Fair,12,1,55.9,Fail,Satisfactory
+STU_1098,Female,20,High School,5.6,98.4,80.0,Yes,Yes,No,Yes,Good,1,0,74.3,Pass,Good
+STU_1099,Female,17,Bachelor,5.0,89.1,70.3,No,Yes,No,No,Fair,5,0,74.2,Pass,Good
+STU_1100,Female,20,Some College,4.6,84.2,65.8,No,Yes,No,Yes,Good,9,0,68.2,Pass,Satisfactory
+STU_1101,Male,17,Master/Doctorate,7.2,87.0,74.8,Yes,Yes,No,Yes,Fair,7,0,71.7,Pass,Good
+STU_1102,Female,16,Some College,1.4,84.3,68.7,No,Yes,No,Yes,Good,8,1,64.9,Pass,Satisfactory
+STU_1103,Female,17,High School,17.2,76.5,75.5,No,Yes,Yes,Yes,Fair,10,0,73.3,Pass,Good
+STU_1104,Male,17,High School,19.8,62.4,59.8,Yes,Yes,No,No,Poor,15,2,59.3,Fail,Satisfactory
+STU_1105,Female,16,High School,4.3,83.8,66.7,Yes,Yes,No,Yes,Poor,8,1,59.9,Fail,Satisfactory
+STU_1106,Female,17,High School,19.6,87.6,87.1,Yes,Yes,Yes,No,Excellent,6,0,90.3,Pass,Excellent
+STU_1107,Male,16,None,4.4,65.7,48.0,Yes,No,No,Yes,Fair,13,2,43.5,Fail,At Risk
+STU_1108,Female,17,High School,8.0,89.5,73.5,Yes,No,No,No,Good,7,0,73.7,Pass,Good
+STU_1109,Female,17,Some College,9.8,90.9,76.2,No,Yes,No,Yes,Poor,6,0,75.6,Pass,Good
+STU_1110,Female,16,Bachelor,8.4,88.0,72.3,Yes,Yes,No,No,Fair,6,0,76.1,Pass,Good
+STU_1111,Female,15,Bachelor,5.8,74.6,73.4,No,Yes,Yes,Yes,Good,11,1,64.4,Pass,Satisfactory
+STU_1112,Male,18,Bachelor,5.7,71.7,65.3,Yes,Yes,No,Yes,Good,11,0,57.1,Fail,Satisfactory
+STU_1113,Male,17,None,12.1,86.0,74.0,Yes,Yes,No,Yes,Excellent,6,0,76.4,Pass,Good
+STU_1114,Male,15,High School,14.7,75.5,67.7,Yes,Yes,No,Yes,Excellent,10,1,60.3,Pass,Satisfactory
+STU_1115,Male,21,Bachelor,2.6,83.9,65.5,Yes,Yes,Yes,No,Excellent,9,1,65.7,Pass,Satisfactory
+STU_1116,Male,15,Some College,9.1,90.4,75.3,Yes,Yes,No,Yes,Good,5,0,75.8,Pass,Good
+STU_1117,Female,17,None,10.9,66.9,61.5,Yes,Yes,Yes,Yes,Good,12,1,57.5,Fail,Satisfactory
+STU_1118,Male,20,Bachelor,8.8,59.7,58.5,Yes,No,Yes,No,Good,16,0,56.2,Fail,Satisfactory
+STU_1119,Male,16,Bachelor,3.4,90.9,77.5,No,Yes,No,Yes,Excellent,3,0,74.1,Pass,Good
+STU_1120,Male,16,Some College,10.4,80.5,67.0,No,Yes,Yes,No,Good,7,0,70.7,Pass,Good
+STU_1121,Male,16,None,13.7,93.6,78.1,Yes,Yes,No,No,Good,3,0,79.0,Pass,Good
+STU_1122,Female,16,Bachelor,4.9,85.9,78.7,No,Yes,Yes,Yes,Fair,5,0,75.0,Pass,Good
+STU_1123,Female,16,Some College,5.8,77.4,61.5,No,Yes,No,No,Poor,10,1,59.6,Fail,Satisfactory
+STU_1124,Female,17,Bachelor,8.8,78.9,87.4,Yes,Yes,Yes,Yes,Excellent,8,0,86.1,Pass,Excellent
+STU_1125,Female,15,Bachelor,7.6,79.6,68.7,No,No,Yes,Yes,Good,12,0,71.2,Pass,Good
+STU_1126,Male,17,Bachelor,5.8,70.2,70.6,No,Yes,Yes,Yes,Good,11,0,67.3,Pass,Satisfactory
+STU_1127,Male,21,Some College,3.9,82.2,66.5,Yes,Yes,No,Yes,Fair,10,0,66.8,Pass,Satisfactory
+STU_1128,Female,18,High School,6.1,59.3,49.3,Yes,Yes,No,No,Excellent,15,1,46.0,Fail,At Risk
+STU_1129,Female,17,Bachelor,1.9,91.8,77.1,Yes,Yes,Yes,No,Poor,6,0,69.7,Pass,Satisfactory
+STU_1130,Female,16,Some College,11.0,94.4,79.6,Yes,Yes,No,Yes,Excellent,5,0,80.4,Pass,Good
+STU_1131,Female,17,Bachelor,5.3,86.3,75.7,No,No,No,Yes,Fair,7,0,79.6,Pass,Good
+STU_1132,Female,17,High School,11.9,85.9,65.7,Yes,No,No,No,Excellent,7,0,71.3,Pass,Good
+STU_1133,Female,17,High School,7.0,69.4,56.8,No,Yes,Yes,Yes,Good,14,1,57.2,Fail,Satisfactory
+STU_1134,Male,16,Master/Doctorate,8.6,82.4,75.7,No,Yes,No,Yes,Fair,8,0,73.0,Pass,Good
+STU_1135,Female,19,Bachelor,2.9,86.4,70.7,No,Yes,Yes,Yes,Good,8,0,71.2,Pass,Good
+STU_1136,Female,17,Master/Doctorate,11.4,81.9,68.3,No,Yes,No,No,Good,6,0,71.8,Pass,Good
+STU_1137,Male,16,Bachelor,25.8,88.7,92.7,Yes,No,No,Yes,Fair,6,0,95.8,Pass,Excellent
+STU_1138,Female,17,Some College,6.4,87.6,75.1,Yes,Yes,No,No,Excellent,7,1,67.3,Pass,Satisfactory
+STU_1139,Male,17,Bachelor,8.5,96.0,81.6,No,Yes,Yes,No,Good,1,0,80.5,Pass,Good
+STU_1140,Male,18,Master/Doctorate,9.1,94.9,87.9,Yes,Yes,Yes,Yes,Good,3,0,89.3,Pass,Excellent
+STU_1141,Female,18,Some College,3.6,91.4,76.3,Yes,Yes,No,Yes,Fair,6,0,70.4,Pass,Good
+STU_1142,Female,18,Some College,4.2,66.6,35.2,No,No,No,No,Good,13,3,31.0,Fail,At Risk
+STU_1143,Female,15,High School,10.6,85.7,79.1,No,Yes,Yes,Yes,Excellent,7,0,78.2,Pass,Good
+STU_1144,Female,17,Some College,4.9,79.6,65.0,Yes,Yes,No,No,Good,11,1,53.0,Fail,At Risk
+STU_1145,Female,17,Bachelor,7.0,68.6,54.2,No,Yes,Yes,No,Excellent,13,2,54.7,Fail,At Risk
+STU_1146,Male,15,High School,8.6,91.1,74.4,No,Yes,Yes,Yes,Excellent,5,0,77.1,Pass,Good
+STU_1147,Female,16,High School,10.8,95.2,74.9,Yes,Yes,No,No,Fair,2,0,75.1,Pass,Good
+STU_1148,Female,18,High School,7.2,80.6,63.1,Yes,Yes,Yes,No,Fair,7,2,56.7,Fail,Satisfactory
+STU_1149,Female,16,High School,7.3,89.5,74.0,No,Yes,Yes,No,Excellent,5,0,70.6,Pass,Good
+STU_1150,Male,17,High School,23.6,97.7,96.3,Yes,Yes,No,Yes,Good,1,0,97.6,Pass,Excellent
+STU_1151,Female,16,Some College,12.9,79.6,74.3,Yes,Yes,No,Yes,Poor,10,1,71.8,Pass,Good
+STU_1152,Female,15,Master/Doctorate,6.5,90.8,89.6,Yes,Yes,Yes,Yes,Fair,6,0,92.9,Pass,Excellent
+STU_1153,Female,16,Some College,7.3,72.8,77.3,No,Yes,No,Yes,Good,11,0,70.8,Pass,Good
+STU_1154,Male,20,High School,19.0,82.9,75.3,Yes,Yes,No,Yes,Excellent,7,0,77.8,Pass,Good
+STU_1155,Female,18,None,10.8,76.4,67.8,Yes,Yes,Yes,No,Fair,10,0,71.3,Pass,Good
+STU_1156,Male,19,Bachelor,13.8,97.2,93.8,Yes,Yes,No,Yes,Fair,4,0,88.5,Pass,Excellent
+STU_1157,Male,17,High School,6.4,57.2,50.0,No,Yes,No,Yes,Excellent,19,1,43.6,Fail,At Risk
+STU_1158,Female,16,Bachelor,6.0,75.4,68.6,Yes,Yes,No,Yes,Excellent,10,1,60.3,Pass,Satisfactory
+STU_1159,Male,17,Bachelor,16.6,58.1,53.9,No,No,No,No,Good,16,1,54.5,Fail,At Risk
+STU_1160,Female,17,Bachelor,7.6,55.8,56.6,No,Yes,No,Yes,Excellent,18,2,49.4,Fail,At Risk
+STU_1161,Male,18,High School,7.6,76.6,62.6,Yes,Yes,Yes,Yes,Good,10,0,58.4,Fail,Satisfactory
+STU_1162,Male,15,Bachelor,6.2,86.4,81.2,No,Yes,No,Yes,Excellent,5,0,81.6,Pass,Good
+STU_1163,Male,17,High School,13.5,78.8,75.1,No,Yes,No,No,Good,8,1,71.0,Pass,Good
+STU_1164,Female,16,Master/Doctorate,8.8,74.9,80.5,No,Yes,Yes,Yes,Fair,10,0,79.3,Pass,Good
+STU_1165,Male,16,Some College,4.0,91.6,69.2,Yes,Yes,Yes,Yes,Good,5,0,75.4,Pass,Good
+STU_1166,Female,18,High School,5.8,90.8,66.1,No,Yes,Yes,No,Good,3,0,66.9,Pass,Satisfactory
+STU_1167,Female,17,High School,15.0,94.8,74.2,No,Yes,No,No,Excellent,3,0,73.6,Pass,Good
+STU_1168,Female,17,High School,8.9,86.4,76.4,No,Yes,No,No,Good,5,0,71.0,Pass,Good
+STU_1169,Male,17,Bachelor,13.6,78.9,79.6,Yes,Yes,Yes,Yes,Excellent,9,1,78.6,Pass,Good
+STU_1170,Male,17,High School,9.8,62.2,64.5,No,Yes,No,Yes,Excellent,14,1,55.0,Fail,Satisfactory
+STU_1171,Female,18,Some College,4.4,97.5,71.8,Yes,Yes,No,No,Fair,2,0,69.8,Pass,Satisfactory
+STU_1172,Female,19,High School,10.4,88.5,82.7,Yes,Yes,No,Yes,Excellent,5,0,76.3,Pass,Good
+STU_1173,Female,19,Bachelor,7.7,94.8,73.8,Yes,No,Yes,No,Good,3,0,78.7,Pass,Good
+STU_1174,Male,18,Bachelor,5.9,86.7,73.7,No,Yes,No,Yes,Excellent,7,0,72.4,Pass,Good
+STU_1175,Female,16,Bachelor,6.2,92.0,71.0,Yes,Yes,Yes,Yes,Good,5,0,70.0,Pass,Good
+STU_1176,Male,17,Bachelor,13.4,67.4,57.1,Yes,No,Yes,Yes,Good,16,3,46.2,Fail,At Risk
+STU_1177,Female,17,High School,9.1,90.5,74.5,No,Yes,No,Yes,Good,4,0,72.4,Pass,Good
+STU_1178,Male,16,High School,8.7,81.7,81.1,Yes,Yes,Yes,Yes,Fair,6,0,81.3,Pass,Good
+STU_1179,Female,18,Bachelor,17.5,84.4,85.5,No,Yes,Yes,Yes,Fair,7,0,86.6,Pass,Excellent
+STU_1180,Female,15,High School,5.3,90.3,68.8,Yes,No,Yes,No,Good,5,0,65.5,Pass,Satisfactory
+STU_1181,Female,19,Some College,7.5,76.6,57.2,Yes,No,Yes,Yes,Excellent,9,1,57.4,Fail,Satisfactory
+STU_1182,Male,17,None,5.6,89.5,63.8,No,Yes,Yes,Yes,Good,6,1,61.8,Pass,Satisfactory
+STU_1183,Male,17,High School,10.3,72.5,56.9,No,Yes,No,No,Good,10,1,50.0,Fail,At Risk
+STU_1184,Female,17,None,8.8,81.2,64.3,Yes,Yes,Yes,Yes,Fair,9,0,61.4,Pass,Satisfactory
+STU_1185,Male,19,Bachelor,6.5,67.6,63.0,No,Yes,Yes,Yes,Good,11,1,62.3,Pass,Satisfactory
+STU_1186,Male,17,High School,7.0,71.3,66.2,Yes,Yes,Yes,No,Poor,13,1,56.2,Fail,Satisfactory
+STU_1187,Male,17,Some College,12.7,76.8,64.8,Yes,Yes,No,Yes,Excellent,8,1,66.0,Pass,Satisfactory
+STU_1188,Male,15,None,14.5,94.5,78.3,Yes,Yes,No,No,Excellent,3,0,74.1,Pass,Good
+STU_1189,Female,17,Bachelor,5.8,75.5,70.1,Yes,Yes,Yes,No,Good,10,0,64.7,Pass,Satisfactory
+STU_1190,Female,16,High School,26.4,72.8,72.8,Yes,Yes,No,No,Poor,13,1,72.7,Pass,Good
+STU_1191,Male,18,Master/Doctorate,3.5,87.7,74.7,Yes,Yes,No,Yes,Fair,5,0,71.3,Pass,Good
+STU_1192,Male,17,Master/Doctorate,4.3,69.9,69.2,Yes,Yes,Yes,Yes,Good,14,1,61.6,Pass,Satisfactory
+STU_1193,Male,17,High School,6.8,68.3,50.6,Yes,No,Yes,Yes,Good,14,2,45.8,Fail,At Risk
+STU_1194,Female,15,Master/Doctorate,5.2,91.7,84.9,Yes,Yes,Yes,Yes,Excellent,4,0,82.5,Pass,Good
+STU_1195,Female,15,Master/Doctorate,4.8,79.9,72.6,No,Yes,Yes,No,Fair,9,0,69.7,Pass,Satisfactory
+STU_1196,Male,18,Bachelor,14.3,93.1,91.1,No,Yes,No,Yes,Excellent,2,0,92.2,Pass,Excellent
+STU_1197,Male,15,Bachelor,10.5,70.5,73.3,No,Yes,Yes,Yes,Good,11,0,73.6,Pass,Good
+STU_1198,Male,15,High School,8.3,81.2,67.5,Yes,No,No,No,Good,7,1,63.1,Pass,Satisfactory
+STU_1199,Male,15,Some College,5.9,80.5,58.0,No,Yes,Yes,Yes,Good,9,3,50.4,Fail,At Risk
+STU_1200,Male,19,None,4.4,80.5,52.3,No,Yes,Yes,Yes,Fair,10,1,48.4,Fail,At Risk
+STU_1201,Female,18,High School,4.3,88.7,70.2,Yes,Yes,No,Yes,Good,5,0,64.9,Pass,Satisfactory
+STU_1202,Female,17,Master/Doctorate,14.2,84.4,84.4,Yes,Yes,No,No,Excellent,6,0,83.6,Pass,Good
+STU_1203,Male,16,High School,13.9,98.7,82.8,No,Yes,Yes,Yes,Good,0,0,84.1,Pass,Good
+STU_1204,Male,16,Bachelor,6.9,88.5,74.8,No,Yes,No,No,Excellent,5,0,74.5,Pass,Good
+STU_1205,Female,18,Bachelor,3.3,87.8,72.4,No,Yes,Yes,Yes,Good,6,0,71.7,Pass,Good
+STU_1206,Female,17,Bachelor,11.0,64.5,66.9,No,Yes,Yes,No,Fair,12,2,60.3,Pass,Satisfactory
+STU_1207,Male,16,Master/Doctorate,6.9,47.4,51.7,No,Yes,Yes,No,Good,22,1,47.0,Fail,At Risk
+STU_1208,Female,16,High School,13.0,88.6,65.7,No,No,Yes,Yes,Good,4,1,74.1,Pass,Good
+STU_1209,Female,15,None,4.2,90.2,77.2,Yes,Yes,Yes,Yes,Good,4,0,69.8,Pass,Satisfactory
+STU_1210,Male,17,Some College,8.3,85.7,79.7,Yes,No,Yes,Yes,Fair,7,0,78.0,Pass,Good
+STU_1211,Male,18,High School,4.0,85.7,58.1,No,Yes,No,No,Good,12,0,54.0,Fail,At Risk
+STU_1212,Male,16,None,5.2,89.8,69.4,Yes,Yes,Yes,Yes,Poor,5,0,67.7,Pass,Satisfactory
+STU_1213,Female,15,High School,5.2,51.4,49.9,No,Yes,No,Yes,Fair,18,2,35.4,Fail,At Risk
+STU_1214,Male,15,Bachelor,6.8,87.8,71.5,No,Yes,Yes,Yes,Good,4,0,76.8,Pass,Good
+STU_1215,Female,20,Some College,14.9,80.6,78.0,No,Yes,No,Yes,Good,8,0,72.9,Pass,Good
+STU_1216,Female,16,High School,8.5,71.4,69.9,No,Yes,No,Yes,Excellent,12,0,67.8,Pass,Satisfactory
+STU_1217,Male,18,Bachelor,11.9,88.6,87.0,Yes,Yes,Yes,Yes,Good,5,0,89.0,Pass,Excellent
+STU_1218,Male,17,High School,8.3,85.9,77.1,Yes,Yes,Yes,Yes,Excellent,10,0,81.5,Pass,Good
+STU_1219,Male,17,None,6.3,61.4,53.8,Yes,Yes,No,No,Good,16,1,51.6,Fail,At Risk
+STU_1220,Male,16,Bachelor,2.1,64.7,56.9,No,Yes,No,Yes,Good,14,1,47.6,Fail,At Risk
+STU_1221,Male,16,Some College,4.4,85.1,78.0,No,Yes,Yes,Yes,Fair,8,0,79.0,Pass,Good
+STU_1222,Female,17,Bachelor,7.9,81.6,76.4,No,Yes,Yes,No,Excellent,11,0,74.4,Pass,Good
+STU_1223,Female,18,None,8.7,76.0,67.4,Yes,Yes,No,No,Good,8,1,61.6,Pass,Satisfactory
+STU_1224,Female,17,Bachelor,13.0,71.0,75.9,Yes,Yes,Yes,No,Excellent,12,0,81.3,Pass,Good
+STU_1225,Female,17,Some College,2.8,86.9,65.5,No,Yes,No,Yes,Good,7,0,62.1,Pass,Satisfactory
+STU_1226,Male,15,Some College,21.6,75.9,85.3,Yes,Yes,Yes,Yes,Fair,9,1,83.3,Pass,Good
+STU_1227,Female,20,Some College,2.1,79.4,78.1,Yes,Yes,Yes,Yes,Good,7,0,67.1,Pass,Satisfactory
+STU_1228,Male,18,Bachelor,7.6,85.1,70.3,No,Yes,No,No,Poor,7,0,73.7,Pass,Good
+STU_1229,Male,16,Some College,5.7,84.5,80.8,No,Yes,No,Yes,Good,6,0,82.6,Pass,Good
+STU_1230,Male,20,Some College,4.4,84.3,74.6,Yes,Yes,Yes,Yes,Fair,6,0,75.2,Pass,Good
+STU_1231,Female,17,Master/Doctorate,16.9,94.9,89.9,No,Yes,No,Yes,Good,2,0,97.0,Pass,Excellent
+STU_1232,Male,17,Bachelor,5.8,84.5,78.6,Yes,Yes,No,Yes,Excellent,5,0,79.5,Pass,Good
+STU_1233,Female,18,Some College,2.7,83.9,61.1,No,Yes,No,Yes,Good,6,1,55.3,Fail,Satisfactory
+STU_1234,Female,18,Bachelor,3.7,91.8,80.4,Yes,Yes,Yes,Yes,Excellent,5,0,80.3,Pass,Good
+STU_1235,Male,17,High School,13.9,76.4,77.1,Yes,Yes,No,Yes,Good,8,0,76.4,Pass,Good
+STU_1236,Female,16,High School,3.8,92.9,74.1,No,No,No,Yes,Good,4,0,67.7,Pass,Satisfactory
+STU_1237,Female,16,Some College,3.2,83.4,71.1,Yes,Yes,No,No,Excellent,6,0,72.7,Pass,Good
+STU_1238,Male,19,Master/Doctorate,8.8,79.2,68.2,No,Yes,No,No,Excellent,9,1,64.2,Pass,Satisfactory
+STU_1239,Female,16,Master/Doctorate,6.8,71.7,66.1,No,Yes,Yes,No,Excellent,12,0,66.6,Pass,Satisfactory
+STU_1240,Male,17,High School,10.1,84.0,63.7,No,Yes,No,No,Fair,9,1,60.4,Pass,Satisfactory
+STU_1241,Male,17,Some College,6.3,71.3,55.8,No,Yes,No,Yes,Good,11,2,48.9,Fail,At Risk
+STU_1242,Male,17,High School,11.5,83.5,77.3,Yes,Yes,Yes,Yes,Fair,8,0,86.4,Pass,Excellent
+STU_1243,Female,17,Master/Doctorate,3.4,86.1,69.7,No,No,No,Yes,Good,7,0,67.6,Pass,Satisfactory
+STU_1244,Female,19,Master/Doctorate,3.0,78.6,75.8,Yes,Yes,Yes,Yes,Good,10,0,68.4,Pass,Satisfactory
+STU_1245,Male,16,Some College,9.2,81.3,75.7,Yes,Yes,No,Yes,Excellent,11,0,72.9,Pass,Good
+STU_1246,Female,16,Bachelor,6.8,90.5,76.9,No,No,Yes,Yes,Excellent,5,0,75.6,Pass,Good
+STU_1247,Male,16,Bachelor,6.1,88.3,63.6,Yes,No,No,Yes,Good,5,0,65.6,Pass,Satisfactory
+STU_1248,Male,19,Some College,11.0,94.8,70.8,No,Yes,No,Yes,Poor,4,1,72.5,Pass,Good
+STU_1249,Male,17,None,23.2,84.6,83.8,Yes,No,No,Yes,Excellent,6,0,81.2,Pass,Good
+STU_1250,Female,16,Some College,3.1,94.2,63.0,No,Yes,No,Yes,Fair,4,0,63.9,Pass,Satisfactory
+STU_1251,Female,18,Bachelor,15.1,89.1,77.1,No,No,No,No,Good,4,0,81.7,Pass,Good
+STU_1252,Male,18,Bachelor,11.2,83.5,88.0,Yes,Yes,Yes,Yes,Poor,6,1,80.2,Pass,Good
+STU_1253,Female,18,High School,6.0,88.5,72.6,No,Yes,No,Yes,Good,4,0,70.7,Pass,Good
+STU_1254,Female,19,Master/Doctorate,17.6,87.6,90.2,No,Yes,No,Yes,Excellent,5,0,92.0,Pass,Excellent
+STU_1255,Male,16,High School,3.7,93.4,64.0,Yes,Yes,No,Yes,Fair,5,0,64.2,Pass,Satisfactory
+STU_1256,Male,18,Some College,9.9,90.3,74.7,Yes,Yes,Yes,Yes,Good,7,1,73.6,Pass,Good
+STU_1257,Male,17,Bachelor,7.1,54.0,52.7,No,Yes,No,Yes,Good,16,2,45.1,Fail,At Risk
+STU_1258,Male,18,Bachelor,6.0,91.4,77.1,Yes,Yes,No,Yes,Excellent,6,0,73.6,Pass,Good
+STU_1259,Female,18,Some College,4.0,90.4,75.2,Yes,Yes,No,Yes,Excellent,4,0,68.2,Pass,Satisfactory
+STU_1260,Male,18,High School,28.1,67.3,75.7,No,Yes,Yes,No,Fair,12,1,73.7,Pass,Good
+STU_1261,Male,17,High School,5.9,79.5,73.2,Yes,Yes,Yes,No,Fair,7,1,63.5,Pass,Satisfactory
+STU_1262,Female,16,Some College,1.6,72.9,58.0,No,Yes,No,Yes,Good,14,0,58.6,Fail,Satisfactory
+STU_1263,Female,17,Some College,12.2,89.0,87.7,No,Yes,Yes,Yes,Good,8,0,80.5,Pass,Good
+STU_1264,Male,20,High School,9.4,84.5,69.3,No,No,No,No,Good,5,0,71.6,Pass,Good
+STU_1265,Male,19,Bachelor,6.7,85.7,80.5,Yes,Yes,Yes,Yes,Poor,5,0,77.8,Pass,Good
+STU_1266,Male,15,Some College,6.4,80.7,72.3,Yes,Yes,No,Yes,Fair,10,0,72.2,Pass,Good
+STU_1267,Male,16,Bachelor,7.6,78.8,79.9,Yes,Yes,Yes,Yes,Good,8,0,76.6,Pass,Good
+STU_1268,Female,16,Bachelor,12.2,90.5,84.3,No,Yes,No,No,Fair,4,0,84.2,Pass,Good
+STU_1269,Female,18,High School,9.5,67.5,71.8,Yes,Yes,No,Yes,Excellent,12,0,68.1,Pass,Satisfactory
+STU_1270,Male,18,None,10.4,69.5,69.6,Yes,Yes,Yes,Yes,Poor,14,1,66.3,Pass,Satisfactory
+STU_1271,Male,16,Bachelor,10.4,84.5,86.5,Yes,Yes,Yes,No,Fair,6,0,83.4,Pass,Good
+STU_1272,Male,17,Some College,12.5,52.3,56.9,Yes,Yes,Yes,Yes,Excellent,19,2,47.5,Fail,At Risk
+STU_1273,Male,18,Bachelor,14.5,89.8,90.8,Yes,Yes,No,Yes,Good,5,0,90.8,Pass,Excellent
+STU_1274,Female,18,Bachelor,5.3,96.8,71.0,No,Yes,No,No,Good,1,0,68.7,Pass,Satisfactory
+STU_1275,Female,17,Bachelor,8.8,65.2,56.2,Yes,No,No,Yes,Fair,14,1,47.7,Fail,At Risk
+STU_1276,Male,17,Master/Doctorate,14.1,88.7,86.2,Yes,Yes,No,Yes,Good,5,0,88.0,Pass,Excellent
+STU_1277,Male,17,Some College,5.3,96.2,88.7,Yes,Yes,No,Yes,Good,1,0,86.3,Pass,Excellent
+STU_1278,Male,16,Some College,15.8,83.6,74.3,No,Yes,No,Yes,Good,8,0,77.2,Pass,Good
+STU_1279,Male,17,Some College,5.3,79.5,69.0,No,Yes,Yes,Yes,Excellent,9,1,64.4,Pass,Satisfactory
+STU_1280,Male,17,High School,9.7,90.5,89.5,Yes,Yes,Yes,Yes,Good,5,0,84.3,Pass,Good
+STU_1281,Female,18,Some College,6.8,62.2,54.8,No,Yes,No,Yes,Good,16,2,50.5,Fail,At Risk
+STU_1282,Female,17,High School,6.2,90.6,74.8,Yes,No,No,No,Good,3,1,74.8,Pass,Good
+STU_1283,Female,18,Master/Doctorate,10.1,64.1,73.0,No,Yes,Yes,Yes,Good,14,1,68.3,Pass,Satisfactory
+STU_1284,Male,16,Some College,14.5,83.6,85.3,Yes,Yes,No,Yes,Fair,9,0,80.2,Pass,Good
+STU_1285,Female,17,Some College,6.7,80.5,68.2,No,Yes,No,Yes,Good,8,0,63.7,Pass,Satisfactory
+STU_1286,Female,15,High School,15.2,80.3,61.2,No,Yes,No,No,Good,7,1,63.6,Pass,Satisfactory
+STU_1287,Male,16,None,5.1,65.2,62.0,No,Yes,Yes,Yes,Good,13,2,46.6,Fail,At Risk
+STU_1288,Female,18,None,14.6,88.6,82.8,Yes,Yes,Yes,Yes,Excellent,6,0,78.5,Pass,Good
+STU_1289,Male,21,Some College,8.4,71.2,71.5,Yes,Yes,No,Yes,Good,11,0,66.1,Pass,Satisfactory
+STU_1290,Female,15,High School,9.4,80.2,63.3,No,Yes,No,Yes,Excellent,7,1,62.2,Pass,Satisfactory
+STU_1291,Female,17,Some College,3.9,54.9,49.0,Yes,Yes,No,Yes,Fair,18,2,43.0,Fail,At Risk
+STU_1292,Male,18,Master/Doctorate,6.0,87.4,79.5,No,Yes,Yes,No,Good,7,0,80.5,Pass,Good
+STU_1293,Female,16,Master/Doctorate,7.8,83.4,79.3,No,Yes,Yes,Yes,Excellent,9,0,80.8,Pass,Good
+STU_1294,Female,17,Bachelor,13.7,62.7,64.2,No,Yes,No,Yes,Good,13,1,64.0,Pass,Satisfactory
+STU_1295,Male,18,High School,7.0,76.8,70.9,Yes,Yes,No,Yes,Good,10,0,69.5,Pass,Satisfactory
+STU_1296,Male,17,Bachelor,4.9,83.7,65.1,No,Yes,No,No,Poor,9,1,59.7,Fail,Satisfactory
+STU_1297,Female,16,Master/Doctorate,9.0,81.6,81.3,No,Yes,No,Yes,Good,9,0,81.4,Pass,Good
+STU_1298,Male,17,High School,20.3,98.5,86.7,No,Yes,Yes,Yes,Fair,2,0,95.2,Pass,Excellent
+STU_1299,Female,18,Bachelor,9.5,89.4,81.7,Yes,Yes,No,Yes,Excellent,7,0,81.0,Pass,Good
+STU_1300,Female,17,High School,7.0,86.6,74.3,Yes,Yes,No,Yes,Good,5,0,72.3,Pass,Good
+STU_1301,Male,15,Bachelor,9.0,85.3,85.0,Yes,Yes,Yes,Yes,Excellent,6,0,85.6,Pass,Excellent
+STU_1302,Male,18,Master/Doctorate,4.7,87.8,70.6,Yes,Yes,No,Yes,Good,4,2,65.9,Pass,Satisfactory
+STU_1303,Male,15,None,16.3,68.8,70.2,No,Yes,Yes,Yes,Good,14,1,59.7,Fail,Satisfactory
+STU_1304,Male,18,Master/Doctorate,16.2,69.0,70.5,No,Yes,Yes,Yes,Good,11,1,72.5,Pass,Good
+STU_1305,Male,16,Some College,4.6,92.5,78.0,Yes,Yes,Yes,Yes,Excellent,4,0,81.3,Pass,Good
+STU_1306,Female,19,Master/Doctorate,16.0,98.0,85.6,No,No,Yes,Yes,Excellent,2,0,95.1,Pass,Excellent
+STU_1307,Female,17,Some College,9.1,95.2,79.8,Yes,Yes,Yes,Yes,Fair,4,0,82.7,Pass,Good
+STU_1308,Male,16,Bachelor,11.3,92.8,91.9,Yes,Yes,No,No,Good,3,0,89.8,Pass,Excellent
+STU_1309,Female,16,None,7.9,60.9,55.0,Yes,No,No,No,Good,15,0,50.2,Fail,At Risk
+STU_1310,Female,16,High School,8.2,87.4,70.0,Yes,Yes,No,No,Poor,4,0,69.8,Pass,Satisfactory
+STU_1311,Female,18,None,5.5,44.9,48.3,No,Yes,Yes,No,Good,22,1,42.0,Fail,At Risk
+STU_1312,Female,21,Master/Doctorate,4.6,85.1,88.3,Yes,Yes,Yes,Yes,Excellent,5,0,86.1,Pass,Excellent
+STU_1313,Male,17,Bachelor,4.5,91.9,74.0,No,Yes,No,No,Good,4,0,76.5,Pass,Good
+STU_1314,Male,17,Bachelor,13.9,84.8,81.0,Yes,No,No,Yes,Good,7,0,79.4,Pass,Good
+STU_1315,Male,18,Master/Doctorate,8.7,90.4,76.8,No,Yes,Yes,Yes,Good,3,1,80.7,Pass,Good
+STU_1316,Female,19,High School,4.8,75.4,65.6,Yes,Yes,No,Yes,Good,10,0,59.8,Fail,Satisfactory
+STU_1317,Female,17,High School,8.3,55.0,64.8,Yes,Yes,No,Yes,Fair,17,0,58.4,Fail,Satisfactory
+STU_1318,Female,17,None,2.8,55.3,35.3,Yes,Yes,No,No,Good,16,3,21.6,Fail,At Risk
+STU_1319,Female,17,High School,4.7,86.0,67.9,Yes,Yes,No,Yes,Excellent,7,0,65.5,Pass,Satisfactory
+STU_1320,Male,17,High School,14.6,81.0,77.1,Yes,Yes,Yes,Yes,Good,9,0,84.3,Pass,Good
+STU_1321,Male,15,Some College,5.9,89.1,71.5,No,Yes,No,No,Poor,4,0,72.9,Pass,Good
+STU_1322,Male,17,High School,13.7,87.4,79.7,No,Yes,Yes,Yes,Fair,8,0,81.0,Pass,Good
+STU_1323,Female,17,High School,7.5,84.7,66.6,No,Yes,No,Yes,Poor,6,0,71.1,Pass,Good
+STU_1324,Male,18,High School,11.4,68.5,68.9,Yes,Yes,Yes,No,Good,13,0,59.4,Fail,Satisfactory
+STU_1325,Male,15,High School,4.0,88.7,66.0,Yes,Yes,No,Yes,Excellent,4,0,65.1,Pass,Satisfactory
+STU_1326,Male,17,Master/Doctorate,10.5,73.0,75.9,Yes,Yes,Yes,Yes,Fair,11,1,70.7,Pass,Good
+STU_1327,Male,17,Bachelor,1.8,91.0,63.7,No,Yes,No,Yes,Excellent,4,0,62.7,Pass,Satisfactory
+STU_1328,Female,17,Master/Doctorate,6.2,71.6,69.6,No,No,No,Yes,Good,13,0,61.9,Pass,Satisfactory
+STU_1329,Female,15,Some College,15.0,89.5,86.9,No,Yes,No,No,Good,7,0,84.5,Pass,Good
+STU_1330,Female,17,High School,8.1,90.1,77.8,No,Yes,No,Yes,Excellent,3,0,78.1,Pass,Good
+STU_1331,Male,17,Bachelor,4.6,72.2,65.6,Yes,Yes,No,Yes,Fair,11,0,62.5,Pass,Satisfactory
+STU_1332,Female,17,High School,14.4,82.5,76.0,Yes,No,No,Yes,Excellent,9,0,77.5,Pass,Good
+STU_1333,Female,17,High School,21.6,91.6,91.1,Yes,Yes,No,Yes,Fair,4,0,91.7,Pass,Excellent
+STU_1334,Female,17,High School,6.9,88.0,68.0,Yes,Yes,No,No,Good,4,0,72.0,Pass,Good
+STU_1335,Female,18,High School,2.9,78.8,66.8,Yes,Yes,No,Yes,Excellent,8,1,57.3,Fail,Satisfactory
+STU_1336,Male,16,High School,8.1,87.2,58.1,Yes,No,No,Yes,Excellent,7,1,51.7,Fail,At Risk
+STU_1337,Male,18,High School,11.7,75.6,59.1,No,Yes,No,Yes,Good,14,1,51.2,Fail,At Risk
+STU_1338,Female,17,Bachelor,7.1,83.5,73.4,No,Yes,No,Yes,Good,10,0,69.9,Pass,Satisfactory
+STU_1339,Female,15,None,2.0,77.7,48.0,No,No,No,No,Good,8,0,45.8,Fail,At Risk
+STU_1340,Female,15,High School,11.1,66.3,64.4,No,Yes,No,Yes,Excellent,13,0,60.1,Pass,Satisfactory
+STU_1341,Female,16,Bachelor,5.2,92.3,70.3,Yes,Yes,No,Yes,Fair,4,1,71.5,Pass,Good
+STU_1342,Female,18,High School,6.1,86.8,64.9,Yes,Yes,Yes,Yes,Excellent,7,1,58.4,Fail,Satisfactory
+STU_1343,Female,18,High School,3.0,76.3,55.6,No,No,No,No,Good,8,0,59.9,Fail,Satisfactory
+STU_1344,Female,18,Bachelor,1.5,88.8,76.4,Yes,Yes,No,Yes,Good,5,0,70.3,Pass,Good
+STU_1345,Male,17,High School,3.9,92.4,69.7,Yes,No,No,No,Good,4,0,64.6,Pass,Satisfactory
+STU_1346,Male,17,High School,5.8,53.8,52.1,Yes,Yes,No,Yes,Good,17,1,43.8,Fail,At Risk
+STU_1347,Female,16,Some College,5.8,78.5,71.9,Yes,Yes,Yes,No,Excellent,11,0,74.6,Pass,Good
+STU_1348,Female,16,High School,16.7,96.5,85.6,Yes,No,No,Yes,Good,2,0,84.5,Pass,Good
+STU_1349,Male,17,Some College,4.2,91.7,75.1,Yes,Yes,No,Yes,Excellent,4,0,71.2,Pass,Good
+STU_1350,Female,15,Bachelor,13.1,73.6,62.5,Yes,Yes,No,Yes,Fair,10,1,60.4,Pass,Satisfactory
+STU_1351,Male,16,High School,8.6,94.3,68.4,No,Yes,Yes,Yes,Good,5,1,72.2,Pass,Good
+STU_1352,Male,17,Some College,18.0,86.2,80.8,Yes,Yes,No,No,Excellent,6,0,81.1,Pass,Good
+STU_1353,Female,18,Some College,7.6,77.3,68.7,Yes,Yes,No,No,Good,8,0,68.7,Pass,Satisfactory
+STU_1354,Female,21,High School,2.1,60.1,50.4,Yes,Yes,Yes,Yes,Good,17,1,44.8,Fail,At Risk
+STU_1355,Male,19,Some College,7.2,89.8,82.1,Yes,Yes,Yes,Yes,Good,8,0,79.6,Pass,Good
+STU_1356,Female,17,High School,1.5,82.2,65.8,No,Yes,Yes,Yes,Excellent,7,0,62.8,Pass,Satisfactory
+STU_1357,Male,17,Some College,3.9,70.3,59.7,No,Yes,No,No,Excellent,12,0,63.4,Pass,Satisfactory
+STU_1358,Male,17,High School,7.3,76.6,68.3,No,No,Yes,Yes,Fair,8,0,76.8,Pass,Good
+STU_1359,Male,18,Some College,7.4,72.3,68.6,Yes,Yes,Yes,Yes,Excellent,10,0,65.0,Pass,Satisfactory
+STU_1360,Female,16,High School,12.8,81.1,75.2,No,Yes,No,Yes,Good,8,0,70.3,Pass,Good
+STU_1361,Male,17,Bachelor,10.0,58.7,54.6,No,Yes,Yes,Yes,Fair,15,3,46.2,Fail,At Risk
+STU_1362,Female,18,None,17.1,91.7,83.0,Yes,Yes,Yes,Yes,Excellent,6,0,77.0,Pass,Good
+STU_1363,Male,17,Some College,12.8,94.4,85.6,Yes,Yes,No,Yes,Good,5,0,84.7,Pass,Good
+STU_1364,Male,17,Some College,12.0,84.2,79.9,Yes,Yes,No,Yes,Excellent,6,0,84.9,Pass,Good
+STU_1365,Female,17,Bachelor,20.6,91.1,79.3,No,No,No,No,Fair,4,0,83.4,Pass,Good
+STU_1366,Male,16,Some College,12.5,55.7,58.5,No,No,No,Yes,Poor,15,1,57.3,Fail,Satisfactory
+STU_1367,Male,17,Bachelor,15.6,73.1,75.9,Yes,Yes,No,Yes,Good,12,0,79.9,Pass,Good
+STU_1368,Female,16,Bachelor,2.8,86.0,71.8,No,No,No,Yes,Fair,7,0,66.7,Pass,Satisfactory
+STU_1369,Female,15,Bachelor,6.6,80.2,64.9,Yes,Yes,Yes,No,Excellent,8,0,68.6,Pass,Satisfactory
+STU_1370,Female,15,High School,9.8,91.7,86.0,Yes,Yes,Yes,Yes,Fair,4,0,85.4,Pass,Excellent
+STU_1371,Female,18,Some College,8.3,83.7,71.9,No,No,No,Yes,Good,8,0,73.0,Pass,Good
+STU_1372,Female,16,Bachelor,5.1,64.0,49.7,No,Yes,No,Yes,Fair,13,2,46.0,Fail,At Risk
+STU_1373,Male,17,Master/Doctorate,12.1,54.8,69.2,Yes,Yes,No,Yes,Fair,17,1,65.5,Pass,Satisfactory
+STU_1374,Female,16,Master/Doctorate,13.6,94.0,78.4,Yes,Yes,No,Yes,Excellent,5,0,79.8,Pass,Good
+STU_1375,Female,19,High School,7.6,91.1,80.3,Yes,Yes,No,No,Fair,9,0,76.2,Pass,Good
+STU_1376,Male,16,High School,6.8,64.6,78.4,Yes,Yes,Yes,No,Good,16,0,74.6,Pass,Good
+STU_1377,Female,17,Some College,5.9,84.0,72.1,No,Yes,Yes,Yes,Excellent,8,0,76.9,Pass,Good
+STU_1378,Male,18,Bachelor,12.4,86.8,71.9,No,No,No,Yes,Good,6,1,71.9,Pass,Good
+STU_1379,Female,18,Some College,6.7,67.7,52.9,No,Yes,No,No,Excellent,14,1,47.7,Fail,At Risk
+STU_1380,Female,16,Some College,8.1,78.3,75.8,Yes,Yes,No,Yes,Fair,9,0,75.3,Pass,Good
+STU_1381,Male,18,Bachelor,14.7,85.2,85.2,No,Yes,Yes,No,Fair,6,0,88.5,Pass,Excellent
+STU_1382,Male,17,High School,9.3,93.3,69.2,Yes,Yes,No,Yes,Excellent,2,0,73.4,Pass,Good
+STU_1383,Male,17,Bachelor,8.1,94.1,80.9,No,Yes,No,No,Good,3,0,83.2,Pass,Good
+STU_1384,Male,16,Some College,5.6,96.3,79.3,No,Yes,Yes,No,Good,2,0,77.1,Pass,Good
+STU_1385,Male,15,High School,7.9,79.3,60.1,No,No,No,No,Good,8,0,63.8,Pass,Satisfactory
+STU_1386,Female,18,Some College,5.1,80.1,77.9,Yes,No,No,Yes,Good,9,0,72.6,Pass,Good
+STU_1387,Female,17,Bachelor,9.0,86.8,86.2,Yes,Yes,Yes,Yes,Poor,9,0,87.4,Pass,Excellent
+STU_1388,Male,17,High School,6.0,93.2,68.4,Yes,No,No,No,Excellent,6,0,68.4,Pass,Satisfactory
+STU_1389,Male,18,High School,6.5,95.4,82.0,No,Yes,Yes,Yes,Good,3,0,82.7,Pass,Good
+STU_1390,Male,18,Master/Doctorate,7.9,60.5,72.4,Yes,Yes,No,Yes,Good,15,0,68.6,Pass,Satisfactory
+STU_1391,Female,16,High School,18.2,82.4,87.6,Yes,Yes,Yes,No,Excellent,8,0,85.3,Pass,Excellent
+STU_1392,Female,17,Some College,9.7,63.5,55.9,Yes,Yes,No,No,Good,13,1,49.6,Fail,At Risk
+STU_1393,Male,16,Some College,3.9,89.8,77.0,No,Yes,No,No,Fair,7,0,75.6,Pass,Good
+STU_1394,Female,18,Some College,6.7,79.4,78.5,Yes,Yes,No,Yes,Excellent,8,0,70.8,Pass,Good
+STU_1395,Male,17,Some College,5.7,81.3,71.6,No,Yes,No,No,Excellent,8,0,67.7,Pass,Satisfactory
+STU_1396,Male,19,High School,5.6,90.6,64.8,No,No,No,No,Good,3,0,65.0,Pass,Satisfactory
+STU_1397,Female,15,Some College,5.7,61.4,65.9,No,Yes,No,Yes,Fair,16,0,60.6,Pass,Satisfactory
+STU_1398,Male,15,High School,6.9,78.8,66.7,Yes,Yes,No,Yes,Fair,9,0,66.6,Pass,Satisfactory
+STU_1399,Male,16,Bachelor,5.2,61.6,59.3,Yes,Yes,No,Yes,Good,14,1,47.9,Fail,At Risk
+STU_1400,Female,16,High School,5.2,73.0,68.9,Yes,Yes,No,Yes,Good,11,0,61.2,Pass,Satisfactory
+STU_1401,Male,16,Some College,5.7,90.7,73.1,Yes,Yes,No,No,Excellent,6,0,69.4,Pass,Satisfactory
+STU_1402,Female,19,High School,5.6,91.8,75.1,Yes,Yes,No,Yes,Excellent,4,0,72.1,Pass,Good
+STU_1403,Male,16,High School,4.8,95.2,68.8,No,Yes,No,No,Excellent,4,0,62.5,Pass,Satisfactory
+STU_1404,Female,16,High School,10.9,85.3,76.1,Yes,Yes,No,No,Good,6,0,78.2,Pass,Good
+STU_1405,Male,18,High School,6.3,85.7,75.6,No,Yes,Yes,Yes,Excellent,6,1,70.6,Pass,Good
+STU_1406,Female,17,Bachelor,7.0,73.5,66.3,Yes,Yes,Yes,No,Good,9,0,67.3,Pass,Satisfactory
+STU_1407,Female,18,High School,6.7,59.0,64.5,No,Yes,Yes,Yes,Fair,16,2,54.7,Fail,At Risk
+STU_1408,Male,15,Master/Doctorate,5.4,78.7,78.4,No,Yes,No,No,Poor,8,0,76.4,Pass,Good
+STU_1409,Female,17,Master/Doctorate,4.7,81.6,71.1,No,Yes,Yes,Yes,Good,10,1,69.5,Pass,Satisfactory
+STU_1410,Female,15,Some College,11.4,80.3,64.0,No,Yes,No,No,Excellent,8,0,66.6,Pass,Satisfactory
+STU_1411,Male,15,High School,4.8,89.3,76.5,No,Yes,No,Yes,Fair,6,0,72.7,Pass,Good
+STU_1412,Male,19,High School,5.0,84.3,70.8,No,Yes,Yes,Yes,Fair,5,0,73.1,Pass,Good
+STU_1413,Male,16,Bachelor,13.2,71.0,62.7,Yes,Yes,No,No,Excellent,10,2,59.8,Fail,Satisfactory
+STU_1414,Male,17,High School,5.8,84.7,59.6,Yes,Yes,Yes,Yes,Poor,7,2,60.9,Pass,Satisfactory
+STU_1415,Female,17,High School,7.9,88.0,86.4,Yes,Yes,Yes,Yes,Excellent,4,0,83.4,Pass,Good
+STU_1416,Female,16,Some College,6.5,89.0,67.2,Yes,Yes,No,Yes,Good,7,0,70.0,Pass,Good
+STU_1417,Female,19,Bachelor,7.7,86.3,73.4,Yes,No,No,No,Poor,6,0,73.0,Pass,Good
+STU_1418,Male,15,Bachelor,16.4,92.7,86.6,Yes,No,No,Yes,Excellent,4,0,89.2,Pass,Excellent
+STU_1419,Male,17,High School,5.2,72.0,73.6,Yes,Yes,Yes,Yes,Fair,10,0,70.1,Pass,Good
+STU_1420,Male,20,Bachelor,10.9,78.2,67.8,Yes,Yes,No,Yes,Good,8,2,60.5,Pass,Satisfactory
+STU_1421,Male,17,High School,11.4,66.0,69.1,Yes,Yes,Yes,Yes,Fair,14,1,61.1,Pass,Satisfactory
+STU_1422,Female,19,High School,11.0,89.9,75.8,No,No,Yes,Yes,Poor,8,0,78.8,Pass,Good
+STU_1423,Female,15,Bachelor,16.1,89.3,88.0,Yes,No,Yes,Yes,Poor,4,0,92.0,Pass,Excellent
+STU_1424,Female,17,High School,2.0,88.1,72.0,No,Yes,Yes,Yes,Fair,5,0,75.0,Pass,Good
+STU_1425,Male,16,High School,3.3,65.8,62.3,Yes,Yes,Yes,Yes,Poor,13,1,54.9,Fail,At Risk
+STU_1426,Female,18,None,4.6,89.1,73.1,No,Yes,Yes,Yes,Excellent,6,0,67.8,Pass,Satisfactory
+STU_1427,Male,20,Bachelor,6.0,89.9,73.3,No,Yes,No,No,Good,6,0,73.1,Pass,Good
+STU_1428,Female,16,Bachelor,9.0,87.8,82.9,No,Yes,Yes,Yes,Good,5,0,85.5,Pass,Excellent
+STU_1429,Female,17,Some College,4.7,82.5,81.1,No,Yes,Yes,Yes,Good,9,0,69.8,Pass,Satisfactory
+STU_1430,Female,16,Bachelor,4.7,77.3,69.6,Yes,No,Yes,Yes,Excellent,8,0,69.6,Pass,Satisfactory
+STU_1431,Male,17,High School,8.3,73.9,63.6,No,Yes,No,Yes,Excellent,9,1,60.7,Pass,Satisfactory
+STU_1432,Male,17,Some College,10.2,67.9,61.8,No,Yes,Yes,No,Good,11,1,60.9,Pass,Satisfactory
+STU_1433,Female,20,High School,7.8,94.0,66.2,No,No,No,Yes,Excellent,4,0,67.4,Pass,Satisfactory
+STU_1434,Female,17,High School,10.5,96.4,81.6,No,No,No,Yes,Good,2,0,77.1,Pass,Good
+STU_1435,Male,16,Some College,2.9,67.1,60.9,Yes,Yes,Yes,Yes,Good,13,1,55.0,Fail,Satisfactory
+STU_1436,Female,16,Master/Doctorate,5.2,80.1,73.9,No,Yes,No,Yes,Good,8,0,68.0,Pass,Satisfactory
+STU_1437,Male,16,None,4.5,90.7,79.7,Yes,Yes,Yes,Yes,Good,4,0,78.2,Pass,Good
+STU_1438,Male,16,High School,5.8,90.2,75.2,No,Yes,No,Yes,Good,4,0,72.9,Pass,Good
+STU_1439,Female,16,High School,7.6,57.6,59.0,Yes,No,No,Yes,Good,18,1,54.7,Fail,At Risk
+STU_1440,Female,18,High School,2.5,83.5,61.1,No,No,Yes,No,Excellent,7,0,55.8,Fail,Satisfactory
+STU_1441,Male,17,Master/Doctorate,5.7,90.8,88.0,Yes,Yes,Yes,Yes,Excellent,6,0,84.8,Pass,Good
+STU_1442,Female,17,Some College,5.2,67.4,62.9,Yes,Yes,No,Yes,Good,12,1,58.0,Fail,Satisfactory
+STU_1443,Female,16,Some College,3.1,92.4,83.0,No,Yes,No,No,Good,4,0,81.5,Pass,Good
+STU_1444,Male,18,Bachelor,10.6,86.8,74.7,No,No,Yes,No,Fair,6,0,80.6,Pass,Good
+STU_1445,Male,18,High School,7.8,87.0,72.1,No,Yes,No,Yes,Fair,5,0,67.9,Pass,Satisfactory
+STU_1446,Male,15,Some College,5.8,78.9,63.4,Yes,Yes,No,No,Good,8,0,61.6,Pass,Satisfactory
+STU_1447,Male,18,Some College,17.6,94.2,87.9,Yes,Yes,No,No,Good,3,0,82.0,Pass,Good
+STU_1448,Female,17,Some College,3.3,91.7,73.0,No,Yes,Yes,Yes,Poor,3,0,73.9,Pass,Good
+STU_1449,Female,15,Master/Doctorate,18.1,88.6,93.7,No,Yes,No,Yes,Excellent,6,0,97.2,Pass,Excellent
+STU_1450,Male,17,Bachelor,6.8,52.8,57.5,No,Yes,No,Yes,Good,18,1,49.9,Fail,At Risk
+STU_1451,Male,17,High School,5.0,70.5,63.7,Yes,No,Yes,No,Good,12,0,63.3,Pass,Satisfactory
+STU_1452,Female,16,Bachelor,5.9,81.0,68.2,No,No,No,Yes,Poor,10,0,68.8,Pass,Satisfactory
+STU_1453,Male,19,High School,6.2,90.6,71.6,Yes,Yes,No,Yes,Fair,5,0,69.4,Pass,Satisfactory
+STU_1454,Female,18,None,19.3,72.4,64.2,Yes,Yes,No,No,Excellent,11,2,51.1,Fail,At Risk
+STU_1455,Female,17,High School,9.1,84.3,66.1,Yes,Yes,Yes,Yes,Good,5,1,70.0,Pass,Good
+STU_1456,Female,17,High School,4.0,87.6,75.5,Yes,Yes,No,Yes,Excellent,6,0,72.4,Pass,Good
+STU_1457,Female,17,Some College,11.4,92.3,84.1,No,Yes,No,Yes,Excellent,5,0,78.5,Pass,Good
+STU_1458,Female,17,Some College,6.3,73.7,61.1,Yes,No,No,Yes,Good,9,0,61.9,Pass,Satisfactory
+STU_1459,Female,17,Master/Doctorate,1.2,91.9,65.2,Yes,Yes,Yes,No,Fair,6,0,69.5,Pass,Satisfactory
+STU_1460,Female,15,Some College,11.2,85.2,80.4,Yes,Yes,No,Yes,Excellent,5,0,83.1,Pass,Good
+STU_1461,Male,17,Some College,11.4,84.1,75.7,Yes,No,No,No,Excellent,7,1,72.9,Pass,Good
+STU_1462,Male,18,None,6.5,96.3,78.4,No,No,Yes,Yes,Good,1,0,79.5,Pass,Good
+STU_1463,Male,17,None,5.4,82.5,64.0,Yes,Yes,No,Yes,Excellent,9,0,61.9,Pass,Satisfactory
+STU_1464,Male,15,Some College,12.0,64.9,54.9,Yes,Yes,No,No,Excellent,12,1,51.1,Fail,At Risk
+STU_1465,Female,18,Some College,5.2,90.5,79.5,No,Yes,Yes,Yes,Good,7,0,79.8,Pass,Good
+STU_1466,Female,16,Bachelor,13.4,85.2,70.8,No,Yes,No,Yes,Good,5,0,74.8,Pass,Good
+STU_1467,Male,16,High School,5.3,81.7,71.0,No,Yes,No,Yes,Excellent,6,0,64.7,Pass,Satisfactory
+STU_1468,Female,16,None,7.3,66.5,61.4,Yes,Yes,Yes,No,Good,14,1,52.8,Fail,At Risk
+STU_1469,Male,16,Some College,9.6,87.7,80.8,No,No,Yes,Yes,Poor,5,0,77.3,Pass,Good
+STU_1470,Female,18,High School,8.5,96.5,76.6,No,Yes,Yes,Yes,Good,2,0,82.3,Pass,Good
+STU_1471,Male,17,None,5.0,87.3,75.1,No,Yes,Yes,Yes,Fair,5,0,78.8,Pass,Good
+STU_1472,Female,16,Bachelor,9.3,72.8,75.6,No,Yes,No,Yes,Fair,14,0,74.8,Pass,Good
+STU_1473,Male,18,High School,11.1,84.9,69.4,Yes,Yes,Yes,No,Excellent,5,1,70.2,Pass,Good
+STU_1474,Male,18,Some College,4.2,99.2,63.4,No,No,No,Yes,Poor,4,1,62.7,Pass,Satisfactory
+STU_1475,Male,18,High School,9.7,89.4,79.5,Yes,Yes,No,Yes,Fair,5,0,76.2,Pass,Good
+STU_1476,Female,16,High School,7.1,82.1,72.2,Yes,Yes,Yes,Yes,Good,6,0,68.6,Pass,Satisfactory
+STU_1477,Male,17,High School,4.3,76.9,65.7,Yes,Yes,No,Yes,Good,8,1,64.9,Pass,Satisfactory
+STU_1478,Male,20,Bachelor,9.1,74.7,58.7,Yes,Yes,No,No,Good,9,1,54.7,Fail,At Risk
+STU_1479,Male,18,High School,11.8,86.8,80.8,No,Yes,No,Yes,Fair,6,0,75.6,Pass,Good
+STU_1480,Male,15,Bachelor,5.6,80.8,81.2,No,Yes,Yes,No,Fair,9,0,77.2,Pass,Good
+STU_1481,Male,15,High School,9.3,93.7,84.7,No,Yes,Yes,Yes,Fair,3,0,83.4,Pass,Good
+STU_1482,Female,17,Bachelor,6.2,95.1,76.3,No,Yes,No,Yes,Good,3,0,78.8,Pass,Good
+STU_1483,Male,19,High School,10.6,91.9,79.4,Yes,Yes,No,No,Fair,5,0,75.8,Pass,Good
+STU_1484,Male,17,Bachelor,12.9,77.0,75.1,Yes,No,No,Yes,Excellent,8,0,68.8,Pass,Satisfactory
+STU_1485,Male,17,Some College,8.8,88.7,65.9,No,No,No,No,Good,4,0,68.3,Pass,Satisfactory
+STU_1486,Female,16,Master/Doctorate,11.0,86.4,87.5,No,Yes,Yes,No,Poor,7,0,86.8,Pass,Excellent
+STU_1487,Female,17,High School,12.1,95.9,73.4,Yes,Yes,No,Yes,Good,2,0,75.6,Pass,Good
+STU_1488,Male,18,None,5.6,84.9,64.8,No,Yes,Yes,Yes,Good,8,0,64.0,Pass,Satisfactory
+STU_1489,Male,17,None,6.2,78.3,66.3,Yes,Yes,Yes,No,Good,9,1,59.8,Fail,Satisfactory
+STU_1490,Female,18,Bachelor,9.5,69.3,54.7,Yes,Yes,No,Yes,Fair,12,3,42.0,Fail,At Risk
+STU_1491,Male,20,Some College,14.4,91.5,76.1,Yes,No,Yes,Yes,Good,6,0,85.3,Pass,Excellent
+STU_1492,Female,16,Bachelor,3.7,84.9,62.4,Yes,No,No,Yes,Excellent,7,0,68.2,Pass,Satisfactory
+STU_1493,Female,17,High School,10.0,89.9,69.4,No,Yes,No,Yes,Excellent,8,1,70.6,Pass,Good
+STU_1494,Female,16,High School,13.8,83.2,63.7,No,Yes,Yes,No,Fair,9,1,61.4,Pass,Satisfactory
+STU_1495,Female,18,None,7.0,57.7,34.1,Yes,No,No,Yes,Good,17,3,26.2,Fail,At Risk
+STU_1496,Male,17,Master/Doctorate,7.7,85.1,80.1,No,Yes,No,Yes,Good,5,0,77.6,Pass,Good
+STU_1497,Female,17,Bachelor,7.6,93.9,78.7,No,Yes,No,Yes,Excellent,3,0,77.4,Pass,Good
+STU_1498,Male,18,Master/Doctorate,7.3,81.3,80.0,Yes,Yes,Yes,Yes,Excellent,11,0,75.5,Pass,Good
+STU_1499,Male,17,High School,4.9,89.1,72.4,Yes,Yes,Yes,Yes,Fair,6,0,80.1,Pass,Good
+STU_1500,Male,19,Some College,7.2,81.3,58.7,No,Yes,No,No,Fair,9,1,56.3,Fail,Satisfactory
+STU_1501,Male,17,Bachelor,5.0,92.9,75.5,No,Yes,Yes,Yes,Good,4,0,74.3,Pass,Good
+STU_1502,Female,16,High School,10.6,88.3,72.8,No,Yes,Yes,No,Fair,6,0,75.4,Pass,Good
+STU_1503,Male,17,Bachelor,2.7,91.4,74.0,Yes,Yes,No,No,Good,4,0,75.1,Pass,Good
+STU_1504,Male,18,Master/Doctorate,11.8,84.6,79.7,No,Yes,Yes,Yes,Fair,6,0,82.2,Pass,Good
+STU_1505,Female,16,Master/Doctorate,12.8,79.4,86.9,Yes,Yes,No,Yes,Good,8,0,85.0,Pass,Excellent
+STU_1506,Male,18,Bachelor,8.5,84.8,69.7,Yes,Yes,Yes,Yes,Excellent,6,1,72.8,Pass,Good
+STU_1507,Male,19,High School,17.4,88.6,76.4,Yes,Yes,No,Yes,Excellent,10,0,74.4,Pass,Good
+STU_1508,Male,16,High School,9.7,82.3,67.6,Yes,No,No,No,Good,7,0,68.2,Pass,Satisfactory
+STU_1509,Male,20,Master/Doctorate,9.1,73.1,74.5,Yes,Yes,Yes,No,Good,12,0,72.1,Pass,Good
+STU_1510,Male,16,None,2.6,86.6,74.7,Yes,Yes,Yes,Yes,Excellent,5,0,68.4,Pass,Satisfactory
+STU_1511,Female,16,Bachelor,13.2,73.5,74.3,Yes,No,No,Yes,Fair,9,0,79.5,Pass,Good
+STU_1512,Male,16,Bachelor,4.6,73.0,66.8,No,Yes,No,No,Good,11,1,59.8,Fail,Satisfactory
+STU_1513,Male,19,Some College,4.3,93.2,76.1,Yes,Yes,No,No,Good,3,0,71.0,Pass,Good
+STU_1514,Female,17,Master/Doctorate,8.7,96.4,91.1,Yes,Yes,Yes,Yes,Fair,4,0,90.5,Pass,Excellent
+STU_1515,Female,16,High School,5.1,72.3,70.1,Yes,Yes,Yes,Yes,Good,10,0,62.7,Pass,Satisfactory
+STU_1516,Female,17,High School,7.0,91.4,74.4,Yes,Yes,No,Yes,Poor,3,1,68.8,Pass,Satisfactory
+STU_1517,Male,17,None,13.7,77.8,68.1,No,No,No,No,Good,9,0,65.4,Pass,Satisfactory
+STU_1518,Male,15,Some College,16.3,84.1,86.8,Yes,Yes,No,Yes,Fair,6,0,86.9,Pass,Excellent
+STU_1519,Female,19,High School,5.6,58.3,42.8,No,Yes,No,Yes,Good,19,3,36.8,Fail,At Risk
+STU_1520,Male,18,High School,7.1,94.1,66.6,Yes,No,No,Yes,Fair,4,0,67.9,Pass,Satisfactory
+STU_1521,Female,17,Bachelor,22.0,97.2,93.3,Yes,Yes,No,Yes,Excellent,4,0,94.1,Pass,Excellent
+STU_1522,Male,20,Master/Doctorate,16.2,95.8,99.5,No,Yes,Yes,Yes,Good,2,0,99.5,Pass,Excellent
+STU_1523,Male,17,High School,12.2,92.7,69.3,No,Yes,No,No,Good,6,0,76.8,Pass,Good
+STU_1524,Male,20,High School,5.0,74.3,72.3,Yes,Yes,No,Yes,Good,10,0,67.8,Pass,Satisfactory
+STU_1525,Female,17,Master/Doctorate,5.6,80.0,81.9,No,Yes,Yes,Yes,Good,8,0,79.1,Pass,Good
+STU_1526,Female,17,None,12.1,77.3,69.3,Yes,Yes,No,Yes,Fair,8,0,61.1,Pass,Satisfactory
+STU_1527,Female,16,High School,2.3,89.0,62.4,No,Yes,No,Yes,Good,6,0,61.7,Pass,Satisfactory
+STU_1528,Female,19,High School,13.3,86.7,67.8,No,Yes,No,Yes,Fair,10,1,68.2,Pass,Satisfactory
+STU_1529,Male,17,Some College,15.0,84.8,77.5,No,Yes,No,Yes,Fair,7,0,81.4,Pass,Good
+STU_1530,Male,16,High School,6.5,83.9,72.9,No,Yes,No,Yes,Good,9,1,69.5,Pass,Satisfactory
+STU_1531,Male,15,Master/Doctorate,16.5,74.9,73.6,Yes,Yes,Yes,Yes,Fair,12,2,68.0,Pass,Satisfactory
+STU_1532,Male,17,Some College,9.9,80.6,68.3,No,Yes,No,Yes,Good,7,0,67.7,Pass,Satisfactory
+STU_1533,Male,17,Some College,3.9,73.5,67.4,Yes,Yes,No,Yes,Good,11,0,62.6,Pass,Satisfactory
+STU_1534,Male,18,High School,8.2,82.2,59.6,Yes,No,No,No,Good,9,0,63.4,Pass,Satisfactory
+STU_1535,Male,19,Some College,5.3,79.4,78.0,Yes,Yes,Yes,No,Good,9,0,73.5,Pass,Good
+STU_1536,Male,15,Bachelor,8.8,73.0,74.3,Yes,Yes,Yes,Yes,Good,10,0,75.2,Pass,Good
+STU_1537,Female,18,Bachelor,3.7,91.7,69.5,No,Yes,No,Yes,Good,4,0,69.1,Pass,Satisfactory
+STU_1538,Female,16,Bachelor,17.1,94.7,85.6,No,Yes,No,No,Good,4,0,85.9,Pass,Excellent
+STU_1539,Female,18,Some College,10.6,94.9,84.8,No,Yes,No,Yes,Fair,2,0,87.4,Pass,Excellent
+STU_1540,Male,18,Master/Doctorate,6.2,84.6,71.9,Yes,Yes,No,No,Good,6,0,73.4,Pass,Good
+STU_1541,Male,17,Bachelor,8.9,74.7,71.9,Yes,No,No,No,Good,9,0,72.7,Pass,Good
+STU_1542,Female,18,Bachelor,7.7,85.6,79.5,No,Yes,No,Yes,Good,5,0,76.9,Pass,Good
+STU_1543,Male,16,None,17.4,71.0,79.0,Yes,Yes,No,Yes,Excellent,12,0,77.1,Pass,Good
+STU_1544,Male,17,None,7.6,94.5,67.7,No,Yes,No,No,Excellent,5,0,64.6,Pass,Satisfactory
+STU_1545,Female,18,High School,8.7,82.4,59.5,No,Yes,No,Yes,Fair,10,2,50.5,Fail,At Risk
+STU_1546,Female,17,Bachelor,3.4,93.1,59.7,No,Yes,No,Yes,Poor,5,1,62.9,Pass,Satisfactory
+STU_1547,Male,17,Some College,8.8,92.6,78.9,Yes,Yes,Yes,Yes,Poor,3,0,80.4,Pass,Good
+STU_1548,Male,17,Some College,9.7,85.1,71.8,No,No,No,Yes,Fair,7,1,67.3,Pass,Satisfactory
+STU_1549,Male,18,Master/Doctorate,4.3,82.6,63.6,Yes,Yes,Yes,Yes,Fair,8,2,56.8,Fail,Satisfactory
+STU_1550,Male,16,Master/Doctorate,11.3,94.5,86.5,No,Yes,No,No,Good,5,0,89.1,Pass,Excellent
+STU_1551,Male,16,Master/Doctorate,2.2,74.8,71.1,Yes,Yes,Yes,No,Excellent,10,0,75.2,Pass,Good
+STU_1552,Male,18,High School,7.1,79.1,58.9,Yes,Yes,No,Yes,Good,8,2,54.2,Fail,At Risk
+STU_1553,Male,18,Bachelor,3.3,75.4,61.2,Yes,Yes,No,Yes,Fair,10,0,58.9,Fail,Satisfactory
+STU_1554,Male,16,High School,8.1,94.0,85.9,No,Yes,No,Yes,Good,3,0,86.2,Pass,Excellent
+STU_1555,Female,16,High School,6.3,87.2,77.8,Yes,Yes,No,Yes,Good,6,0,74.8,Pass,Good
+STU_1556,Female,16,High School,10.0,95.6,81.0,Yes,Yes,Yes,Yes,Excellent,4,0,80.4,Pass,Good
+STU_1557,Female,16,High School,7.6,96.7,78.2,Yes,Yes,No,No,Excellent,2,0,81.3,Pass,Good
+STU_1558,Male,17,Some College,9.9,76.8,61.4,No,Yes,No,No,Excellent,10,0,62.4,Pass,Satisfactory
+STU_1559,Male,18,Bachelor,8.2,71.8,67.5,No,No,No,Yes,Good,11,0,61.4,Pass,Satisfactory
+STU_1560,Male,17,High School,13.6,93.3,78.3,No,Yes,Yes,Yes,Good,3,0,80.8,Pass,Good
+STU_1561,Female,17,Bachelor,12.6,87.2,81.2,No,Yes,No,Yes,Fair,5,0,83.2,Pass,Good
+STU_1562,Female,17,Some College,5.2,45.4,45.7,Yes,No,No,Yes,Good,19,1,36.5,Fail,At Risk
+STU_1563,Female,18,High School,13.1,81.8,77.2,Yes,Yes,No,Yes,Fair,7,0,69.6,Pass,Satisfactory
+STU_1564,Female,17,Some College,9.6,80.0,78.7,No,Yes,No,Yes,Good,8,0,79.9,Pass,Good
+STU_1565,Male,20,High School,14.3,90.0,83.9,Yes,Yes,No,No,Good,6,0,91.8,Pass,Excellent
+STU_1566,Female,17,Some College,4.4,67.7,45.3,Yes,Yes,No,Yes,Fair,12,3,34.7,Fail,At Risk
+STU_1567,Female,16,Some College,3.7,98.0,78.0,Yes,Yes,No,Yes,Poor,3,0,74.1,Pass,Good
+STU_1568,Male,17,High School,3.8,89.7,67.5,Yes,Yes,No,No,Poor,5,0,62.0,Pass,Satisfactory
+STU_1569,Female,16,High School,16.4,99.0,96.1,Yes,Yes,Yes,Yes,Poor,0,0,94.0,Pass,Excellent
+STU_1570,Female,17,Some College,14.4,89.3,80.1,Yes,Yes,No,Yes,Poor,4,0,76.4,Pass,Good
+STU_1571,Male,15,Master/Doctorate,12.6,50.1,68.2,Yes,Yes,No,Yes,Fair,19,1,56.0,Fail,Satisfactory
+STU_1572,Female,16,High School,3.5,81.1,69.1,Yes,Yes,Yes,Yes,Fair,8,0,67.1,Pass,Satisfactory
+STU_1573,Male,18,Bachelor,12.7,82.3,95.6,Yes,Yes,Yes,No,Fair,7,0,86.7,Pass,Excellent
+STU_1574,Male,16,Bachelor,3.6,63.1,59.9,Yes,Yes,No,Yes,Excellent,14,1,47.9,Fail,At Risk
+STU_1575,Male,18,Master/Doctorate,1.2,65.7,51.7,Yes,Yes,Yes,No,Good,13,3,43.1,Fail,At Risk
+STU_1576,Female,16,Bachelor,6.3,85.6,71.5,No,Yes,No,Yes,Fair,5,0,69.7,Pass,Satisfactory
+STU_1577,Male,17,Some College,7.2,59.4,62.0,Yes,Yes,Yes,Yes,Good,15,1,57.2,Fail,Satisfactory
+STU_1578,Female,17,Bachelor,15.4,92.7,78.6,No,Yes,Yes,No,Excellent,6,0,82.9,Pass,Good
+STU_1579,Female,17,Master/Doctorate,4.3,87.9,85.8,No,Yes,Yes,Yes,Good,5,0,83.0,Pass,Good
+STU_1580,Female,16,High School,22.9,86.5,83.0,No,Yes,Yes,Yes,Fair,8,0,89.6,Pass,Excellent
+STU_1581,Male,16,High School,8.8,82.1,66.2,Yes,Yes,No,Yes,Good,7,2,56.9,Fail,Satisfactory
+STU_1582,Female,15,None,7.4,89.3,68.8,Yes,No,No,Yes,Good,7,0,69.4,Pass,Satisfactory
+STU_1583,Female,16,Bachelor,7.4,72.4,77.1,Yes,Yes,Yes,Yes,Good,10,0,73.1,Pass,Good
+STU_1584,Male,17,Bachelor,3.7,87.8,71.0,No,Yes,No,Yes,Good,5,0,67.7,Pass,Satisfactory
+STU_1585,Female,19,High School,6.6,97.9,86.9,Yes,Yes,No,Yes,Excellent,2,0,79.1,Pass,Good
+STU_1586,Female,18,Some College,9.1,90.0,80.1,No,Yes,No,Yes,Excellent,5,0,73.1,Pass,Good
+STU_1587,Female,18,Some College,12.8,57.7,59.7,No,Yes,No,No,Good,17,1,50.5,Fail,At Risk
+STU_1588,Female,18,High School,6.4,74.7,67.1,Yes,Yes,No,Yes,Good,9,0,58.1,Fail,Satisfactory
+STU_1589,Female,17,Master/Doctorate,8.7,94.4,84.5,Yes,Yes,No,No,Good,2,0,81.6,Pass,Good
+STU_1590,Female,16,High School,11.8,89.7,73.1,No,No,No,Yes,Excellent,4,0,77.1,Pass,Good
+STU_1591,Male,19,None,6.3,93.5,72.7,Yes,Yes,Yes,Yes,Poor,3,0,73.2,Pass,Good
+STU_1592,Female,17,Some College,13.3,74.5,74.2,Yes,Yes,No,No,Excellent,10,0,71.5,Pass,Good
+STU_1593,Female,17,Bachelor,10.6,70.4,74.7,No,Yes,No,Yes,Fair,12,1,65.4,Pass,Satisfactory
+STU_1594,Male,16,None,12.2,87.7,73.2,Yes,No,No,No,Good,8,0,71.7,Pass,Good
+STU_1595,Female,17,Bachelor,2.5,77.2,71.9,No,Yes,No,Yes,Excellent,11,0,66.9,Pass,Satisfactory
+STU_1596,Male,17,Some College,6.7,79.0,72.6,No,Yes,No,Yes,Fair,8,0,66.0,Pass,Satisfactory
+STU_1597,Female,18,High School,5.5,97.4,73.7,No,No,Yes,Yes,Good,1,0,77.3,Pass,Good
+STU_1598,Female,17,High School,2.1,85.3,71.5,Yes,Yes,No,Yes,Fair,6,0,66.0,Pass,Satisfactory
+STU_1599,Female,17,Some College,18.7,82.3,77.9,Yes,Yes,No,No,Good,10,0,80.2,Pass,Good
+STU_1600,Female,20,High School,12.7,97.7,89.9,Yes,Yes,No,Yes,Fair,1,0,87.9,Pass,Excellent
+STU_1601,Female,16,Master/Doctorate,3.1,88.7,72.5,Yes,Yes,No,No,Good,4,0,67.9,Pass,Satisfactory
+STU_1602,Female,17,Bachelor,15.7,79.3,75.7,Yes,Yes,No,No,Good,8,1,77.7,Pass,Good
+STU_1603,Female,15,Master/Doctorate,7.7,66.8,73.4,Yes,Yes,Yes,Yes,Excellent,12,1,67.9,Pass,Satisfactory
+STU_1604,Female,18,High School,10.1,81.5,62.7,Yes,Yes,No,Yes,Excellent,8,2,55.5,Fail,Satisfactory
+STU_1605,Female,19,Master/Doctorate,5.6,92.5,83.0,Yes,Yes,No,No,Fair,7,0,82.2,Pass,Good
+STU_1606,Female,16,Some College,13.2,77.8,74.0,No,Yes,No,No,Good,12,0,68.8,Pass,Satisfactory
+STU_1607,Female,18,High School,7.6,66.7,74.2,Yes,Yes,Yes,Yes,Poor,13,1,59.9,Fail,Satisfactory
+STU_1608,Female,16,None,10.4,75.1,67.7,Yes,Yes,No,Yes,Poor,13,0,65.7,Pass,Satisfactory
+STU_1609,Male,19,None,14.0,92.1,82.6,No,Yes,No,Yes,Fair,3,0,84.9,Pass,Good
+STU_1610,Female,18,Bachelor,11.1,86.4,78.7,No,Yes,No,Yes,Excellent,7,0,79.3,Pass,Good
+STU_1611,Male,18,Some College,6.3,87.0,73.2,Yes,Yes,No,Yes,Excellent,7,0,73.9,Pass,Good
+STU_1612,Male,15,High School,7.6,85.6,70.8,Yes,Yes,No,No,Fair,8,0,64.8,Pass,Satisfactory
+STU_1613,Female,20,Some College,12.4,90.1,75.0,No,Yes,Yes,Yes,Fair,4,1,74.3,Pass,Good
+STU_1614,Male,18,High School,1.0,75.1,58.0,No,Yes,Yes,Yes,Fair,11,0,54.6,Fail,At Risk
+STU_1615,Male,16,Some College,6.8,94.4,65.9,No,No,No,Yes,Good,6,0,71.6,Pass,Good
+STU_1616,Female,18,High School,8.0,90.1,68.1,No,Yes,No,Yes,Good,4,1,67.0,Pass,Satisfactory
+STU_1617,Female,16,Bachelor,9.3,83.1,80.5,Yes,Yes,Yes,Yes,Fair,8,0,83.3,Pass,Good
+STU_1618,Male,18,Bachelor,5.6,77.1,75.4,Yes,Yes,Yes,Yes,Excellent,8,1,68.0,Pass,Satisfactory
+STU_1619,Male,16,Some College,7.5,66.2,63.3,Yes,Yes,Yes,Yes,Good,15,1,54.6,Fail,At Risk
+STU_1620,Female,18,High School,8.8,94.6,76.3,No,Yes,No,Yes,Excellent,4,0,79.9,Pass,Good
+STU_1621,Female,17,High School,8.7,70.0,67.7,No,Yes,Yes,Yes,Good,11,0,66.3,Pass,Satisfactory
+STU_1622,Female,15,Bachelor,8.5,82.6,76.9,No,No,No,No,Good,8,0,78.3,Pass,Good
+STU_1623,Female,16,High School,6.4,83.9,77.6,Yes,Yes,No,Yes,Excellent,10,0,71.6,Pass,Good
+STU_1624,Male,15,High School,9.0,77.7,67.2,Yes,Yes,Yes,Yes,Excellent,9,1,71.1,Pass,Good
+STU_1625,Female,17,High School,15.2,86.8,76.4,Yes,Yes,No,Yes,Fair,5,0,81.3,Pass,Good
+STU_1626,Female,16,Some College,7.6,94.4,80.5,No,Yes,Yes,No,Good,2,0,81.1,Pass,Good
+STU_1627,Male,17,Some College,8.9,98.7,90.3,No,No,No,Yes,Excellent,1,0,87.6,Pass,Excellent
+STU_1628,Female,16,Bachelor,7.5,98.8,89.1,Yes,Yes,Yes,Yes,Fair,1,0,89.3,Pass,Excellent
+STU_1629,Female,16,High School,14.8,79.0,65.9,Yes,Yes,No,No,Poor,8,0,64.8,Pass,Satisfactory
+STU_1630,Male,18,High School,6.8,81.7,76.1,Yes,Yes,No,Yes,Good,7,0,70.1,Pass,Good
+STU_1631,Male,15,Bachelor,4.7,99.9,83.7,Yes,Yes,Yes,Yes,Excellent,0,0,82.9,Pass,Good
+STU_1632,Female,19,Bachelor,11.3,63.1,66.4,No,Yes,Yes,Yes,Excellent,14,0,67.6,Pass,Satisfactory
+STU_1633,Male,18,High School,6.6,85.4,72.9,Yes,Yes,No,Yes,Excellent,7,1,63.6,Pass,Satisfactory
+STU_1634,Female,17,Some College,11.0,78.2,83.4,No,Yes,Yes,Yes,Good,9,0,80.1,Pass,Good
+STU_1635,Female,17,High School,6.0,51.7,55.4,No,Yes,No,No,Fair,19,1,44.4,Fail,At Risk
+STU_1636,Male,19,Master/Doctorate,4.1,89.3,78.0,No,Yes,No,Yes,Good,5,1,72.8,Pass,Good
+STU_1637,Female,16,High School,7.7,83.3,66.0,Yes,Yes,No,No,Excellent,9,1,66.0,Pass,Satisfactory
+STU_1638,Female,15,Master/Doctorate,3.3,97.5,81.2,No,Yes,No,Yes,Fair,2,0,83.7,Pass,Good
+STU_1639,Female,16,Bachelor,9.2,82.1,73.4,Yes,Yes,No,No,Fair,6,0,69.4,Pass,Satisfactory
+STU_1640,Female,18,Some College,12.1,73.6,75.0,Yes,Yes,No,Yes,Poor,11,1,68.2,Pass,Satisfactory
+STU_1641,Female,15,None,19.5,91.0,84.6,Yes,Yes,No,Yes,Good,5,0,83.6,Pass,Good
+STU_1642,Female,17,Some College,5.9,90.6,78.0,Yes,Yes,Yes,Yes,Excellent,4,0,75.9,Pass,Good
+STU_1643,Female,21,Some College,5.1,69.4,63.3,Yes,Yes,Yes,No,Good,13,1,65.0,Pass,Satisfactory
+STU_1644,Female,18,High School,11.9,89.8,65.6,Yes,No,No,Yes,Excellent,7,0,67.0,Pass,Satisfactory
+STU_1645,Male,17,Bachelor,11.5,94.9,86.6,No,Yes,No,Yes,Poor,4,0,84.5,Pass,Good
+STU_1646,Male,15,Master/Doctorate,11.9,89.6,80.8,Yes,Yes,No,Yes,Excellent,6,0,87.6,Pass,Excellent
+STU_1647,Male,18,Some College,19.6,69.2,70.6,No,Yes,Yes,Yes,Excellent,13,2,69.6,Pass,Satisfactory
+STU_1648,Male,17,Bachelor,8.0,93.1,79.6,No,Yes,No,Yes,Good,3,0,78.2,Pass,Good
+STU_1649,Female,16,None,21.7,88.1,90.0,Yes,Yes,Yes,Yes,Excellent,4,0,93.7,Pass,Excellent
+STU_1650,Female,15,Some College,6.5,80.7,57.1,No,No,Yes,Yes,Fair,8,2,53.5,Fail,At Risk
+STU_1651,Male,19,High School,5.4,77.5,71.9,Yes,Yes,No,Yes,Excellent,10,0,66.0,Pass,Satisfactory
+STU_1652,Male,17,Some College,5.1,94.8,77.2,Yes,No,Yes,Yes,Excellent,4,0,75.1,Pass,Good
+STU_1653,Male,18,Master/Doctorate,4.9,88.0,85.4,Yes,Yes,No,Yes,Excellent,4,0,73.9,Pass,Good
+STU_1654,Female,18,Bachelor,20.1,62.5,80.6,No,Yes,Yes,No,Good,15,1,71.9,Pass,Good
+STU_1655,Female,17,None,14.4,72.4,72.1,Yes,Yes,No,Yes,Fair,12,0,65.2,Pass,Satisfactory
+STU_1656,Female,17,High School,19.2,90.1,86.2,No,Yes,No,Yes,Good,6,0,87.6,Pass,Excellent
+STU_1657,Female,17,Some College,2.4,87.3,77.3,Yes,Yes,Yes,Yes,Good,6,0,75.0,Pass,Good
+STU_1658,Male,16,Some College,3.6,49.7,48.5,No,No,Yes,No,Excellent,20,1,45.9,Fail,At Risk
+STU_1659,Male,17,Bachelor,6.7,83.2,66.0,Yes,No,No,No,Excellent,6,1,59.9,Fail,Satisfactory
+STU_1660,Female,18,Bachelor,6.1,75.1,68.6,No,No,No,No,Excellent,11,0,71.9,Pass,Good
+STU_1661,Male,17,Some College,8.9,63.2,59.8,No,Yes,No,Yes,Poor,15,2,55.6,Fail,Satisfactory
+STU_1662,Male,19,High School,8.1,86.1,70.2,No,Yes,Yes,Yes,Excellent,5,0,72.0,Pass,Good
+STU_1663,Female,17,High School,4.3,94.3,73.1,No,Yes,No,Yes,Excellent,4,0,69.0,Pass,Satisfactory
+STU_1664,Female,17,High School,5.7,85.8,69.5,No,Yes,No,Yes,Excellent,7,0,65.4,Pass,Satisfactory
+STU_1665,Female,17,High School,6.9,73.0,73.4,Yes,Yes,No,Yes,Fair,9,0,68.5,Pass,Satisfactory
+STU_1666,Female,17,Some College,3.9,85.5,69.1,Yes,Yes,No,No,Fair,7,0,73.2,Pass,Good
+STU_1667,Female,18,Bachelor,7.4,64.9,74.3,Yes,Yes,Yes,No,Poor,12,0,70.5,Pass,Good
+STU_1668,Female,16,Bachelor,4.0,85.9,68.3,Yes,Yes,Yes,No,Good,6,0,65.3,Pass,Satisfactory
+STU_1669,Female,17,None,7.3,97.6,89.5,Yes,Yes,No,Yes,Good,2,0,89.4,Pass,Excellent
+STU_1670,Female,16,High School,4.7,76.9,67.5,Yes,Yes,No,Yes,Excellent,10,1,58.1,Fail,Satisfactory
+STU_1671,Male,17,High School,12.7,88.0,87.6,Yes,Yes,Yes,Yes,Good,7,0,90.0,Pass,Excellent
+STU_1672,Female,17,High School,9.9,87.6,70.6,No,Yes,No,Yes,Good,6,1,69.1,Pass,Satisfactory
+STU_1673,Male,17,Bachelor,9.7,95.8,84.6,Yes,Yes,Yes,No,Good,4,0,85.6,Pass,Excellent
+STU_1674,Female,19,None,11.4,85.8,72.2,No,Yes,Yes,Yes,Excellent,5,0,76.8,Pass,Good
+STU_1675,Male,17,Some College,10.1,93.2,78.9,Yes,Yes,Yes,Yes,Excellent,4,0,78.8,Pass,Good
+STU_1676,Female,18,High School,12.7,64.4,64.1,No,Yes,Yes,Yes,Excellent,13,1,59.8,Fail,Satisfactory
+STU_1677,Female,17,Bachelor,8.5,88.6,75.5,No,Yes,No,Yes,Good,4,0,74.5,Pass,Good
+STU_1678,Male,17,Some College,11.3,90.0,82.1,Yes,Yes,No,No,Good,6,0,79.9,Pass,Good
+STU_1679,Male,15,High School,9.6,77.6,76.1,Yes,Yes,Yes,Yes,Excellent,10,0,75.4,Pass,Good
+STU_1680,Male,16,Some College,9.5,79.5,66.8,Yes,Yes,Yes,No,Good,10,0,70.7,Pass,Good
+STU_1681,Female,17,Bachelor,3.1,93.6,72.4,Yes,Yes,No,Yes,Fair,3,1,63.7,Pass,Satisfactory
+STU_1682,Female,17,Master/Doctorate,4.3,93.7,83.0,No,Yes,Yes,Yes,Fair,3,0,81.5,Pass,Good
+STU_1683,Male,15,High School,9.0,76.0,72.3,No,Yes,No,No,Poor,9,0,67.6,Pass,Satisfactory
+STU_1684,Male,16,Master/Doctorate,5.1,62.8,74.6,Yes,Yes,Yes,Yes,Good,15,1,67.7,Pass,Satisfactory
+STU_1685,Male,16,Master/Doctorate,7.6,86.5,73.4,Yes,Yes,No,No,Fair,6,0,70.0,Pass,Good
+STU_1686,Male,20,Master/Doctorate,5.8,70.4,68.2,Yes,Yes,Yes,Yes,Fair,11,0,70.6,Pass,Good
+STU_1687,Female,16,Some College,6.0,87.1,87.0,Yes,Yes,Yes,Yes,Fair,5,0,79.3,Pass,Good
+STU_1688,Male,17,Some College,8.1,93.2,79.4,No,Yes,Yes,Yes,Good,3,0,81.5,Pass,Good
+STU_1689,Female,16,Some College,6.8,86.6,66.6,Yes,Yes,Yes,No,Good,7,0,73.0,Pass,Good
+STU_1690,Female,17,Bachelor,15.5,83.7,74.3,Yes,Yes,No,Yes,Good,7,1,69.7,Pass,Satisfactory
+STU_1691,Female,16,Some College,3.3,88.9,69.6,Yes,No,No,No,Poor,7,0,68.5,Pass,Satisfactory
+STU_1692,Female,16,Bachelor,10.6,63.8,77.9,Yes,Yes,Yes,Yes,Fair,14,1,69.7,Pass,Satisfactory
+STU_1693,Female,17,Some College,11.7,90.7,87.3,No,Yes,Yes,Yes,Good,6,0,83.3,Pass,Good
+STU_1694,Female,15,Bachelor,16.1,90.8,82.8,Yes,Yes,No,Yes,Good,5,0,81.0,Pass,Good
+STU_1695,Male,15,Bachelor,8.2,84.5,78.9,No,Yes,No,Yes,Fair,5,0,75.0,Pass,Good
+STU_1696,Female,16,High School,11.1,81.4,72.2,No,Yes,No,Yes,Poor,9,0,68.0,Pass,Satisfactory
+STU_1697,Male,15,Bachelor,15.4,97.0,85.8,Yes,Yes,No,No,Excellent,1,0,88.1,Pass,Excellent
+STU_1698,Female,16,Some College,5.6,75.3,69.5,Yes,Yes,No,Yes,Good,11,0,64.1,Pass,Satisfactory
+STU_1699,Female,16,Bachelor,4.7,68.1,50.8,No,No,No,Yes,Fair,16,2,45.0,Fail,At Risk
+STU_1700,Male,18,Some College,8.4,89.2,77.9,No,Yes,No,Yes,Poor,5,0,79.0,Pass,Good
+STU_1701,Female,17,High School,7.0,88.4,71.0,No,Yes,No,Yes,Excellent,5,1,61.3,Pass,Satisfactory
+STU_1702,Female,17,Master/Doctorate,11.2,89.2,85.0,Yes,No,Yes,Yes,Good,5,0,86.0,Pass,Excellent
+STU_1703,Female,16,High School,3.5,78.4,66.5,No,Yes,Yes,Yes,Good,8,0,61.9,Pass,Satisfactory
+STU_1704,Female,19,Bachelor,14.9,81.3,90.5,Yes,Yes,Yes,Yes,Good,7,0,85.9,Pass,Excellent
+STU_1705,Male,17,Some College,9.0,90.0,80.8,No,Yes,No,Yes,Excellent,6,0,73.5,Pass,Good
+STU_1706,Female,15,Some College,6.8,95.8,72.5,No,Yes,No,Yes,Excellent,2,0,68.8,Pass,Satisfactory
+STU_1707,Male,17,High School,7.9,75.4,65.8,Yes,Yes,No,Yes,Good,9,0,62.2,Pass,Satisfactory
+STU_1708,Female,16,Some College,13.1,82.1,76.4,No,No,Yes,Yes,Good,6,0,79.9,Pass,Good
+STU_1709,Male,16,High School,10.2,63.1,62.6,Yes,Yes,No,Yes,Poor,16,1,56.4,Fail,Satisfactory
+STU_1710,Male,17,None,7.8,97.0,76.9,No,Yes,No,Yes,Excellent,1,0,72.3,Pass,Good
+STU_1711,Male,18,High School,7.0,79.4,54.9,Yes,No,Yes,No,Good,9,2,47.9,Fail,At Risk
+STU_1712,Female,17,None,7.2,75.5,66.1,No,Yes,No,No,Fair,13,0,62.1,Pass,Satisfactory
+STU_1713,Female,18,Master/Doctorate,10.9,80.2,76.8,Yes,Yes,No,No,Excellent,7,0,75.7,Pass,Good
+STU_1714,Female,21,Master/Doctorate,6.7,71.3,77.8,No,Yes,No,Yes,Excellent,10,0,76.1,Pass,Good
+STU_1715,Male,16,High School,10.5,93.7,65.6,Yes,No,No,No,Excellent,3,0,66.2,Pass,Satisfactory
+STU_1716,Male,16,Bachelor,4.8,83.0,75.7,Yes,Yes,No,No,Excellent,10,0,65.7,Pass,Satisfactory
+STU_1717,Male,17,High School,5.2,75.4,59.2,Yes,Yes,No,No,Excellent,11,1,55.7,Fail,Satisfactory
+STU_1718,Female,17,Bachelor,7.7,92.1,79.6,No,Yes,No,Yes,Fair,4,0,73.0,Pass,Good
+STU_1719,Male,17,Bachelor,7.0,75.8,71.6,Yes,Yes,No,Yes,Excellent,13,1,59.7,Fail,Satisfactory
+STU_1720,Male,19,Master/Doctorate,5.4,91.8,79.7,No,No,Yes,No,Excellent,3,0,79.2,Pass,Good
+STU_1721,Female,18,Some College,4.0,71.3,72.4,Yes,Yes,No,Yes,Fair,11,0,65.0,Pass,Satisfactory
+STU_1722,Female,17,Bachelor,5.0,84.9,70.5,No,Yes,Yes,Yes,Fair,8,0,73.4,Pass,Good
+STU_1723,Male,16,High School,16.8,82.0,78.1,Yes,No,No,Yes,Excellent,6,0,75.2,Pass,Good
+STU_1724,Male,18,Master/Doctorate,5.4,82.8,70.9,Yes,Yes,No,Yes,Fair,7,0,75.0,Pass,Good
+STU_1725,Male,19,None,1.9,83.5,62.8,Yes,Yes,No,Yes,Excellent,8,0,54.3,Fail,At Risk
+STU_1726,Female,18,Some College,8.1,92.3,75.8,Yes,Yes,No,Yes,Poor,6,0,73.9,Pass,Good
+STU_1727,Male,15,Bachelor,5.4,83.6,83.8,Yes,Yes,Yes,Yes,Poor,7,0,83.1,Pass,Good
+STU_1728,Female,17,Bachelor,6.6,78.0,73.6,Yes,Yes,Yes,Yes,Good,11,0,75.2,Pass,Good
+STU_1729,Female,15,High School,12.3,73.7,73.2,No,No,Yes,Yes,Fair,9,0,63.4,Pass,Satisfactory
+STU_1730,Female,16,Master/Doctorate,6.9,96.9,80.5,No,Yes,Yes,Yes,Good,2,0,92.5,Pass,Excellent
+STU_1731,Male,15,High School,6.5,91.5,74.9,No,Yes,No,Yes,Good,5,0,71.8,Pass,Good
+STU_1732,Male,17,Some College,5.6,72.7,72.0,Yes,Yes,Yes,Yes,Poor,10,1,66.3,Pass,Satisfactory
+STU_1733,Male,17,High School,6.8,86.1,66.1,No,Yes,No,No,Fair,7,0,64.7,Pass,Satisfactory
+STU_1734,Female,16,High School,9.6,77.0,52.8,Yes,Yes,No,Yes,Good,10,2,55.5,Fail,Satisfactory
+STU_1735,Male,17,Some College,2.5,96.3,78.6,No,Yes,No,Yes,Fair,1,0,80.3,Pass,Good
+STU_1736,Female,17,Some College,3.7,84.7,64.4,Yes,No,No,Yes,Excellent,8,0,70.3,Pass,Good
+STU_1737,Male,17,High School,9.7,91.1,76.2,Yes,Yes,Yes,No,Good,4,0,79.3,Pass,Good
+STU_1738,Female,16,High School,8.0,81.0,73.2,Yes,Yes,Yes,Yes,Fair,9,0,74.7,Pass,Good
+STU_1739,Female,17,Some College,5.7,59.9,57.4,No,Yes,No,Yes,Good,16,1,46.6,Fail,At Risk
+STU_1740,Female,18,Bachelor,10.0,85.7,77.6,Yes,No,No,Yes,Fair,6,0,76.4,Pass,Good
+STU_1741,Female,15,Master/Doctorate,6.3,92.4,74.4,No,Yes,No,Yes,Fair,4,0,78.9,Pass,Good
+STU_1742,Male,15,High School,12.2,90.5,70.6,Yes,Yes,No,No,Fair,3,0,74.4,Pass,Good
+STU_1743,Female,17,High School,5.6,93.5,68.5,No,Yes,Yes,No,Excellent,2,0,71.9,Pass,Good
+STU_1744,Female,19,High School,4.7,70.8,48.3,No,No,No,Yes,Excellent,12,1,42.9,Fail,At Risk
+STU_1745,Male,17,None,24.5,83.7,94.1,Yes,Yes,No,Yes,Excellent,7,0,95.3,Pass,Excellent
+STU_1746,Female,17,Bachelor,10.9,99.3,90.9,Yes,Yes,Yes,Yes,Good,1,0,96.0,Pass,Excellent
+STU_1747,Male,17,Some College,5.1,86.1,75.5,No,Yes,Yes,Yes,Fair,5,0,78.2,Pass,Good
+STU_1748,Male,17,High School,6.3,86.1,80.9,Yes,Yes,Yes,Yes,Good,5,0,78.9,Pass,Good
+STU_1749,Male,15,High School,5.6,95.7,75.0,Yes,Yes,Yes,Yes,Good,4,0,75.6,Pass,Good
+STU_1750,Female,17,None,2.9,92.2,72.4,No,Yes,No,Yes,Excellent,4,0,72.1,Pass,Good
+STU_1751,Male,19,Bachelor,6.6,78.1,66.1,No,Yes,Yes,Yes,Fair,8,1,67.6,Pass,Satisfactory
+STU_1752,Male,17,Master/Doctorate,8.4,74.7,74.7,Yes,No,Yes,No,Poor,12,1,67.6,Pass,Satisfactory
+STU_1753,Female,18,High School,15.1,86.6,78.8,No,No,Yes,Yes,Good,6,0,82.0,Pass,Good
+STU_1754,Female,18,High School,7.4,84.6,74.2,Yes,Yes,No,No,Excellent,6,0,73.5,Pass,Good
+STU_1755,Male,16,Bachelor,6.0,73.5,60.5,Yes,Yes,No,No,Excellent,9,1,55.3,Fail,Satisfactory
+STU_1756,Male,19,Master/Doctorate,16.1,63.1,66.3,No,Yes,Yes,Yes,Good,15,1,69.1,Pass,Satisfactory
+STU_1757,Male,15,Some College,14.4,86.6,81.0,Yes,Yes,Yes,No,Excellent,6,0,85.3,Pass,Excellent
+STU_1758,Male,17,None,8.4,90.7,77.2,Yes,Yes,Yes,Yes,Good,4,0,75.1,Pass,Good
+STU_1759,Male,16,None,8.0,67.8,59.4,No,Yes,No,Yes,Excellent,12,2,44.5,Fail,At Risk
+STU_1760,Female,15,Some College,9.5,92.2,85.0,No,Yes,Yes,Yes,Excellent,5,0,86.2,Pass,Excellent
+STU_1761,Female,17,High School,5.6,90.3,63.8,No,Yes,No,No,Excellent,6,0,70.9,Pass,Good
+STU_1762,Female,16,None,7.8,94.0,75.3,No,Yes,No,Yes,Good,3,0,74.4,Pass,Good
+STU_1763,Male,17,Some College,5.4,73.6,75.0,No,Yes,No,Yes,Fair,11,0,70.8,Pass,Good
+STU_1764,Female,17,None,14.6,81.1,75.1,Yes,Yes,Yes,No,Good,7,0,72.1,Pass,Good
+STU_1765,Male,15,Bachelor,4.8,90.2,79.5,Yes,Yes,No,Yes,Good,5,0,76.7,Pass,Good
+STU_1766,Male,16,High School,8.7,97.2,79.0,No,No,No,Yes,Excellent,3,0,77.8,Pass,Good
+STU_1767,Male,17,None,9.0,79.2,60.7,Yes,Yes,Yes,No,Fair,7,1,56.6,Fail,Satisfactory
+STU_1768,Female,16,Some College,15.2,90.6,75.7,No,Yes,No,No,Fair,5,0,80.2,Pass,Good
+STU_1769,Male,18,High School,6.0,96.5,80.4,No,Yes,Yes,No,Excellent,1,0,81.6,Pass,Good
+STU_1770,Female,17,Master/Doctorate,5.3,93.3,75.4,Yes,Yes,Yes,No,Fair,3,0,77.8,Pass,Good
+STU_1771,Male,18,Some College,10.6,56.9,63.1,No,No,Yes,Yes,Good,17,0,61.4,Pass,Satisfactory
+STU_1772,Female,17,High School,9.9,75.6,68.3,Yes,Yes,No,No,Good,12,0,72.2,Pass,Good
+STU_1773,Female,17,Bachelor,19.4,68.7,73.5,Yes,Yes,No,Yes,Good,12,2,65.4,Pass,Satisfactory
+STU_1774,Male,17,High School,8.5,46.4,49.2,No,Yes,No,Yes,Fair,19,3,30.7,Fail,At Risk
+STU_1775,Female,16,Master/Doctorate,14.4,85.6,87.1,Yes,Yes,Yes,Yes,Excellent,6,0,85.3,Pass,Excellent
+STU_1776,Female,16,High School,13.6,76.2,68.1,Yes,No,No,Yes,Good,9,1,65.5,Pass,Satisfactory
+STU_1777,Male,18,Some College,5.3,90.0,81.6,Yes,Yes,Yes,No,Excellent,5,0,71.4,Pass,Good
+STU_1778,Male,17,None,3.2,87.1,60.8,No,Yes,No,No,Good,7,0,57.8,Fail,Satisfactory
+STU_1779,Male,18,Some College,6.6,60.1,53.1,No,Yes,Yes,Yes,Fair,16,1,46.7,Fail,At Risk
+STU_1780,Male,18,Bachelor,11.9,97.5,97.1,No,Yes,Yes,Yes,Fair,3,0,95.8,Pass,Excellent
+STU_1781,Male,18,Bachelor,15.3,89.5,79.1,No,Yes,No,Yes,Poor,7,0,81.2,Pass,Good
+STU_1782,Female,19,High School,1.0,54.1,46.0,Yes,Yes,Yes,No,Good,18,2,37.0,Fail,At Risk
+STU_1783,Female,17,High School,4.8,90.4,64.5,No,Yes,No,No,Fair,4,0,67.3,Pass,Satisfactory
+STU_1784,Female,16,Bachelor,9.5,97.6,89.5,No,Yes,No,Yes,Good,5,0,90.6,Pass,Excellent
+STU_1785,Male,17,Master/Doctorate,10.9,83.9,75.8,Yes,No,No,Yes,Good,8,0,75.6,Pass,Good
+STU_1786,Male,17,High School,4.4,71.2,57.1,Yes,Yes,No,Yes,Fair,11,1,49.2,Fail,At Risk
+STU_1787,Female,17,Some College,5.4,95.7,73.8,No,Yes,No,Yes,Fair,4,0,76.3,Pass,Good
+STU_1788,Female,18,High School,2.8,69.9,51.9,No,Yes,Yes,No,Excellent,13,2,39.4,Fail,At Risk
+STU_1789,Male,17,Bachelor,17.1,86.5,86.3,No,Yes,No,Yes,Excellent,7,0,88.8,Pass,Excellent
+STU_1790,Female,17,High School,8.8,75.8,69.3,No,Yes,No,Yes,Fair,10,0,66.8,Pass,Satisfactory
+STU_1791,Male,16,High School,5.4,71.7,61.8,Yes,Yes,Yes,Yes,Fair,13,1,58.0,Fail,Satisfactory
+STU_1792,Female,17,Bachelor,14.0,88.0,87.5,No,Yes,Yes,Yes,Excellent,5,0,89.8,Pass,Excellent
+STU_1793,Male,16,None,8.8,95.6,77.0,Yes,Yes,No,No,Poor,5,0,75.2,Pass,Good
+STU_1794,Female,19,Some College,15.2,95.4,96.3,Yes,Yes,No,Yes,Excellent,5,0,93.5,Pass,Excellent
+STU_1795,Male,16,Some College,16.3,84.9,73.8,No,Yes,No,Yes,Poor,8,1,68.9,Pass,Satisfactory
+STU_1796,Male,16,High School,4.4,86.3,69.7,Yes,Yes,Yes,Yes,Excellent,7,0,67.0,Pass,Satisfactory
+STU_1797,Male,15,High School,14.4,89.5,84.5,No,Yes,No,Yes,Good,6,1,84.4,Pass,Good
+STU_1798,Male,17,Some College,14.1,82.4,80.3,Yes,No,Yes,Yes,Excellent,7,0,83.6,Pass,Good
+STU_1799,Male,17,High School,10.0,85.5,76.7,Yes,No,No,No,Good,6,0,77.9,Pass,Good
+STU_1800,Male,16,Some College,10.4,74.4,73.7,Yes,Yes,No,Yes,Good,12,0,69.2,Pass,Satisfactory
+STU_1801,Female,15,Bachelor,8.5,89.6,79.9,Yes,Yes,Yes,Yes,Fair,5,0,81.3,Pass,Good
+STU_1802,Male,17,Bachelor,3.9,92.0,84.1,Yes,Yes,No,Yes,Fair,4,0,81.6,Pass,Good
+STU_1803,Male,16,High School,3.7,89.2,69.0,Yes,Yes,No,Yes,Excellent,4,0,71.3,Pass,Good
+STU_1804,Female,17,High School,17.4,73.4,59.3,No,No,No,Yes,Good,12,1,59.1,Fail,Satisfactory
+STU_1805,Male,17,High School,8.8,70.9,65.3,Yes,Yes,No,Yes,Excellent,14,1,59.5,Fail,Satisfactory
+STU_1806,Male,17,High School,6.9,92.6,69.2,Yes,Yes,No,No,Good,5,0,71.8,Pass,Good
+STU_1807,Male,16,Some College,10.7,75.4,62.7,No,Yes,No,No,Excellent,12,1,62.7,Pass,Satisfactory
+STU_1808,Female,20,Bachelor,5.3,91.2,84.6,No,Yes,Yes,Yes,Good,3,0,82.7,Pass,Good
+STU_1809,Female,17,None,6.2,88.4,77.4,Yes,Yes,Yes,Yes,Excellent,6,0,78.6,Pass,Good
+STU_1810,Male,17,None,8.0,78.2,69.6,No,Yes,Yes,Yes,Excellent,9,1,59.5,Fail,Satisfactory
+STU_1811,Male,16,High School,5.8,90.7,71.0,No,Yes,No,Yes,Good,5,0,66.2,Pass,Satisfactory
+STU_1812,Female,17,Bachelor,10.2,96.4,80.9,Yes,Yes,No,No,Excellent,3,0,83.7,Pass,Good
+STU_1813,Male,15,High School,7.3,90.1,87.3,Yes,Yes,Yes,Yes,Excellent,6,0,84.5,Pass,Good
+STU_1814,Male,17,Some College,10.2,92.2,76.7,No,Yes,No,Yes,Fair,3,0,76.9,Pass,Good
+STU_1815,Female,20,High School,10.7,85.2,73.5,No,Yes,No,No,Good,6,0,71.4,Pass,Good
+STU_1816,Male,17,Master/Doctorate,13.8,87.1,78.2,No,Yes,No,No,Poor,6,0,79.5,Pass,Good
+STU_1817,Female,15,Master/Doctorate,6.6,96.8,94.6,Yes,Yes,Yes,Yes,Excellent,2,0,89.9,Pass,Excellent
+STU_1818,Female,15,High School,4.3,76.8,75.5,Yes,No,No,Yes,Fair,11,0,67.8,Pass,Satisfactory
+STU_1819,Female,17,High School,23.5,89.3,85.2,No,No,Yes,Yes,Poor,5,0,85.2,Pass,Excellent
+STU_1820,Male,16,Some College,15.2,84.9,85.6,Yes,No,Yes,Yes,Good,5,0,90.1,Pass,Excellent
+STU_1821,Female,15,High School,2.6,77.7,62.0,Yes,Yes,No,No,Good,12,0,59.3,Fail,Satisfactory
+STU_1822,Female,18,Bachelor,25.3,67.3,72.2,No,Yes,Yes,No,Excellent,14,2,75.1,Pass,Good
+STU_1823,Female,17,Bachelor,5.6,71.9,67.9,Yes,Yes,Yes,No,Excellent,11,1,63.9,Pass,Satisfactory
+STU_1824,Male,16,Bachelor,7.4,80.3,55.8,No,No,No,Yes,Good,8,1,56.4,Fail,Satisfactory
+STU_1825,Male,19,Bachelor,3.9,93.2,71.4,No,No,Yes,No,Poor,3,0,74.8,Pass,Good
+STU_1826,Female,16,High School,8.4,71.5,54.6,Yes,No,No,Yes,Good,12,1,49.3,Fail,At Risk
+STU_1827,Female,19,High School,5.7,74.2,65.8,No,Yes,Yes,Yes,Good,10,0,60.5,Pass,Satisfactory
+STU_1828,Male,16,Bachelor,4.0,76.8,62.0,Yes,No,No,Yes,Good,10,1,54.4,Fail,At Risk
+STU_1829,Female,19,High School,3.5,87.6,75.5,No,Yes,Yes,Yes,Good,5,0,71.8,Pass,Good
+STU_1830,Female,17,Bachelor,5.0,95.7,85.4,Yes,Yes,Yes,No,Good,3,0,81.6,Pass,Good
+STU_1831,Female,18,High School,11.2,55.5,51.0,Yes,Yes,No,Yes,Good,17,2,47.1,Fail,At Risk
+STU_1832,Female,20,High School,10.2,93.6,82.9,No,Yes,No,Yes,Excellent,8,0,77.1,Pass,Good
+STU_1833,Female,16,Master/Doctorate,4.5,84.6,74.0,Yes,Yes,No,Yes,Good,7,0,73.9,Pass,Good
+STU_1834,Female,20,High School,6.5,90.6,75.0,No,Yes,No,Yes,Excellent,3,0,75.2,Pass,Good
+STU_1835,Female,17,Master/Doctorate,12.7,91.6,82.7,Yes,Yes,Yes,Yes,Good,4,0,90.7,Pass,Excellent
+STU_1836,Male,17,Master/Doctorate,6.6,91.4,75.7,Yes,Yes,No,Yes,Fair,4,1,75.2,Pass,Good
+STU_1837,Female,16,Bachelor,15.4,57.6,60.9,Yes,No,No,No,Excellent,20,1,56.2,Fail,Satisfactory
+STU_1838,Male,17,Bachelor,22.1,78.8,86.3,Yes,Yes,No,Yes,Good,8,0,93.0,Pass,Excellent
+STU_1839,Male,16,Some College,5.1,83.5,77.1,Yes,Yes,Yes,Yes,Fair,7,0,70.9,Pass,Good
+STU_1840,Female,17,Bachelor,5.4,55.7,60.8,No,Yes,No,Yes,Good,19,1,48.5,Fail,At Risk
+STU_1841,Male,17,High School,16.6,55.7,50.6,No,No,No,No,Good,18,2,45.7,Fail,At Risk
+STU_1842,Female,18,Some College,6.5,90.8,78.2,No,Yes,Yes,Yes,Excellent,8,0,77.5,Pass,Good
+STU_1843,Male,18,Some College,13.1,73.7,68.5,No,Yes,No,Yes,Good,10,2,63.8,Pass,Satisfactory
+STU_1844,Female,17,Some College,8.7,80.6,78.3,Yes,Yes,Yes,Yes,Good,7,0,77.6,Pass,Good
+STU_1845,Female,16,Some College,7.0,84.2,59.4,No,Yes,No,Yes,Fair,9,0,62.9,Pass,Satisfactory
+STU_1846,Female,16,High School,10.9,88.2,79.0,Yes,Yes,No,Yes,Good,6,0,80.2,Pass,Good
+STU_1847,Male,16,Some College,16.7,97.8,78.7,No,No,No,No,Excellent,3,1,79.9,Pass,Good
+STU_1848,Female,15,Bachelor,14.2,82.2,81.8,Yes,Yes,No,Yes,Excellent,7,0,83.5,Pass,Good
+STU_1849,Male,16,High School,7.6,89.5,72.6,No,Yes,Yes,Yes,Fair,7,0,70.8,Pass,Good
+STU_1850,Female,16,Master/Doctorate,8.9,93.4,77.3,No,No,No,No,Fair,3,0,77.5,Pass,Good
+STU_1851,Male,20,Bachelor,13.2,75.4,68.1,No,No,No,Yes,Good,9,0,73.0,Pass,Good
+STU_1852,Female,17,Bachelor,9.2,94.4,84.1,No,Yes,Yes,Yes,Good,3,0,85.9,Pass,Excellent
+STU_1853,Male,16,Some College,18.0,85.8,82.6,No,No,No,Yes,Excellent,7,0,83.9,Pass,Good
+STU_1854,Female,17,Bachelor,1.7,71.2,59.9,No,Yes,No,Yes,Good,11,0,55.4,Fail,Satisfactory
+STU_1855,Female,16,None,5.2,93.4,72.9,Yes,Yes,Yes,Yes,Good,2,0,71.7,Pass,Good
+STU_1856,Female,17,Bachelor,10.5,70.6,67.6,Yes,Yes,Yes,Yes,Excellent,12,1,66.1,Pass,Satisfactory
+STU_1857,Female,17,None,6.1,66.3,58.2,Yes,Yes,Yes,No,Good,14,1,51.2,Fail,At Risk
+STU_1858,Male,17,Master/Doctorate,17.0,68.3,77.8,Yes,Yes,No,No,Fair,14,0,74.1,Pass,Good
+STU_1859,Female,17,Master/Doctorate,5.4,87.0,75.8,Yes,Yes,No,Yes,Good,7,0,72.0,Pass,Good
+STU_1860,Male,21,High School,8.4,90.1,83.1,Yes,Yes,No,Yes,Excellent,3,0,77.5,Pass,Good
+STU_1861,Female,19,High School,5.0,78.8,80.6,Yes,Yes,No,Yes,Excellent,7,0,72.0,Pass,Good
+STU_1862,Male,17,Bachelor,7.5,91.2,77.5,No,Yes,No,No,Good,3,0,76.8,Pass,Good
+STU_1863,Female,17,High School,2.5,66.0,50.4,No,Yes,No,Yes,Good,13,1,49.6,Fail,At Risk
+STU_1864,Female,17,Bachelor,3.4,88.5,83.8,Yes,Yes,Yes,Yes,Excellent,6,0,83.5,Pass,Good
+STU_1865,Male,16,High School,21.5,78.4,85.3,Yes,Yes,No,No,Good,10,0,84.7,Pass,Good
+STU_1866,Female,17,High School,8.0,76.9,57.2,Yes,Yes,No,No,Good,10,2,56.6,Fail,Satisfactory
+STU_1867,Female,15,Master/Doctorate,6.4,77.9,72.6,Yes,Yes,No,No,Excellent,8,2,63.4,Pass,Satisfactory
+STU_1868,Male,17,Bachelor,4.0,84.4,66.2,No,Yes,No,Yes,Excellent,6,1,64.2,Pass,Satisfactory
+STU_1869,Male,17,Bachelor,4.4,88.3,71.9,Yes,Yes,Yes,No,Good,5,0,74.6,Pass,Good
+STU_1870,Female,16,High School,20.2,40.0,51.2,No,Yes,No,No,Good,22,0,52.7,Fail,At Risk
+STU_1871,Female,20,Bachelor,8.3,88.1,73.9,No,No,Yes,Yes,Good,6,0,74.2,Pass,Good
+STU_1872,Male,19,Some College,14.0,94.2,85.2,No,Yes,No,Yes,Fair,3,0,84.5,Pass,Good
+STU_1873,Female,18,Some College,1.0,89.9,79.2,Yes,Yes,Yes,Yes,Excellent,5,0,73.2,Pass,Good
+STU_1874,Female,17,Bachelor,5.6,82.4,64.4,No,Yes,No,No,Good,8,0,66.6,Pass,Satisfactory
+STU_1875,Female,18,Some College,18.6,81.4,79.8,Yes,No,Yes,Yes,Excellent,8,0,83.1,Pass,Good
+STU_1876,Male,16,Some College,5.9,96.0,88.1,Yes,Yes,Yes,Yes,Fair,1,0,80.2,Pass,Good
+STU_1877,Male,18,High School,4.2,84.4,62.1,Yes,Yes,Yes,Yes,Good,7,1,61.6,Pass,Satisfactory
+STU_1878,Female,16,Bachelor,10.0,87.3,77.3,Yes,Yes,Yes,No,Poor,6,0,80.2,Pass,Good
+STU_1879,Female,18,High School,3.0,68.6,53.5,Yes,Yes,Yes,Yes,Excellent,15,2,50.5,Fail,At Risk
+STU_1880,Female,16,Bachelor,2.6,92.4,75.5,Yes,Yes,No,Yes,Good,7,0,75.8,Pass,Good
+STU_1881,Male,18,High School,17.0,82.2,73.4,No,Yes,No,Yes,Good,8,1,74.7,Pass,Good
+STU_1882,Female,19,Some College,5.0,63.2,54.0,No,Yes,Yes,No,Poor,14,1,47.1,Fail,At Risk
+STU_1883,Female,16,Bachelor,11.0,94.0,90.5,Yes,Yes,Yes,Yes,Fair,5,0,93.6,Pass,Excellent
+STU_1884,Male,17,High School,20.6,94.0,86.5,Yes,Yes,No,Yes,Poor,2,0,88.4,Pass,Excellent
+STU_1885,Female,20,None,8.1,84.6,69.6,No,Yes,No,No,Fair,7,1,61.3,Pass,Satisfactory
+STU_1886,Male,17,High School,10.8,66.5,57.4,Yes,Yes,No,Yes,Good,12,3,38.7,Fail,At Risk
+STU_1887,Female,18,Some College,2.6,93.7,68.9,No,Yes,No,No,Good,4,0,72.8,Pass,Good
+STU_1888,Female,17,Bachelor,4.7,92.6,65.7,No,No,Yes,Yes,Good,5,0,69.5,Pass,Satisfactory
+STU_1889,Female,17,None,18.5,58.1,78.9,Yes,Yes,Yes,Yes,Good,18,0,73.0,Pass,Good
+STU_1890,Male,16,Bachelor,6.4,85.8,84.3,Yes,Yes,Yes,Yes,Fair,7,0,82.7,Pass,Good
+STU_1891,Male,16,High School,3.4,71.0,70.4,Yes,Yes,No,Yes,Fair,12,0,68.9,Pass,Satisfactory
+STU_1892,Male,18,Some College,10.5,94.6,85.5,Yes,Yes,No,Yes,Fair,3,0,83.2,Pass,Good
+STU_1893,Female,17,Master/Doctorate,15.6,74.7,77.7,Yes,Yes,No,Yes,Excellent,9,0,78.6,Pass,Good
+STU_1894,Male,17,High School,5.9,76.7,72.7,No,Yes,Yes,No,Good,8,0,73.1,Pass,Good
+STU_1895,Female,17,Some College,10.5,54.8,56.9,Yes,No,Yes,Yes,Fair,17,2,48.5,Fail,At Risk
+STU_1896,Female,17,None,12.9,82.0,84.1,Yes,Yes,Yes,Yes,Fair,10,0,77.4,Pass,Good
+STU_1897,Male,18,High School,7.1,90.0,77.5,No,Yes,No,Yes,Excellent,3,0,68.2,Pass,Satisfactory
+STU_1898,Female,20,High School,6.5,91.7,77.9,Yes,Yes,Yes,No,Good,3,0,81.9,Pass,Good
+STU_1899,Female,17,None,20.2,69.6,70.0,Yes,Yes,No,Yes,Good,11,2,63.4,Pass,Satisfactory
+STU_1900,Female,18,Some College,3.6,62.6,64.4,Yes,Yes,Yes,Yes,Good,14,0,62.2,Pass,Satisfactory
+STU_1901,Female,18,Some College,8.5,81.1,77.5,Yes,Yes,No,Yes,Fair,8,0,72.5,Pass,Good
+STU_1902,Female,17,Some College,7.4,91.9,70.0,No,Yes,No,Yes,Excellent,4,0,73.7,Pass,Good
+STU_1903,Male,19,High School,7.4,88.6,56.4,Yes,No,No,Yes,Excellent,5,0,58.9,Fail,Satisfactory
+STU_1904,Female,16,High School,12.5,79.6,65.7,No,Yes,No,No,Good,7,0,68.0,Pass,Satisfactory
+STU_1905,Male,16,Bachelor,10.9,89.2,77.4,Yes,No,No,Yes,Excellent,5,0,78.8,Pass,Good
+STU_1906,Male,18,Master/Doctorate,9.3,82.1,73.9,Yes,Yes,No,No,Excellent,8,1,74.2,Pass,Good
+STU_1907,Female,17,None,2.6,89.2,64.9,Yes,Yes,No,Yes,Fair,6,0,64.5,Pass,Satisfactory
+STU_1908,Female,18,Master/Doctorate,4.5,50.4,56.3,No,Yes,No,Yes,Good,17,1,46.8,Fail,At Risk
+STU_1909,Female,19,Some College,6.8,96.5,83.2,Yes,Yes,No,No,Fair,3,0,82.8,Pass,Good
+STU_1910,Male,15,Some College,8.3,80.0,69.2,Yes,No,No,Yes,Fair,8,0,67.2,Pass,Satisfactory
+STU_1911,Female,19,Some College,18.4,92.0,77.8,No,Yes,No,No,Good,4,0,79.7,Pass,Good
+STU_1912,Male,17,None,8.2,89.0,67.3,Yes,Yes,No,Yes,Fair,6,1,64.8,Pass,Satisfactory
+STU_1913,Female,17,High School,12.1,75.3,73.5,Yes,Yes,Yes,No,Excellent,9,0,73.9,Pass,Good
+STU_1914,Male,17,Some College,7.6,85.9,66.0,No,Yes,Yes,Yes,Excellent,6,0,65.8,Pass,Satisfactory
+STU_1915,Female,19,High School,11.6,97.7,82.9,Yes,No,No,Yes,Poor,2,0,80.9,Pass,Good
+STU_1916,Female,15,Master/Doctorate,7.9,82.8,79.2,No,Yes,No,Yes,Good,8,0,79.6,Pass,Good
+STU_1917,Male,17,Some College,4.0,83.5,70.0,Yes,Yes,No,Yes,Excellent,6,0,69.1,Pass,Satisfactory
+STU_1918,Male,17,High School,10.8,94.2,84.0,No,Yes,No,Yes,Excellent,2,0,83.7,Pass,Good
+STU_1919,Female,18,Bachelor,10.2,86.9,74.8,No,No,No,Yes,Excellent,5,0,81.9,Pass,Good
+STU_1920,Male,17,High School,3.1,82.5,70.6,Yes,Yes,No,Yes,Good,7,0,69.4,Pass,Satisfactory
+STU_1921,Female,16,Some College,7.6,82.9,66.7,No,Yes,Yes,Yes,Good,9,3,57.0,Fail,Satisfactory
+STU_1922,Male,16,Bachelor,7.6,90.5,78.4,No,Yes,No,No,Good,5,0,76.3,Pass,Good
+STU_1923,Male,17,Master/Doctorate,5.5,79.2,76.7,Yes,Yes,No,Yes,Excellent,9,0,71.3,Pass,Good
+STU_1924,Female,18,Bachelor,3.9,95.8,80.0,Yes,Yes,Yes,Yes,Good,2,0,79.2,Pass,Good
+STU_1925,Female,16,Bachelor,9.0,80.8,78.3,No,Yes,No,Yes,Excellent,7,0,71.0,Pass,Good
+STU_1926,Female,16,Bachelor,17.4,72.3,83.7,No,Yes,No,Yes,Fair,10,0,77.8,Pass,Good
+STU_1927,Male,19,Master/Doctorate,11.3,91.8,91.5,Yes,Yes,Yes,Yes,Excellent,3,0,94.2,Pass,Excellent
+STU_1928,Male,15,High School,2.8,92.8,71.2,No,Yes,Yes,Yes,Good,5,0,75.8,Pass,Good
+STU_1929,Female,21,None,16.7,91.5,85.2,Yes,Yes,No,No,Good,4,0,84.1,Pass,Good
+STU_1930,Female,17,High School,15.4,61.0,60.4,No,Yes,No,No,Good,17,1,53.5,Fail,At Risk
+STU_1931,Male,18,High School,5.7,60.3,45.0,No,No,Yes,Yes,Fair,15,2,28.7,Fail,At Risk
+STU_1932,Male,16,Bachelor,3.0,96.0,82.8,No,No,Yes,Yes,Fair,2,0,87.5,Pass,Excellent
+STU_1933,Male,15,Some College,5.8,89.1,84.1,Yes,Yes,No,Yes,Fair,5,0,74.8,Pass,Good
+STU_1934,Female,18,Some College,6.1,76.2,66.1,No,Yes,No,Yes,Fair,11,0,59.0,Fail,Satisfactory
+STU_1935,Female,18,None,3.1,94.8,72.0,Yes,Yes,No,Yes,Good,4,0,67.8,Pass,Satisfactory
+STU_1936,Female,18,Bachelor,8.9,69.0,64.6,Yes,Yes,Yes,Yes,Excellent,15,1,61.1,Pass,Satisfactory
+STU_1937,Male,16,High School,4.8,78.7,67.4,Yes,Yes,No,Yes,Good,8,0,64.2,Pass,Satisfactory
+STU_1938,Female,18,Bachelor,3.6,94.2,81.9,No,Yes,No,Yes,Fair,4,0,75.9,Pass,Good
+STU_1939,Male,18,Some College,6.7,82.7,70.8,Yes,Yes,Yes,Yes,Excellent,9,1,68.4,Pass,Satisfactory
+STU_1940,Female,17,High School,17.1,87.3,77.3,Yes,No,No,No,Good,7,0,77.0,Pass,Good
+STU_1941,Male,18,High School,12.6,91.2,79.0,No,Yes,No,Yes,Excellent,3,0,77.6,Pass,Good
+STU_1942,Male,18,High School,9.9,69.2,65.7,No,Yes,No,No,Good,13,0,61.8,Pass,Satisfactory
+STU_1943,Male,17,Bachelor,5.7,93.0,76.8,No,Yes,No,No,Fair,3,0,74.4,Pass,Good
+STU_1944,Female,15,Master/Doctorate,3.1,79.9,72.1,No,Yes,Yes,Yes,Good,9,1,63.7,Pass,Satisfactory
+STU_1945,Female,17,Some College,3.9,78.1,67.5,Yes,Yes,No,Yes,Good,10,1,56.5,Fail,Satisfactory
+STU_1946,Female,15,High School,12.2,83.5,75.4,No,Yes,No,Yes,Poor,6,0,71.0,Pass,Good
+STU_1947,Male,17,Some College,4.8,81.7,67.2,No,Yes,No,No,Poor,9,1,62.9,Pass,Satisfactory
+STU_1948,Male,17,Bachelor,8.5,83.1,67.2,Yes,Yes,Yes,No,Fair,12,1,67.2,Pass,Satisfactory
+STU_1949,Male,15,Bachelor,10.0,86.8,71.5,Yes,No,No,Yes,Fair,6,0,72.6,Pass,Good
+STU_1950,Male,16,High School,2.7,82.5,64.4,Yes,Yes,Yes,Yes,Good,8,1,59.4,Fail,Satisfactory
+STU_1951,Male,16,None,7.8,74.8,65.6,Yes,Yes,No,No,Good,9,1,62.3,Pass,Satisfactory
+STU_1952,Female,18,Bachelor,9.5,78.5,78.9,No,Yes,Yes,Yes,Fair,9,0,79.7,Pass,Good
+STU_1953,Male,19,High School,19.5,93.4,77.7,No,Yes,No,No,Good,5,0,86.7,Pass,Excellent
+STU_1954,Female,15,High School,8.4,79.3,78.3,No,Yes,Yes,No,Good,8,0,73.5,Pass,Good
+STU_1955,Female,19,None,11.8,48.5,57.0,Yes,Yes,Yes,Yes,Fair,21,1,45.7,Fail,At Risk
+STU_1956,Female,17,Some College,5.8,79.1,60.1,Yes,No,No,Yes,Poor,9,1,60.1,Pass,Satisfactory
+STU_1957,Female,16,Bachelor,13.5,63.7,59.8,No,No,No,Yes,Poor,15,2,53.6,Fail,At Risk
+STU_1958,Female,15,Master/Doctorate,3.4,95.5,77.5,Yes,Yes,No,Yes,Good,4,1,70.6,Pass,Good
+STU_1959,Male,17,Some College,10.2,91.7,78.4,No,No,No,Yes,Fair,4,0,80.0,Pass,Good
+STU_1960,Female,18,Some College,8.6,83.7,60.8,Yes,Yes,Yes,No,Good,7,1,60.1,Pass,Satisfactory
+STU_1961,Male,18,High School,14.8,69.3,56.1,No,Yes,No,No,Good,11,2,54.1,Fail,At Risk
+STU_1962,Female,15,Some College,10.0,95.7,75.1,Yes,Yes,No,No,Good,2,0,79.0,Pass,Good
+STU_1963,Female,15,High School,6.9,74.8,72.1,Yes,Yes,Yes,Yes,Fair,9,1,65.0,Pass,Satisfactory
+STU_1964,Female,17,Some College,13.4,93.6,83.5,Yes,Yes,No,No,Good,3,0,78.6,Pass,Good
+STU_1965,Female,16,High School,9.9,92.7,77.6,No,Yes,No,No,Good,4,0,73.9,Pass,Good
+STU_1966,Male,16,High School,4.2,71.6,60.0,No,Yes,No,Yes,Excellent,13,2,53.6,Fail,At Risk
+STU_1967,Female,16,High School,7.2,85.9,77.1,Yes,Yes,No,Yes,Excellent,7,0,78.7,Pass,Good
+STU_1968,Male,18,High School,3.9,85.3,68.2,No,Yes,No,Yes,Good,6,0,74.1,Pass,Good
+STU_1969,Female,19,High School,9.5,86.4,64.0,No,No,Yes,No,Good,7,0,69.4,Pass,Satisfactory
+STU_1970,Male,17,High School,10.1,85.5,85.3,No,Yes,Yes,Yes,Good,6,0,78.9,Pass,Good
+STU_1971,Male,19,Master/Doctorate,18.0,89.0,93.7,No,Yes,No,No,Excellent,6,0,97.7,Pass,Excellent
+STU_1972,Male,16,Some College,7.1,92.1,81.6,Yes,Yes,Yes,Yes,Poor,6,0,79.7,Pass,Good
+STU_1973,Female,17,Some College,6.4,73.9,69.7,Yes,Yes,Yes,No,Excellent,9,1,62.7,Pass,Satisfactory
+STU_1974,Female,16,Bachelor,2.9,79.0,73.6,No,Yes,No,Yes,Good,9,0,70.1,Pass,Good
+STU_1975,Female,17,Master/Doctorate,7.1,95.9,79.1,No,Yes,No,Yes,Good,2,0,86.7,Pass,Excellent
+STU_1976,Male,20,Some College,6.6,95.2,70.8,No,Yes,Yes,Yes,Poor,3,1,70.5,Pass,Good
+STU_1977,Female,17,Bachelor,8.3,95.3,75.8,No,Yes,No,Yes,Good,2,1,74.2,Pass,Good
+STU_1978,Female,17,High School,6.5,53.4,46.7,Yes,Yes,No,No,Good,18,3,28.2,Fail,At Risk
+STU_1979,Male,17,High School,6.5,90.6,73.6,No,Yes,Yes,Yes,Fair,4,0,74.7,Pass,Good
+STU_1980,Female,16,Some College,8.3,94.8,87.7,Yes,Yes,No,Yes,Fair,4,0,86.1,Pass,Excellent
+STU_1981,Male,19,Bachelor,7.4,81.6,69.9,No,Yes,No,Yes,Excellent,9,0,69.1,Pass,Satisfactory
+STU_1982,Female,17,Bachelor,6.5,94.9,77.1,Yes,No,No,Yes,Good,4,0,77.1,Pass,Good
+STU_1983,Female,17,High School,6.4,86.7,74.6,No,Yes,No,Yes,Good,6,0,72.2,Pass,Good
+STU_1984,Male,17,High School,20.8,69.4,64.4,Yes,Yes,Yes,Yes,Poor,13,2,58.8,Fail,Satisfactory
+STU_1985,Female,17,Some College,6.3,80.1,71.5,Yes,Yes,No,No,Good,8,0,61.6,Pass,Satisfactory
+STU_1986,Male,15,High School,6.9,72.0,57.5,Yes,Yes,Yes,Yes,Good,10,1,55.1,Fail,Satisfactory
+STU_1987,Female,17,Some College,2.5,68.5,48.1,No,No,No,No,Good,12,1,44.1,Fail,At Risk
+STU_1988,Female,16,Bachelor,13.5,70.5,73.9,No,Yes,No,No,Good,11,0,74.6,Pass,Good
+STU_1989,Male,18,Bachelor,1.5,94.2,71.9,Yes,Yes,No,Yes,Good,2,0,79.4,Pass,Good
+STU_1990,Male,18,Bachelor,4.3,56.6,47.9,No,Yes,Yes,Yes,Good,18,3,41.7,Fail,At Risk
+STU_1991,Male,18,Bachelor,10.6,88.1,79.3,No,Yes,Yes,Yes,Fair,6,0,74.7,Pass,Good
+STU_1992,Female,17,Some College,2.3,95.4,73.5,Yes,Yes,Yes,No,Excellent,4,0,82.0,Pass,Good
+STU_1993,Male,17,Bachelor,5.2,87.8,68.9,Yes,Yes,No,No,Good,5,0,71.9,Pass,Good
+STU_1994,Female,16,Some College,7.7,93.2,85.7,No,Yes,Yes,Yes,Good,2,0,84.0,Pass,Good
+STU_1995,Female,18,High School,7.3,95.1,70.4,No,Yes,No,No,Good,4,0,75.9,Pass,Good
+STU_1996,Male,16,None,5.1,93.2,69.7,Yes,Yes,Yes,Yes,Excellent,4,1,58.3,Fail,Satisfactory
+STU_1997,Female,17,High School,11.9,98.0,78.0,No,No,No,No,Fair,3,0,77.5,Pass,Good
+STU_1998,Male,16,Some College,12.3,61.0,66.0,Yes,Yes,Yes,No,Fair,14,1,62.5,Pass,Satisfactory
+STU_1999,Female,16,Some College,10.8,78.2,59.2,Yes,Yes,No,Yes,Good,8,1,59.3,Fail,Satisfactory
+STU_2000,Female,17,Bachelor,5.9,91.3,83.6,Yes,Yes,No,Yes,Good,4,0,85.4,Pass,Excellent
+STU_2001,Male,15,High School,8.5,81.9,75.3,Yes,Yes,No,Yes,Excellent,7,0,75.8,Pass,Good
+STU_2002,Male,18,High School,5.5,82.3,68.5,No,Yes,No,Yes,Fair,8,0,67.9,Pass,Satisfactory
+STU_2003,Male,16,Master/Doctorate,24.5,93.1,84.3,No,Yes,No,No,Excellent,4,0,91.1,Pass,Excellent
+STU_2004,Male,15,High School,9.3,95.0,83.0,Yes,Yes,No,Yes,Poor,4,0,83.5,Pass,Good
+STU_2005,Male,17,Some College,5.9,80.7,75.6,Yes,Yes,Yes,Yes,Poor,8,0,71.7,Pass,Good
+STU_2006,Male,15,Some College,22.1,93.8,99.5,No,Yes,Yes,Yes,Excellent,2,0,99.5,Pass,Excellent
+STU_2007,Male,16,Some College,6.4,92.5,63.9,No,No,No,No,Good,3,0,65.1,Pass,Satisfactory
+STU_2008,Female,18,High School,9.1,83.7,72.1,No,Yes,No,Yes,Good,10,0,70.6,Pass,Good
+STU_2009,Female,15,None,12.0,96.1,85.1,No,Yes,No,Yes,Fair,1,0,78.4,Pass,Good
+STU_2010,Female,18,High School,5.6,75.7,66.4,Yes,Yes,Yes,Yes,Good,11,1,64.2,Pass,Satisfactory
+STU_2011,Male,15,Some College,5.4,78.2,63.5,No,Yes,Yes,No,Good,8,0,63.6,Pass,Satisfactory
+STU_2012,Male,16,Some College,13.2,77.4,78.4,Yes,Yes,Yes,No,Excellent,9,1,70.2,Pass,Good
+STU_2013,Female,18,High School,12.0,86.1,84.4,Yes,Yes,Yes,Yes,Excellent,5,0,80.1,Pass,Good
+STU_2014,Male,16,Some College,12.0,87.3,86.7,Yes,Yes,Yes,Yes,Good,5,0,84.9,Pass,Good
+STU_2015,Male,16,Bachelor,10.1,85.2,77.4,Yes,Yes,Yes,Yes,Good,9,1,71.7,Pass,Good
+STU_2016,Female,17,None,20.7,87.2,96.7,No,Yes,Yes,Yes,Good,4,0,97.3,Pass,Excellent
+STU_2017,Male,16,Some College,8.1,96.9,85.6,No,Yes,No,Yes,Good,2,0,82.5,Pass,Good
+STU_2018,Male,18,Bachelor,4.8,80.1,70.2,Yes,Yes,Yes,No,Fair,9,1,69.3,Pass,Satisfactory
+STU_2019,Female,16,High School,3.7,87.2,73.9,Yes,Yes,No,Yes,Good,5,0,69.1,Pass,Satisfactory
+STU_2020,Male,18,High School,6.3,83.9,78.3,Yes,Yes,Yes,No,Poor,8,0,77.3,Pass,Good
+STU_2021,Female,19,Some College,1.0,98.1,79.1,Yes,Yes,No,Yes,Poor,4,0,75.1,Pass,Good
+STU_2022,Male,17,Master/Doctorate,15.8,75.8,69.3,No,Yes,No,No,Fair,9,0,72.6,Pass,Good
+STU_2023,Male,19,Bachelor,9.8,93.8,79.8,No,Yes,Yes,No,Good,3,0,79.7,Pass,Good
+STU_2024,Male,17,Some College,4.8,79.8,69.0,No,Yes,No,Yes,Excellent,8,1,62.8,Pass,Satisfactory
+STU_2025,Female,20,Bachelor,13.7,80.9,76.6,No,Yes,No,Yes,Good,7,1,76.0,Pass,Good
+STU_2026,Male,15,High School,3.7,70.6,64.6,No,Yes,No,Yes,Good,13,0,56.7,Fail,Satisfactory
+STU_2027,Male,17,Some College,4.3,95.1,86.4,Yes,Yes,Yes,Yes,Fair,3,0,83.5,Pass,Good
+STU_2028,Female,17,Some College,8.3,86.6,80.7,Yes,Yes,No,Yes,Good,8,0,75.1,Pass,Good
+STU_2029,Male,17,High School,17.0,86.1,80.3,Yes,Yes,No,Yes,Fair,6,0,86.8,Pass,Excellent
+STU_2030,Female,17,Bachelor,9.8,93.4,72.9,No,Yes,Yes,No,Good,3,0,79.4,Pass,Good
+STU_2031,Male,18,Some College,1.0,86.8,65.4,No,Yes,No,Yes,Excellent,5,0,64.4,Pass,Satisfactory
+STU_2032,Female,15,High School,4.3,91.3,74.3,Yes,Yes,Yes,No,Fair,4,0,72.2,Pass,Good
+STU_2033,Female,16,Master/Doctorate,4.8,94.6,80.4,Yes,Yes,No,Yes,Fair,6,0,81.7,Pass,Good
+STU_2034,Female,18,None,8.9,79.0,57.7,Yes,Yes,No,No,Good,9,1,54.6,Fail,At Risk
+STU_2035,Male,17,High School,3.2,71.2,52.3,No,No,No,Yes,Excellent,13,0,50.5,Fail,At Risk
+STU_2036,Female,20,None,3.4,82.5,53.2,Yes,Yes,Yes,No,Excellent,7,2,48.2,Fail,At Risk
+STU_2037,Male,18,Bachelor,6.7,94.6,78.6,No,Yes,No,Yes,Excellent,2,0,75.3,Pass,Good
+STU_2038,Female,19,Bachelor,11.1,88.3,75.5,No,Yes,No,Yes,Good,6,1,77.9,Pass,Good
+STU_2039,Female,18,High School,11.6,87.0,83.6,Yes,Yes,Yes,Yes,Excellent,6,0,85.2,Pass,Excellent
+STU_2040,Male,16,Bachelor,8.3,85.2,78.5,No,Yes,Yes,Yes,Fair,7,0,78.8,Pass,Good
+STU_2041,Male,16,High School,12.6,95.9,95.0,No,Yes,Yes,Yes,Poor,2,0,92.5,Pass,Excellent
+STU_2042,Female,18,Bachelor,25.5,88.8,99.5,Yes,Yes,No,Yes,Excellent,6,0,97.2,Pass,Excellent
+STU_2043,Male,17,Some College,18.2,84.9,77.5,No,Yes,Yes,Yes,Excellent,7,1,73.7,Pass,Good
+STU_2044,Male,15,Some College,5.8,86.7,70.9,Yes,Yes,No,No,Fair,5,0,67.3,Pass,Satisfactory
+STU_2045,Male,17,Master/Doctorate,3.1,83.8,72.2,Yes,Yes,Yes,Yes,Fair,6,0,76.8,Pass,Good
+STU_2046,Female,19,High School,6.2,63.9,51.3,No,Yes,No,Yes,Poor,15,2,41.1,Fail,At Risk
+STU_2047,Female,17,High School,4.4,86.2,66.3,No,Yes,No,No,Fair,7,0,68.2,Pass,Satisfactory
+STU_2048,Male,17,Some College,10.1,87.2,81.9,No,Yes,No,Yes,Fair,6,0,79.2,Pass,Good
+STU_2049,Female,17,Master/Doctorate,3.7,95.1,79.9,No,Yes,No,Yes,Excellent,5,0,75.6,Pass,Good
+STU_2050,Male,16,High School,7.5,90.3,66.5,No,Yes,No,Yes,Good,5,0,65.3,Pass,Satisfactory
+STU_2051,Male,17,None,4.4,80.7,58.0,No,Yes,No,No,Excellent,8,1,53.9,Fail,At Risk
+STU_2052,Male,17,High School,6.5,71.1,51.2,No,Yes,Yes,No,Excellent,12,1,45.3,Fail,At Risk
+STU_2053,Male,15,Some College,7.7,85.7,81.6,No,Yes,Yes,No,Good,7,0,77.1,Pass,Good
+STU_2054,Male,18,High School,11.0,60.9,76.9,Yes,No,No,Yes,Excellent,15,0,67.1,Pass,Satisfactory
+STU_2055,Female,17,Bachelor,7.8,79.1,55.7,No,No,No,No,Good,10,1,58.4,Fail,Satisfactory
+STU_2056,Male,18,Master/Doctorate,5.5,62.5,64.0,Yes,Yes,No,Yes,Good,13,1,58.4,Fail,Satisfactory
+STU_2057,Female,18,Some College,12.0,84.5,81.7,Yes,Yes,Yes,Yes,Good,8,1,78.1,Pass,Good
+STU_2058,Female,16,High School,8.0,84.4,80.8,Yes,Yes,Yes,Yes,Good,6,0,79.7,Pass,Good
+STU_2059,Male,17,Some College,5.8,91.7,78.0,No,Yes,Yes,Yes,Excellent,4,0,81.4,Pass,Good
+STU_2060,Male,17,High School,11.1,73.3,61.1,Yes,Yes,No,Yes,Excellent,10,1,58.2,Fail,Satisfactory
+STU_2061,Male,19,Master/Doctorate,8.9,82.0,71.4,Yes,Yes,No,Yes,Good,7,1,65.7,Pass,Satisfactory
+STU_2062,Male,16,Some College,10.6,78.3,69.4,No,No,No,Yes,Excellent,8,0,70.0,Pass,Good
+STU_2063,Female,17,High School,14.3,92.2,71.7,Yes,Yes,No,Yes,Fair,4,0,72.5,Pass,Good
+STU_2064,Female,17,Bachelor,3.9,78.9,70.0,No,Yes,No,No,Excellent,8,0,60.8,Pass,Satisfactory
+STU_2065,Male,16,Some College,24.6,74.4,79.3,Yes,Yes,No,Yes,Good,13,0,81.6,Pass,Good
+STU_2066,Female,16,Some College,10.0,93.3,87.2,Yes,Yes,Yes,No,Poor,2,0,88.7,Pass,Excellent
+STU_2067,Female,17,None,3.8,93.5,71.4,Yes,Yes,No,Yes,Good,4,0,69.6,Pass,Satisfactory
+STU_2068,Female,18,Bachelor,15.3,86.7,76.2,No,Yes,Yes,No,Good,5,0,83.4,Pass,Good
+STU_2069,Female,16,Master/Doctorate,5.1,72.9,74.0,Yes,Yes,Yes,Yes,Fair,13,0,75.1,Pass,Good
+STU_2070,Female,17,Some College,18.4,87.3,86.1,No,Yes,No,Yes,Excellent,5,0,83.6,Pass,Good
+STU_2071,Female,17,Master/Doctorate,4.0,80.4,86.0,Yes,Yes,No,Yes,Poor,10,0,77.4,Pass,Good
+STU_2072,Female,18,High School,7.5,71.9,73.2,Yes,No,No,Yes,Excellent,10,0,63.5,Pass,Satisfactory
+STU_2073,Female,16,Some College,12.1,70.8,65.0,Yes,Yes,No,No,Good,12,0,66.4,Pass,Satisfactory
+STU_2074,Male,19,Some College,11.2,93.0,87.3,Yes,Yes,Yes,Yes,Good,4,0,91.1,Pass,Excellent
+STU_2075,Female,16,Some College,9.5,75.0,55.8,No,Yes,No,Yes,Good,11,2,49.2,Fail,At Risk
+STU_2076,Female,17,Some College,13.4,87.5,73.9,No,Yes,No,No,Good,8,0,77.6,Pass,Good
+STU_2077,Male,15,High School,6.0,60.2,45.0,No,Yes,No,Yes,Good,16,2,34.8,Fail,At Risk
+STU_2078,Female,16,High School,13.8,84.2,73.3,Yes,No,No,Yes,Good,6,0,76.2,Pass,Good
+STU_2079,Male,17,High School,5.3,87.8,77.5,Yes,Yes,Yes,Yes,Good,6,0,68.1,Pass,Satisfactory
+STU_2080,Male,16,High School,17.3,79.0,81.9,Yes,Yes,Yes,Yes,Good,8,0,87.2,Pass,Excellent
+STU_2081,Female,18,Bachelor,5.6,79.4,74.4,No,Yes,No,Yes,Excellent,8,0,67.8,Pass,Satisfactory
+STU_2082,Female,15,High School,3.4,82.1,58.9,Yes,Yes,Yes,Yes,Fair,9,1,57.0,Fail,Satisfactory
+STU_2083,Male,17,None,11.3,76.7,66.3,No,Yes,No,No,Good,11,0,68.8,Pass,Satisfactory
+STU_2084,Male,16,Some College,8.7,84.5,75.0,Yes,Yes,Yes,Yes,Fair,6,0,72.1,Pass,Good
+STU_2085,Female,15,Some College,9.6,72.0,68.1,Yes,Yes,Yes,Yes,Excellent,12,0,73.7,Pass,Good
+STU_2086,Male,16,Bachelor,6.5,57.0,61.7,Yes,Yes,No,Yes,Excellent,16,1,60.5,Pass,Satisfactory
+STU_2087,Female,17,Some College,10.3,92.4,76.8,Yes,No,No,No,Fair,6,0,79.2,Pass,Good
+STU_2088,Male,17,High School,16.5,85.5,85.1,No,Yes,Yes,No,Fair,6,0,85.7,Pass,Excellent
+STU_2089,Female,17,Bachelor,9.3,84.6,78.8,Yes,Yes,No,Yes,Poor,6,0,76.9,Pass,Good
+STU_2090,Male,17,Some College,2.9,85.3,69.3,No,Yes,No,No,Good,7,0,68.6,Pass,Satisfactory
+STU_2091,Male,17,None,7.9,82.1,80.2,Yes,Yes,Yes,Yes,Good,8,0,77.9,Pass,Good
+STU_2092,Male,15,Some College,10.0,80.4,65.8,No,Yes,No,Yes,Excellent,8,1,56.9,Fail,Satisfactory
+STU_2093,Female,17,Master/Doctorate,18.0,61.9,69.9,Yes,Yes,No,Yes,Good,15,2,62.4,Pass,Satisfactory
+STU_2094,Female,20,High School,11.6,82.0,66.7,No,No,No,Yes,Fair,6,1,62.7,Pass,Satisfactory
+STU_2095,Female,17,High School,4.8,57.4,56.4,No,Yes,No,Yes,Excellent,16,1,45.0,Fail,At Risk
+STU_2096,Female,17,High School,7.7,80.0,64.5,No,Yes,Yes,No,Good,10,0,63.3,Pass,Satisfactory
+STU_2097,Female,16,High School,12.0,69.4,58.2,Yes,No,Yes,Yes,Good,14,3,45.2,Fail,At Risk
+STU_2098,Male,18,Some College,10.5,81.0,71.8,No,Yes,No,No,Fair,8,0,76.3,Pass,Good
+STU_2099,Female,18,Some College,10.8,69.2,74.3,Yes,Yes,Yes,Yes,Good,12,0,70.4,Pass,Good
+STU_2100,Female,17,High School,3.4,79.8,70.1,Yes,Yes,No,Yes,Excellent,8,0,64.8,Pass,Satisfactory
+STU_2101,Male,20,Master/Doctorate,11.2,83.3,79.5,Yes,Yes,No,Yes,Good,8,0,78.2,Pass,Good
+STU_2102,Male,16,Bachelor,9.0,77.8,76.8,Yes,Yes,Yes,Yes,Good,10,0,74.2,Pass,Good
+STU_2103,Male,15,Some College,11.5,77.8,62.5,No,Yes,No,Yes,Good,11,1,62.0,Pass,Satisfactory
+STU_2104,Male,18,Bachelor,8.7,79.1,82.1,Yes,Yes,Yes,Yes,Excellent,8,0,79.0,Pass,Good
+STU_2105,Female,18,High School,7.3,84.2,67.6,No,No,Yes,Yes,Fair,7,0,70.8,Pass,Good
+STU_2106,Female,16,Some College,14.0,80.1,76.6,No,Yes,Yes,Yes,Good,9,0,83.1,Pass,Good
+STU_2107,Male,16,Some College,10.2,89.2,75.4,Yes,Yes,No,No,Excellent,4,0,72.5,Pass,Good
+STU_2108,Male,15,Bachelor,3.8,83.6,78.5,No,Yes,Yes,Yes,Fair,7,0,77.2,Pass,Good
+STU_2109,Female,16,Bachelor,8.4,67.2,61.7,Yes,No,No,Yes,Good,16,0,61.1,Pass,Satisfactory
+STU_2110,Male,18,High School,6.5,87.3,72.3,No,Yes,No,Yes,Good,5,0,66.7,Pass,Satisfactory
+STU_2111,Female,17,Master/Doctorate,6.1,72.0,57.2,Yes,No,No,No,Good,14,1,56.7,Fail,Satisfactory
+STU_2112,Female,16,High School,10.4,83.1,66.8,No,Yes,No,No,Good,7,0,66.8,Pass,Satisfactory
+STU_2113,Male,17,Bachelor,8.7,78.6,75.6,No,Yes,No,Yes,Good,10,0,78.0,Pass,Good
+STU_2114,Male,15,Master/Doctorate,10.3,84.1,89.0,No,Yes,Yes,Yes,Good,8,0,90.4,Pass,Excellent
+STU_2115,Male,16,High School,12.9,76.7,76.2,Yes,Yes,No,Yes,Fair,10,0,73.1,Pass,Good
+STU_2116,Female,17,Bachelor,7.6,83.5,71.8,Yes,Yes,No,No,Good,9,0,70.3,Pass,Good
+STU_2117,Male,20,None,12.6,94.1,89.4,Yes,Yes,No,Yes,Fair,3,0,90.8,Pass,Excellent
+STU_2118,Female,18,Some College,5.5,88.9,63.7,Yes,Yes,No,Yes,Poor,6,1,59.7,Fail,Satisfactory
+STU_2119,Female,15,Some College,14.4,88.3,88.7,Yes,Yes,No,Yes,Excellent,7,0,86.7,Pass,Excellent
+STU_2120,Male,19,Some College,5.8,76.4,60.3,No,Yes,No,Yes,Good,8,1,56.7,Fail,Satisfactory
+STU_2121,Male,18,Master/Doctorate,4.1,58.1,60.1,Yes,Yes,No,No,Excellent,15,1,56.8,Fail,Satisfactory
+STU_2122,Male,18,Bachelor,9.7,71.2,71.6,Yes,Yes,No,Yes,Fair,10,1,70.0,Pass,Good
+STU_2123,Male,17,Some College,7.7,71.7,66.2,No,Yes,No,Yes,Good,13,0,65.0,Pass,Satisfactory
+STU_2124,Male,17,Bachelor,8.3,90.6,84.0,No,Yes,No,Yes,Fair,4,0,80.2,Pass,Good
+STU_2125,Male,16,Master/Doctorate,3.8,92.6,69.5,Yes,Yes,No,No,Excellent,5,1,66.9,Pass,Satisfactory
+STU_2126,Female,15,None,3.9,93.6,61.6,Yes,Yes,No,No,Excellent,3,0,58.6,Fail,Satisfactory
+STU_2127,Female,16,Master/Doctorate,6.4,60.8,71.3,Yes,Yes,No,Yes,Fair,18,0,65.6,Pass,Satisfactory
+STU_2128,Female,16,High School,11.5,86.4,75.1,Yes,Yes,No,Yes,Excellent,7,0,71.5,Pass,Good
+STU_2129,Female,17,Bachelor,6.6,89.3,74.3,No,Yes,No,No,Fair,4,0,81.7,Pass,Good
+STU_2130,Male,18,High School,4.0,90.7,79.1,Yes,Yes,Yes,Yes,Good,4,0,74.9,Pass,Good
+STU_2131,Female,17,High School,14.4,93.3,76.2,No,Yes,No,Yes,Excellent,2,0,82.2,Pass,Good
+STU_2132,Female,15,Some College,3.9,74.8,61.0,No,Yes,No,Yes,Excellent,9,1,60.7,Pass,Satisfactory
+STU_2133,Female,19,Some College,8.4,53.6,62.6,No,Yes,Yes,No,Excellent,16,1,58.5,Fail,Satisfactory
+STU_2134,Male,19,High School,11.5,71.5,69.1,Yes,Yes,No,Yes,Good,10,0,65.3,Pass,Satisfactory
+STU_2135,Female,18,None,6.2,79.8,58.5,Yes,Yes,No,No,Fair,7,1,52.7,Fail,At Risk
+STU_2136,Male,21,Some College,11.5,69.6,46.2,No,Yes,No,Yes,Fair,12,3,50.2,Fail,At Risk
+STU_2137,Female,17,Master/Doctorate,17.1,60.8,76.6,Yes,Yes,Yes,Yes,Good,14,1,79.7,Pass,Good
+STU_2138,Female,20,High School,11.2,96.4,74.8,Yes,Yes,No,Yes,Excellent,2,1,74.1,Pass,Good
+STU_2139,Male,15,High School,7.6,89.9,86.8,Yes,Yes,No,Yes,Fair,4,0,80.1,Pass,Good
+STU_2140,Male,17,Some College,8.3,80.2,64.2,Yes,Yes,No,Yes,Good,8,1,58.6,Fail,Satisfactory
+STU_2141,Female,16,None,1.9,77.6,62.5,No,Yes,Yes,Yes,Good,9,1,54.1,Fail,At Risk
+STU_2142,Male,16,Bachelor,5.7,84.6,79.4,Yes,Yes,No,Yes,Good,8,1,73.9,Pass,Good
+STU_2143,Male,16,Bachelor,2.0,87.6,68.3,Yes,No,No,No,Good,5,0,75.1,Pass,Good
+STU_2144,Female,17,Some College,4.6,89.9,70.9,Yes,Yes,No,No,Good,5,0,69.7,Pass,Satisfactory
+STU_2145,Male,18,High School,7.9,78.5,80.2,No,Yes,No,Yes,Excellent,9,0,77.6,Pass,Good
+STU_2146,Male,17,Bachelor,9.3,77.9,75.9,No,Yes,Yes,Yes,Fair,11,0,78.1,Pass,Good
+STU_2147,Male,16,Some College,10.4,93.9,85.1,No,Yes,No,Yes,Excellent,3,0,82.6,Pass,Good
+STU_2148,Male,18,Bachelor,19.9,83.9,88.8,Yes,Yes,No,Yes,Poor,8,1,88.2,Pass,Excellent
+STU_2149,Male,17,Some College,3.1,88.9,73.5,Yes,Yes,No,No,Fair,7,0,73.5,Pass,Good
+STU_2150,Male,17,Bachelor,4.5,81.4,74.0,Yes,No,No,Yes,Good,9,0,73.4,Pass,Good
+STU_2151,Male,17,Some College,9.1,87.5,77.9,No,Yes,No,Yes,Excellent,7,0,74.6,Pass,Good
+STU_2152,Male,16,Some College,12.0,82.9,79.5,No,Yes,Yes,No,Fair,7,0,82.3,Pass,Good
+STU_2153,Male,16,Master/Doctorate,5.3,81.5,72.4,No,Yes,No,Yes,Good,8,1,71.2,Pass,Good
+STU_2154,Male,19,Some College,8.7,85.8,77.8,Yes,Yes,Yes,Yes,Good,8,0,80.4,Pass,Good
+STU_2155,Male,16,Some College,9.5,57.1,53.5,No,Yes,Yes,Yes,Fair,15,3,47.3,Fail,At Risk
+STU_2156,Female,17,High School,18.0,94.5,84.7,Yes,Yes,No,Yes,Excellent,4,0,85.3,Pass,Excellent
+STU_2157,Male,19,Some College,3.4,57.3,67.2,No,Yes,No,Yes,Excellent,16,0,61.9,Pass,Satisfactory
+STU_2158,Male,18,Some College,10.3,90.7,76.6,Yes,Yes,No,No,Fair,5,0,80.9,Pass,Good
+STU_2159,Female,15,High School,12.2,82.1,69.9,No,Yes,No,No,Good,8,0,68.7,Pass,Satisfactory
+STU_2160,Male,16,None,10.8,90.6,75.8,Yes,Yes,No,Yes,Excellent,6,1,65.8,Pass,Satisfactory
+STU_2161,Female,15,Some College,15.2,61.2,79.8,Yes,Yes,No,No,Good,14,0,79.3,Pass,Good
+STU_2162,Female,17,Bachelor,4.0,91.5,78.2,No,Yes,No,Yes,Good,3,0,74.9,Pass,Good
+STU_2163,Male,17,Some College,1.7,72.7,64.2,Yes,Yes,Yes,No,Poor,11,1,55.6,Fail,Satisfactory
+STU_2164,Female,16,High School,14.8,84.9,77.0,No,Yes,No,Yes,Good,6,1,74.0,Pass,Good
+STU_2165,Male,19,Bachelor,6.4,77.8,65.9,No,No,No,No,Fair,11,0,64.2,Pass,Satisfactory
+STU_2166,Male,17,High School,7.6,79.8,58.2,No,No,No,No,Excellent,10,1,49.2,Fail,At Risk
+STU_2167,Female,16,Some College,8.2,82.0,83.6,Yes,Yes,Yes,Yes,Good,8,0,83.0,Pass,Good
+STU_2168,Female,17,High School,8.5,83.0,67.8,Yes,Yes,Yes,No,Fair,7,1,68.5,Pass,Satisfactory
+STU_2169,Female,17,High School,12.9,93.2,78.9,No,Yes,Yes,No,Excellent,3,0,78.5,Pass,Good
+STU_2170,Male,15,High School,10.1,79.6,80.5,Yes,Yes,Yes,No,Poor,8,0,77.6,Pass,Good
+STU_2171,Male,16,High School,3.3,81.0,59.1,No,Yes,No,Yes,Good,7,0,55.3,Fail,Satisfactory
+STU_2172,Male,18,None,7.5,71.6,68.3,Yes,Yes,Yes,No,Good,11,0,62.3,Pass,Satisfactory
+STU_2173,Female,17,High School,9.4,75.0,75.0,Yes,Yes,Yes,No,Fair,10,0,70.5,Pass,Good
+STU_2174,Male,17,Some College,10.6,92.4,83.4,Yes,Yes,Yes,Yes,Excellent,4,0,85.9,Pass,Excellent
+STU_2175,Male,17,Some College,7.2,57.9,54.5,Yes,Yes,Yes,No,Excellent,16,1,57.1,Fail,Satisfactory
+STU_2176,Male,15,High School,5.7,62.0,61.8,Yes,Yes,Yes,Yes,Poor,13,2,50.0,Fail,At Risk
+STU_2177,Female,16,Bachelor,13.3,80.6,80.2,No,Yes,No,Yes,Good,8,0,81.9,Pass,Good
+STU_2178,Male,17,High School,6.3,74.5,63.5,No,No,No,Yes,Good,15,0,62.1,Pass,Satisfactory
+STU_2179,Male,16,Some College,11.2,71.6,51.5,Yes,Yes,Yes,Yes,Excellent,11,2,43.9,Fail,At Risk
+STU_2180,Male,15,None,12.8,82.1,68.5,No,Yes,No,Yes,Good,8,1,60.1,Pass,Satisfactory
+STU_2181,Female,18,None,9.1,64.6,69.4,Yes,Yes,No,Yes,Good,13,0,69.2,Pass,Satisfactory
+STU_2182,Male,20,Some College,5.3,76.0,63.8,No,Yes,Yes,No,Good,9,0,62.9,Pass,Satisfactory
+STU_2183,Male,18,Some College,10.1,86.5,82.8,No,Yes,No,Yes,Good,6,0,81.2,Pass,Good
+STU_2184,Female,18,Bachelor,6.8,72.7,82.6,No,Yes,No,Yes,Good,11,0,76.4,Pass,Good
+STU_2185,Male,16,Some College,23.8,90.6,90.0,Yes,Yes,No,Yes,Fair,4,0,86.0,Pass,Excellent
+STU_2186,Male,20,Master/Doctorate,12.4,90.8,89.4,Yes,Yes,No,Yes,Excellent,4,0,86.5,Pass,Excellent
+STU_2187,Female,16,None,12.1,78.0,79.0,Yes,Yes,Yes,No,Good,9,0,78.3,Pass,Good
+STU_2188,Female,19,High School,14.4,88.3,72.8,No,Yes,No,Yes,Excellent,4,0,72.3,Pass,Good
+STU_2189,Male,21,None,2.0,69.9,44.9,Yes,Yes,No,No,Fair,11,2,35.7,Fail,At Risk
+STU_2190,Female,18,High School,7.5,61.0,66.0,No,Yes,No,Yes,Good,15,1,52.0,Fail,At Risk
+STU_2191,Male,20,Some College,14.0,96.5,86.6,Yes,Yes,Yes,Yes,Excellent,4,0,86.0,Pass,Excellent
+STU_2192,Female,17,Some College,5.7,62.9,58.8,No,Yes,No,Yes,Good,15,2,46.1,Fail,At Risk
+STU_2193,Male,16,None,2.9,72.6,54.3,Yes,No,No,Yes,Excellent,13,1,41.2,Fail,At Risk
+STU_2194,Female,17,Master/Doctorate,8.6,75.0,74.0,Yes,Yes,No,Yes,Excellent,9,0,76.4,Pass,Good
+STU_2195,Male,17,Bachelor,4.6,89.6,76.1,Yes,No,Yes,Yes,Good,5,0,72.2,Pass,Good
+STU_2196,Male,15,High School,5.0,87.1,67.9,Yes,Yes,No,Yes,Good,6,0,65.9,Pass,Satisfactory
+STU_2197,Male,17,None,7.2,92.5,71.6,Yes,Yes,No,No,Fair,6,0,67.3,Pass,Satisfactory
+STU_2198,Male,20,High School,3.7,93.1,70.2,No,No,No,Yes,Good,3,0,72.6,Pass,Good
+STU_2199,Female,16,High School,7.0,81.1,67.2,Yes,Yes,No,Yes,Fair,9,1,57.5,Fail,Satisfactory
+STU_2200,Male,18,High School,9.2,79.3,66.5,Yes,Yes,No,Yes,Good,9,0,63.1,Pass,Satisfactory
+STU_2201,Female,19,Some College,21.0,70.0,82.5,No,Yes,No,Yes,Good,11,0,76.9,Pass,Good
+STU_2202,Female,19,High School,6.0,80.8,59.1,Yes,Yes,No,No,Good,9,1,47.9,Fail,At Risk
+STU_2203,Female,20,High School,7.3,91.9,68.6,No,No,No,Yes,Fair,3,0,71.4,Pass,Good
+STU_2204,Female,17,Master/Doctorate,10.9,88.7,87.3,No,Yes,No,Yes,Excellent,7,0,85.4,Pass,Excellent
+STU_2205,Male,20,Bachelor,6.5,96.0,81.7,Yes,Yes,Yes,No,Poor,3,0,83.6,Pass,Good
+STU_2206,Male,18,Master/Doctorate,5.5,64.6,62.4,Yes,Yes,No,Yes,Poor,12,1,59.7,Fail,Satisfactory
+STU_2207,Female,16,High School,14.1,63.6,64.3,Yes,Yes,No,Yes,Fair,15,1,58.9,Fail,Satisfactory
+STU_2208,Female,17,High School,17.4,71.7,76.1,No,Yes,No,Yes,Excellent,13,0,72.3,Pass,Good
+STU_2209,Male,18,Some College,6.5,77.3,69.7,No,Yes,No,Yes,Excellent,9,1,64.0,Pass,Satisfactory
+STU_2210,Female,16,None,5.4,85.9,69.8,No,Yes,No,No,Good,6,0,64.9,Pass,Satisfactory
+STU_2211,Female,17,None,4.9,90.6,77.8,No,Yes,No,No,Excellent,3,0,76.7,Pass,Good
+STU_2212,Female,17,Bachelor,11.1,98.5,65.0,Yes,No,Yes,No,Fair,3,1,69.9,Pass,Satisfactory
+STU_2213,Male,16,Some College,15.2,76.0,74.2,No,Yes,No,Yes,Excellent,10,0,73.6,Pass,Good
+STU_2214,Male,17,Some College,9.9,66.9,54.7,No,Yes,Yes,Yes,Fair,14,1,56.3,Fail,Satisfactory
+STU_2215,Female,18,Some College,11.4,78.7,75.3,No,Yes,Yes,No,Fair,8,0,83.4,Pass,Good
+STU_2216,Female,17,Some College,13.5,94.5,81.3,No,Yes,No,Yes,Fair,2,0,79.8,Pass,Good
+STU_2217,Male,15,None,17.6,84.8,82.4,No,Yes,No,Yes,Good,5,1,73.5,Pass,Good
+STU_2218,Male,15,High School,10.0,80.0,69.1,Yes,No,No,Yes,Excellent,9,0,67.1,Pass,Satisfactory
+STU_2219,Female,17,High School,6.3,71.9,68.5,Yes,Yes,Yes,Yes,Good,11,0,63.4,Pass,Satisfactory
+STU_2220,Male,19,High School,11.8,86.2,74.6,Yes,No,Yes,Yes,Excellent,6,0,78.6,Pass,Good
+STU_2221,Female,16,Master/Doctorate,14.3,87.8,91.5,Yes,Yes,No,No,Good,5,0,90.9,Pass,Excellent
+STU_2222,Female,17,Some College,6.9,84.1,70.7,No,Yes,No,No,Fair,7,1,62.2,Pass,Satisfactory
+STU_2223,Male,16,Bachelor,2.0,89.0,67.1,Yes,Yes,Yes,Yes,Good,9,0,70.5,Pass,Good
+STU_2224,Female,16,High School,6.2,86.5,71.7,No,Yes,No,Yes,Good,8,0,74.8,Pass,Good
+STU_2225,Male,18,High School,3.7,70.2,65.1,Yes,Yes,No,Yes,Excellent,13,0,56.6,Fail,Satisfactory
+STU_2226,Female,18,High School,1.3,81.5,64.0,Yes,No,No,No,Good,7,0,61.9,Pass,Satisfactory
+STU_2227,Female,15,High School,6.4,64.1,60.8,No,Yes,No,Yes,Good,14,1,45.7,Fail,At Risk
+STU_2228,Male,17,High School,7.6,68.1,46.6,No,No,No,No,Fair,12,2,40.4,Fail,At Risk
+STU_2229,Female,15,Bachelor,10.4,82.0,75.2,Yes,Yes,No,Yes,Good,7,0,76.0,Pass,Good
+STU_2230,Male,17,Bachelor,11.3,94.5,83.8,Yes,Yes,No,Yes,Excellent,3,0,83.8,Pass,Good
+STU_2231,Female,17,Some College,6.6,97.6,80.3,Yes,Yes,Yes,Yes,Poor,2,0,81.9,Pass,Good
+STU_2232,Female,16,Some College,10.7,73.7,63.5,Yes,Yes,No,No,Excellent,9,0,62.1,Pass,Satisfactory
+STU_2233,Female,16,Master/Doctorate,10.3,81.1,74.4,Yes,No,No,Yes,Good,10,0,78.5,Pass,Good
+STU_2234,Male,17,None,10.2,94.0,80.9,Yes,Yes,No,Yes,Fair,3,0,77.1,Pass,Good
+STU_2235,Female,19,High School,5.1,96.3,78.2,No,Yes,Yes,Yes,Excellent,2,0,74.2,Pass,Good
+STU_2236,Male,21,High School,11.8,86.7,74.7,No,Yes,Yes,No,Good,6,1,72.7,Pass,Good
+STU_2237,Female,15,Bachelor,8.9,95.1,90.6,No,Yes,Yes,No,Good,2,0,93.0,Pass,Excellent
+STU_2238,Male,18,Master/Doctorate,7.7,62.3,62.5,No,Yes,No,Yes,Fair,14,2,55.3,Fail,Satisfactory
+STU_2239,Female,17,High School,5.4,79.0,65.1,Yes,Yes,No,No,Fair,7,1,57.8,Fail,Satisfactory
+STU_2240,Male,17,Bachelor,6.5,58.9,52.6,No,Yes,Yes,Yes,Excellent,14,2,52.8,Fail,At Risk
+STU_2241,Male,18,Bachelor,12.8,90.9,85.2,Yes,Yes,No,Yes,Good,3,0,85.2,Pass,Excellent
+STU_2242,Male,19,High School,10.7,93.6,72.0,No,Yes,No,Yes,Excellent,4,0,68.3,Pass,Satisfactory
+STU_2243,Male,19,High School,5.7,93.2,77.1,Yes,Yes,No,Yes,Fair,3,0,76.6,Pass,Good
+STU_2244,Male,17,Some College,8.6,77.3,69.6,Yes,Yes,No,No,Fair,10,0,67.3,Pass,Satisfactory
+STU_2245,Male,17,Master/Doctorate,10.5,93.5,87.6,No,Yes,No,No,Poor,4,0,86.7,Pass,Excellent
+STU_2246,Female,18,High School,5.9,75.0,58.8,No,Yes,No,Yes,Good,9,0,61.1,Pass,Satisfactory
+STU_2247,Female,16,Bachelor,11.7,80.2,69.1,No,Yes,No,Yes,Excellent,8,1,66.5,Pass,Satisfactory
+STU_2248,Male,17,High School,2.5,85.9,67.3,No,Yes,Yes,No,Good,5,1,62.4,Pass,Satisfactory
+STU_2249,Male,17,Bachelor,11.7,81.7,82.0,Yes,Yes,Yes,No,Good,8,0,78.0,Pass,Good
+STU_2250,Male,17,Some College,11.3,64.6,66.1,Yes,Yes,Yes,Yes,Excellent,14,1,60.3,Pass,Satisfactory
+STU_2251,Female,16,Some College,9.3,72.8,74.0,Yes,Yes,No,No,Excellent,13,1,66.3,Pass,Satisfactory
+STU_2252,Female,16,Bachelor,7.1,65.5,58.0,No,Yes,Yes,Yes,Poor,15,1,53.6,Fail,At Risk
+STU_2253,Female,19,Bachelor,4.7,80.5,82.8,No,Yes,Yes,Yes,Excellent,7,0,73.6,Pass,Good
+STU_2254,Male,16,Bachelor,8.2,84.9,72.2,Yes,Yes,No,No,Good,6,0,74.8,Pass,Good
+STU_2255,Female,17,None,10.1,56.3,52.5,No,Yes,Yes,Yes,Fair,16,2,46.8,Fail,At Risk
+STU_2256,Female,16,Bachelor,11.9,72.0,72.8,No,Yes,Yes,Yes,Fair,12,0,75.6,Pass,Good
+STU_2257,Female,15,High School,5.3,77.9,71.0,Yes,Yes,Yes,Yes,Good,11,0,64.9,Pass,Satisfactory
+STU_2258,Female,15,Some College,6.4,77.9,62.9,No,Yes,No,No,Good,11,0,62.0,Pass,Satisfactory
+STU_2259,Male,16,Some College,6.5,77.5,54.5,No,Yes,Yes,No,Fair,10,1,56.1,Fail,Satisfactory
+STU_2260,Female,18,Some College,3.2,92.5,70.3,No,Yes,No,Yes,Fair,3,1,68.0,Pass,Satisfactory
+STU_2261,Male,16,Some College,14.7,89.8,82.0,Yes,Yes,No,Yes,Excellent,5,0,84.5,Pass,Good
+STU_2262,Female,19,Master/Doctorate,22.3,82.6,77.0,Yes,Yes,No,Yes,Excellent,8,1,74.9,Pass,Good
+STU_2263,Female,17,High School,15.5,93.2,86.1,Yes,Yes,No,Yes,Excellent,2,0,91.4,Pass,Excellent
+STU_2264,Female,17,Bachelor,4.9,59.7,61.9,Yes,Yes,No,Yes,Fair,18,0,52.8,Fail,At Risk
+STU_2265,Female,17,High School,18.8,85.8,71.2,No,Yes,Yes,No,Fair,6,1,68.8,Pass,Satisfactory
+STU_2266,Female,17,High School,7.2,72.2,71.6,Yes,Yes,Yes,Yes,Fair,12,0,58.7,Fail,Satisfactory
+STU_2267,Female,18,High School,11.8,77.1,66.9,No,Yes,Yes,Yes,Fair,10,0,71.0,Pass,Good
+STU_2268,Male,16,Master/Doctorate,11.4,94.0,82.5,Yes,No,Yes,Yes,Good,5,0,90.7,Pass,Excellent
+STU_2269,Female,17,Bachelor,1.5,93.1,80.5,Yes,Yes,Yes,Yes,Good,3,0,77.0,Pass,Good
+STU_2270,Male,19,Master/Doctorate,8.4,77.8,80.4,Yes,Yes,Yes,No,Good,10,1,69.6,Pass,Satisfactory
+STU_2271,Male,19,Master/Doctorate,4.7,85.5,87.7,No,Yes,No,Yes,Good,8,0,84.3,Pass,Good
+STU_2272,Male,19,High School,2.2,56.6,42.3,No,No,No,Yes,Fair,17,1,32.2,Fail,At Risk
+STU_2273,Female,17,High School,9.0,73.0,73.8,Yes,Yes,No,Yes,Good,10,1,67.1,Pass,Satisfactory
+STU_2274,Female,18,Bachelor,10.9,88.4,77.7,No,Yes,No,Yes,Good,4,0,75.9,Pass,Good
+STU_2275,Female,17,Some College,5.8,78.0,77.8,Yes,Yes,Yes,Yes,Good,10,0,72.5,Pass,Good
+STU_2276,Female,17,Some College,8.7,81.0,77.5,Yes,Yes,Yes,Yes,Fair,7,1,73.9,Pass,Good
+STU_2277,Male,16,High School,15.1,84.6,66.3,Yes,No,No,Yes,Good,8,0,70.8,Pass,Good
+STU_2278,Female,17,Some College,7.2,81.6,81.5,Yes,Yes,Yes,Yes,Fair,6,0,79.2,Pass,Good
+STU_2279,Female,16,Some College,3.6,71.0,63.0,No,Yes,Yes,Yes,Fair,13,0,65.9,Pass,Satisfactory
+STU_2280,Male,16,High School,12.4,65.2,56.3,Yes,No,No,Yes,Excellent,12,2,55.4,Fail,Satisfactory
+STU_2281,Male,18,Some College,6.6,74.3,71.8,Yes,Yes,No,No,Excellent,10,0,73.4,Pass,Good
+STU_2282,Male,16,Some College,5.5,92.2,69.8,Yes,Yes,No,Yes,Fair,4,0,69.9,Pass,Satisfactory
+STU_2283,Female,15,Some College,6.9,67.3,60.4,No,Yes,Yes,Yes,Poor,11,1,57.7,Fail,Satisfactory
+STU_2284,Female,15,High School,6.8,75.8,72.7,Yes,Yes,No,Yes,Good,9,0,72.2,Pass,Good
+STU_2285,Female,19,Bachelor,2.7,88.1,73.2,No,Yes,No,Yes,Fair,5,0,69.2,Pass,Satisfactory
+STU_2286,Female,17,None,9.5,73.2,65.5,Yes,Yes,No,No,Good,11,0,60.9,Pass,Satisfactory
+STU_2287,Female,17,High School,9.4,72.1,68.7,Yes,Yes,No,Yes,Poor,11,0,65.5,Pass,Satisfactory
+STU_2288,Female,18,Bachelor,7.0,86.3,74.5,No,Yes,No,No,Fair,7,0,73.4,Pass,Good
+STU_2289,Female,18,Some College,9.0,66.5,56.9,Yes,Yes,Yes,Yes,Excellent,14,2,50.4,Fail,At Risk
+STU_2290,Female,16,High School,11.3,87.5,74.5,No,Yes,No,Yes,Excellent,6,0,71.1,Pass,Good
+STU_2291,Female,17,Bachelor,9.3,89.3,65.4,Yes,No,No,No,Fair,6,0,72.3,Pass,Good
+STU_2292,Male,18,Some College,5.4,76.1,59.1,No,Yes,No,Yes,Good,11,2,49.9,Fail,At Risk
+STU_2293,Male,17,Bachelor,4.7,72.0,67.5,Yes,Yes,No,Yes,Fair,11,0,64.7,Pass,Satisfactory
+STU_2294,Male,16,Bachelor,20.2,90.7,82.8,No,No,No,Yes,Poor,3,1,83.9,Pass,Good
+STU_2295,Female,18,Some College,9.4,87.4,78.4,Yes,Yes,No,No,Excellent,5,0,79.2,Pass,Good
+STU_2296,Female,17,Some College,7.4,79.4,75.2,Yes,Yes,No,Yes,Good,7,0,73.5,Pass,Good
+STU_2297,Female,16,High School,10.6,96.0,73.8,Yes,Yes,No,No,Good,3,0,74.7,Pass,Good
+STU_2298,Male,17,High School,5.8,70.8,70.5,Yes,Yes,No,Yes,Excellent,13,0,62.5,Pass,Satisfactory
+STU_2299,Male,15,Some College,12.5,82.3,72.1,Yes,Yes,Yes,No,Excellent,8,1,70.8,Pass,Good
+STU_2300,Female,16,Some College,6.6,80.2,65.9,Yes,No,Yes,Yes,Excellent,9,2,56.1,Fail,Satisfactory
+STU_2301,Male,18,Some College,2.3,68.4,44.0,No,Yes,No,No,Poor,12,3,31.8,Fail,At Risk
+STU_2302,Female,15,High School,7.7,92.8,74.3,No,Yes,No,Yes,Fair,6,0,74.7,Pass,Good
+STU_2303,Male,17,None,4.4,88.4,66.3,No,Yes,No,No,Good,10,0,63.8,Pass,Satisfactory
+STU_2304,Male,17,Some College,7.2,92.4,85.4,No,Yes,No,Yes,Good,8,0,77.2,Pass,Good
+STU_2305,Male,15,High School,6.7,95.0,75.8,Yes,Yes,Yes,Yes,Excellent,3,0,76.5,Pass,Good
+STU_2306,Male,20,Bachelor,9.9,80.2,74.2,Yes,Yes,Yes,Yes,Good,9,0,70.5,Pass,Good
+STU_2307,Male,16,None,16.8,94.8,85.8,Yes,Yes,No,Yes,Excellent,4,0,85.3,Pass,Excellent
+STU_2308,Female,16,Some College,11.8,83.4,74.9,No,Yes,Yes,Yes,Fair,11,1,70.9,Pass,Good
+STU_2309,Male,16,Master/Doctorate,9.4,77.2,73.9,Yes,Yes,Yes,No,Excellent,8,1,78.8,Pass,Good
+STU_2310,Female,16,High School,8.6,75.6,68.1,Yes,Yes,Yes,No,Good,12,1,65.1,Pass,Satisfactory
+STU_2311,Male,15,Some College,9.6,96.7,82.0,No,Yes,Yes,Yes,Excellent,2,0,81.0,Pass,Good
+STU_2312,Male,18,High School,15.8,78.7,80.0,Yes,Yes,No,No,Fair,7,0,75.2,Pass,Good
+STU_2313,Male,20,Some College,10.5,97.6,85.2,No,Yes,Yes,Yes,Good,2,0,88.8,Pass,Excellent
+STU_2314,Female,16,Some College,2.3,78.8,45.8,No,Yes,No,Yes,Excellent,10,2,44.5,Fail,At Risk
+STU_2315,Male,17,Some College,4.5,91.0,73.7,Yes,No,Yes,No,Good,6,0,79.8,Pass,Good
+STU_2316,Male,18,Some College,13.6,86.8,78.9,Yes,Yes,No,Yes,Good,5,1,79.3,Pass,Good
+STU_2317,Male,18,Master/Doctorate,9.3,95.2,81.7,Yes,No,Yes,No,Excellent,4,0,86.5,Pass,Excellent
+STU_2318,Female,17,High School,15.6,85.1,83.9,No,Yes,No,Yes,Good,8,0,86.0,Pass,Excellent
+STU_2319,Female,16,None,11.5,84.9,65.8,Yes,No,No,Yes,Good,7,1,63.0,Pass,Satisfactory
+STU_2320,Female,16,Bachelor,8.5,84.7,74.1,No,Yes,Yes,Yes,Poor,6,0,76.3,Pass,Good
+STU_2321,Female,18,Some College,8.4,80.8,67.0,No,No,No,Yes,Excellent,10,0,62.6,Pass,Satisfactory
+STU_2322,Male,18,Master/Doctorate,5.7,77.8,71.8,Yes,Yes,No,Yes,Good,10,0,74.7,Pass,Good
+STU_2323,Female,16,Some College,7.1,93.4,79.4,Yes,Yes,No,No,Good,2,0,78.8,Pass,Good
+STU_2324,Male,17,Bachelor,3.8,96.7,77.2,No,No,Yes,No,Poor,5,0,77.7,Pass,Good
+STU_2325,Female,19,Some College,5.0,94.2,71.6,Yes,Yes,No,No,Good,2,0,69.7,Pass,Satisfactory
+STU_2326,Female,18,Bachelor,4.3,90.0,67.7,No,Yes,No,Yes,Poor,7,1,68.4,Pass,Satisfactory
+STU_2327,Male,20,Master/Doctorate,7.9,94.8,86.7,Yes,Yes,Yes,Yes,Poor,3,0,90.9,Pass,Excellent
+STU_2328,Male,18,Some College,6.1,85.8,70.6,No,No,Yes,Yes,Good,6,0,69.0,Pass,Satisfactory
+STU_2329,Female,17,High School,2.9,94.5,63.9,No,Yes,No,Yes,Fair,5,1,62.1,Pass,Satisfactory
+STU_2330,Male,17,High School,10.6,83.8,73.1,No,Yes,No,Yes,Fair,8,1,70.4,Pass,Good
+STU_2331,Male,17,High School,6.4,89.8,83.7,Yes,Yes,No,No,Good,6,0,74.0,Pass,Good
+STU_2332,Female,15,High School,12.3,80.9,77.2,Yes,Yes,No,Yes,Poor,7,0,77.1,Pass,Good
+STU_2333,Male,17,High School,10.3,90.3,76.8,No,Yes,No,Yes,Good,5,0,77.2,Pass,Good
+STU_2334,Male,18,Some College,21.5,78.1,91.3,Yes,Yes,No,Yes,Fair,8,0,91.3,Pass,Excellent
+STU_2335,Male,16,Some College,7.9,89.1,76.3,Yes,Yes,Yes,Yes,Good,6,0,83.4,Pass,Good
+STU_2336,Female,18,Some College,5.8,90.1,73.3,No,No,No,Yes,Good,5,0,81.7,Pass,Good
+STU_2337,Male,17,Some College,5.0,71.3,67.2,Yes,Yes,No,No,Good,12,0,66.7,Pass,Satisfactory
+STU_2338,Female,19,High School,11.2,90.7,96.1,Yes,Yes,Yes,Yes,Fair,3,0,92.5,Pass,Excellent
+STU_2339,Female,15,High School,11.8,85.8,81.5,Yes,Yes,No,No,Fair,7,0,80.4,Pass,Good
+STU_2340,Female,16,High School,8.0,96.1,70.3,No,Yes,No,Yes,Poor,3,0,73.3,Pass,Good
+STU_2341,Female,17,Some College,9.2,78.7,75.5,No,Yes,No,Yes,Good,9,0,79.9,Pass,Good
+STU_2342,Male,16,High School,13.8,77.3,71.9,Yes,Yes,No,Yes,Excellent,10,1,67.5,Pass,Satisfactory
+STU_2343,Male,18,High School,11.5,88.9,69.8,Yes,Yes,No,No,Fair,4,0,70.6,Pass,Good
+STU_2344,Male,18,Some College,9.4,93.1,83.2,Yes,Yes,Yes,No,Fair,2,0,85.9,Pass,Excellent
+STU_2345,Female,16,Bachelor,3.9,89.0,73.3,No,Yes,No,Yes,Fair,5,0,78.8,Pass,Good
+STU_2346,Female,17,None,5.1,57.6,63.2,Yes,Yes,No,Yes,Good,17,0,51.1,Fail,At Risk
+STU_2347,Female,17,Some College,6.6,83.3,68.2,No,Yes,No,Yes,Good,7,0,65.5,Pass,Satisfactory
+STU_2348,Male,17,Bachelor,6.8,92.2,84.8,Yes,Yes,No,Yes,Good,3,0,79.9,Pass,Good
+STU_2349,Female,19,Bachelor,5.4,95.1,70.0,No,Yes,No,No,Excellent,3,0,68.5,Pass,Satisfactory
+STU_2350,Male,18,Master/Doctorate,5.0,94.0,78.2,Yes,Yes,Yes,Yes,Good,4,1,73.4,Pass,Good
+STU_2351,Male,17,None,6.9,90.9,75.1,No,Yes,Yes,Yes,Fair,4,0,77.4,Pass,Good
+STU_2352,Female,18,High School,8.7,92.2,83.3,Yes,Yes,No,Yes,Fair,4,0,80.5,Pass,Good
+STU_2353,Male,17,Master/Doctorate,10.4,87.1,85.0,Yes,Yes,Yes,Yes,Good,6,0,81.6,Pass,Good
+STU_2354,Female,19,Some College,2.7,81.0,73.2,No,Yes,Yes,Yes,Good,9,0,72.3,Pass,Good
+STU_2355,Male,17,Some College,6.1,83.4,73.7,No,Yes,No,Yes,Good,8,0,71.8,Pass,Good
+STU_2356,Male,18,Bachelor,3.0,76.7,61.6,Yes,Yes,No,No,Good,9,1,60.1,Pass,Satisfactory
+STU_2357,Female,18,Bachelor,8.0,44.1,44.9,No,No,Yes,No,Good,21,2,36.5,Fail,At Risk
+STU_2358,Female,16,Master/Doctorate,7.9,74.8,66.1,No,No,No,Yes,Excellent,10,0,62.9,Pass,Satisfactory
+STU_2359,Male,18,Master/Doctorate,7.5,60.5,55.3,No,Yes,No,No,Good,14,2,50.7,Fail,At Risk
+STU_2360,Male,16,Bachelor,6.9,83.8,70.2,Yes,Yes,No,Yes,Excellent,7,0,72.9,Pass,Good
+STU_2361,Female,16,High School,6.2,88.7,76.1,Yes,Yes,No,Yes,Fair,5,0,69.5,Pass,Satisfactory
+STU_2362,Male,16,Bachelor,7.6,83.9,73.5,Yes,Yes,No,Yes,Good,8,1,69.4,Pass,Satisfactory
+STU_2363,Male,20,None,10.5,85.0,79.8,Yes,Yes,Yes,Yes,Excellent,5,0,76.1,Pass,Good
+STU_2364,Male,18,High School,6.5,83.0,75.7,No,Yes,Yes,Yes,Good,8,0,76.4,Pass,Good
+STU_2365,Female,18,Master/Doctorate,4.0,89.2,85.1,Yes,Yes,No,Yes,Excellent,4,0,83.4,Pass,Good
+STU_2366,Male,18,High School,9.2,71.4,74.1,Yes,Yes,No,Yes,Good,10,0,72.9,Pass,Good
+STU_2367,Male,17,High School,11.8,79.4,72.2,No,Yes,No,No,Poor,9,0,68.0,Pass,Satisfactory
+STU_2368,Female,19,High School,3.9,93.6,73.9,No,Yes,No,Yes,Good,3,0,69.6,Pass,Satisfactory
+STU_2369,Female,17,Bachelor,3.6,87.3,74.9,Yes,Yes,No,Yes,Fair,5,0,71.5,Pass,Good
+STU_2370,Male,17,Some College,3.8,84.7,66.5,Yes,Yes,No,Yes,Excellent,6,1,60.1,Pass,Satisfactory
+STU_2371,Female,16,Bachelor,7.5,84.7,74.7,No,Yes,Yes,Yes,Excellent,8,0,76.7,Pass,Good
+STU_2372,Male,18,High School,17.5,64.1,66.6,Yes,Yes,Yes,Yes,Fair,13,1,61.3,Pass,Satisfactory
+STU_2373,Female,18,Bachelor,16.1,89.0,77.1,No,Yes,No,No,Fair,5,0,85.8,Pass,Excellent
+STU_2374,Female,17,Bachelor,9.2,76.7,81.9,No,Yes,Yes,Yes,Good,10,0,84.8,Pass,Good
+STU_2375,Male,15,High School,3.8,84.3,70.2,Yes,Yes,Yes,Yes,Good,9,0,71.8,Pass,Good
+STU_2376,Female,18,Some College,16.0,77.2,69.9,No,Yes,No,Yes,Poor,12,1,69.0,Pass,Satisfactory
+STU_2377,Female,15,High School,16.4,96.9,82.1,No,Yes,No,Yes,Good,1,0,84.3,Pass,Good
+STU_2378,Female,18,Master/Doctorate,4.9,67.0,65.1,Yes,No,No,Yes,Good,18,0,61.5,Pass,Satisfactory
+STU_2379,Male,20,Some College,8.0,79.2,77.9,No,Yes,Yes,Yes,Fair,10,0,72.9,Pass,Good
+STU_2380,Female,17,Master/Doctorate,11.8,92.7,87.5,No,Yes,Yes,Yes,Excellent,3,1,86.6,Pass,Excellent
+STU_2381,Female,16,High School,14.9,81.7,69.5,No,Yes,Yes,Yes,Excellent,6,1,71.3,Pass,Good
+STU_2382,Male,18,Bachelor,7.4,78.5,66.3,No,No,No,Yes,Excellent,8,2,56.6,Fail,Satisfactory
+STU_2383,Female,18,Bachelor,12.4,90.3,83.7,Yes,Yes,Yes,No,Excellent,3,0,91.5,Pass,Excellent
+STU_2384,Male,17,Bachelor,9.7,77.4,76.0,Yes,No,No,Yes,Fair,10,0,73.2,Pass,Good
+STU_2385,Female,20,Master/Doctorate,9.4,77.7,75.0,Yes,Yes,No,No,Fair,10,0,70.5,Pass,Good
+STU_2386,Male,15,High School,8.9,78.0,57.4,Yes,Yes,No,No,Fair,10,1,54.6,Fail,At Risk
+STU_2387,Female,17,High School,17.9,69.3,80.0,Yes,No,Yes,Yes,Excellent,12,0,76.7,Pass,Good
+STU_2388,Male,18,Bachelor,8.3,91.9,75.1,No,Yes,No,Yes,Excellent,4,0,73.6,Pass,Good
+STU_2389,Female,18,Bachelor,10.3,91.5,86.1,No,Yes,No,Yes,Good,4,0,89.5,Pass,Excellent
+STU_2390,Female,16,Some College,18.0,86.7,85.2,No,Yes,No,Yes,Excellent,8,0,84.9,Pass,Good
+STU_2391,Female,18,High School,10.7,70.9,66.8,No,Yes,No,Yes,Good,10,0,68.2,Pass,Satisfactory
+STU_2392,Female,17,Some College,6.0,93.1,69.6,No,Yes,Yes,No,Good,3,0,74.5,Pass,Good
+STU_2393,Female,17,High School,7.8,87.2,72.7,Yes,Yes,No,No,Good,6,0,72.6,Pass,Good
+STU_2394,Female,16,Some College,5.1,94.6,80.7,No,Yes,Yes,Yes,Poor,2,0,80.5,Pass,Good
+STU_2395,Male,18,Some College,7.7,79.0,79.6,Yes,Yes,Yes,Yes,Poor,10,0,74.9,Pass,Good
+STU_2396,Female,16,Bachelor,7.4,85.0,71.1,No,No,Yes,Yes,Good,6,1,74.1,Pass,Good
+STU_2397,Female,16,High School,6.5,91.9,74.1,No,Yes,No,No,Good,4,0,74.8,Pass,Good
+STU_2398,Male,16,Some College,8.9,96.5,86.6,Yes,Yes,No,Yes,Good,2,0,83.9,Pass,Good
+STU_2399,Male,18,High School,3.1,68.6,62.5,No,Yes,Yes,Yes,Good,13,0,62.3,Pass,Satisfactory
+STU_2400,Female,17,High School,20.0,99.0,88.4,Yes,Yes,No,No,Fair,2,0,95.5,Pass,Excellent
+STU_2401,Female,18,Bachelor,7.5,97.2,83.2,Yes,Yes,Yes,Yes,Good,1,0,86.3,Pass,Excellent
+STU_2402,Female,16,Master/Doctorate,8.0,86.9,65.3,No,No,No,No,Good,7,1,70.4,Pass,Good
+STU_2403,Male,17,High School,15.8,85.4,76.8,Yes,Yes,Yes,Yes,Good,5,0,78.6,Pass,Good
+STU_2404,Male,17,Bachelor,10.6,73.3,84.6,Yes,Yes,Yes,Yes,Excellent,9,0,78.6,Pass,Good
+STU_2405,Female,18,Master/Doctorate,6.4,87.3,74.7,No,Yes,No,No,Good,8,0,73.1,Pass,Good
+STU_2406,Male,19,Bachelor,6.9,69.8,62.0,No,Yes,Yes,Yes,Good,12,1,59.7,Fail,Satisfactory
+STU_2407,Male,15,High School,13.6,81.7,66.9,No,No,No,Yes,Excellent,7,0,74.1,Pass,Good
+STU_2408,Male,17,Master/Doctorate,14.5,86.2,99.5,No,Yes,Yes,Yes,Excellent,6,0,96.0,Pass,Excellent
+STU_2409,Male,15,High School,6.1,91.2,75.4,Yes,Yes,No,Yes,Excellent,3,0,74.7,Pass,Good
+STU_2410,Female,17,High School,15.6,83.3,84.5,Yes,Yes,Yes,Yes,Fair,6,0,87.9,Pass,Excellent
+STU_2411,Female,16,None,3.3,69.0,42.1,No,Yes,No,Yes,Poor,13,2,36.5,Fail,At Risk
+STU_2412,Female,16,Some College,16.7,97.3,73.4,No,Yes,No,Yes,Fair,4,0,77.9,Pass,Good
+STU_2413,Female,17,High School,9.7,87.6,76.0,Yes,Yes,Yes,Yes,Fair,5,0,72.7,Pass,Good
+STU_2414,Male,17,High School,15.5,81.2,63.9,No,Yes,No,No,Excellent,9,1,67.6,Pass,Satisfactory
+STU_2415,Male,16,High School,11.2,88.6,74.0,No,Yes,Yes,No,Good,5,0,73.0,Pass,Good
+STU_2416,Female,18,Bachelor,6.3,94.7,75.7,No,Yes,No,Yes,Fair,5,0,74.6,Pass,Good
+STU_2417,Female,17,Bachelor,7.7,87.5,81.0,No,No,Yes,Yes,Fair,5,0,81.2,Pass,Good
+STU_2418,Female,15,High School,6.4,75.3,60.7,Yes,No,No,Yes,Fair,11,1,59.4,Fail,Satisfactory
+STU_2419,Male,18,Bachelor,5.4,89.8,78.9,No,Yes,No,Yes,Good,7,0,79.3,Pass,Good
+STU_2420,Female,16,Bachelor,10.4,86.4,67.1,No,Yes,No,No,Good,8,1,66.8,Pass,Satisfactory
+STU_2421,Female,17,Bachelor,2.7,82.6,69.4,Yes,Yes,No,No,Excellent,6,0,71.5,Pass,Good
+STU_2422,Female,17,High School,7.4,94.9,68.7,No,Yes,No,Yes,Excellent,3,0,75.0,Pass,Good
+STU_2423,Female,16,Bachelor,8.5,90.1,78.9,Yes,Yes,No,Yes,Fair,3,1,73.6,Pass,Good
+STU_2424,Male,15,Master/Doctorate,2.8,83.6,65.5,Yes,Yes,No,Yes,Good,9,2,56.6,Fail,Satisfactory
+STU_2425,Male,17,Bachelor,9.6,68.3,74.1,No,No,No,Yes,Fair,13,0,72.3,Pass,Good
+STU_2426,Female,19,High School,11.2,84.7,68.0,Yes,No,Yes,Yes,Good,6,1,73.2,Pass,Good
+STU_2427,Male,17,Some College,10.3,92.9,77.8,Yes,Yes,No,No,Excellent,3,0,76.3,Pass,Good
+STU_2428,Male,17,Some College,10.2,73.3,64.9,No,Yes,No,No,Good,11,1,54.9,Fail,At Risk
+STU_2429,Male,17,Some College,8.6,77.4,69.8,Yes,Yes,No,Yes,Good,11,1,65.9,Pass,Satisfactory
+STU_2430,Female,16,High School,4.6,90.0,75.5,Yes,Yes,No,Yes,Good,4,0,76.6,Pass,Good
+STU_2431,Female,17,High School,17.3,94.4,81.0,Yes,Yes,Yes,No,Poor,2,0,86.4,Pass,Excellent
+STU_2432,Female,18,Bachelor,1.2,58.2,61.0,Yes,Yes,No,Yes,Poor,16,0,62.9,Pass,Satisfactory
+STU_2433,Male,16,Bachelor,7.3,62.3,60.1,No,No,Yes,Yes,Good,15,0,57.6,Fail,Satisfactory
+STU_2434,Female,16,High School,6.2,92.7,73.7,No,Yes,Yes,Yes,Good,6,0,71.6,Pass,Good
+STU_2435,Female,16,Master/Doctorate,8.5,70.1,61.8,No,Yes,Yes,No,Fair,13,1,58.7,Fail,Satisfactory
+STU_2436,Female,17,High School,5.2,88.1,78.8,No,Yes,No,Yes,Good,6,0,74.1,Pass,Good
+STU_2437,Male,20,Bachelor,13.9,68.4,80.5,Yes,Yes,Yes,Yes,Excellent,11,1,75.7,Pass,Good
+STU_2438,Female,15,Bachelor,3.2,91.5,78.8,No,Yes,Yes,No,Good,3,0,76.1,Pass,Good
+STU_2439,Male,17,Bachelor,5.8,90.6,73.0,No,No,No,No,Good,5,0,76.8,Pass,Good
+STU_2440,Male,16,Master/Doctorate,7.1,86.3,76.3,No,Yes,Yes,No,Good,5,0,79.4,Pass,Good
+STU_2441,Female,20,High School,10.4,86.2,79.8,No,Yes,Yes,Yes,Good,7,0,75.5,Pass,Good
+STU_2442,Male,16,Bachelor,10.4,77.0,73.4,No,Yes,Yes,Yes,Excellent,10,0,76.3,Pass,Good
+STU_2443,Female,17,High School,12.9,71.0,71.1,No,Yes,Yes,No,Excellent,10,0,69.7,Pass,Satisfactory
+STU_2444,Male,18,Bachelor,11.9,88.6,74.8,Yes,Yes,No,No,Good,5,0,77.5,Pass,Good
+STU_2445,Female,18,Bachelor,7.4,79.4,69.7,No,Yes,Yes,Yes,Good,8,0,74.2,Pass,Good
+STU_2446,Male,17,Bachelor,12.4,82.5,69.7,Yes,Yes,No,Yes,Fair,6,1,72.3,Pass,Good
+STU_2447,Male,16,High School,7.4,93.8,79.0,Yes,Yes,No,No,Fair,4,0,79.6,Pass,Good
+STU_2448,Male,17,Bachelor,3.1,73.4,63.7,Yes,Yes,Yes,No,Good,11,1,59.7,Fail,Satisfactory
+STU_2449,Male,16,High School,3.3,79.6,73.2,Yes,Yes,Yes,Yes,Excellent,8,0,66.3,Pass,Satisfactory
+STU_2450,Female,16,None,7.0,91.5,80.6,Yes,Yes,No,Yes,Good,5,0,74.5,Pass,Good
+STU_2451,Male,17,Bachelor,4.4,91.4,75.8,Yes,Yes,No,Yes,Fair,5,0,74.5,Pass,Good
+STU_2452,Male,16,Some College,7.7,89.6,81.4,No,Yes,Yes,Yes,Fair,4,0,85.9,Pass,Excellent
+STU_2453,Male,16,Bachelor,12.1,92.2,80.7,No,Yes,Yes,Yes,Good,4,0,82.5,Pass,Good
+STU_2454,Female,17,High School,6.6,82.8,65.3,No,Yes,No,Yes,Fair,9,0,64.7,Pass,Satisfactory
+STU_2455,Male,20,High School,2.4,89.9,76.3,Yes,Yes,Yes,Yes,Fair,6,0,69.3,Pass,Satisfactory
+STU_2456,Male,17,Bachelor,10.7,62.3,54.5,No,Yes,No,Yes,Good,14,1,53.8,Fail,At Risk
+STU_2457,Male,15,Some College,6.2,83.9,74.6,No,Yes,No,Yes,Poor,7,1,67.8,Pass,Satisfactory
+STU_2458,Female,15,High School,7.1,84.1,65.9,Yes,Yes,No,No,Good,8,0,64.8,Pass,Satisfactory
+STU_2459,Male,19,Bachelor,23.0,66.5,88.6,No,Yes,Yes,Yes,Excellent,15,0,90.3,Pass,Excellent
+STU_2460,Female,16,Some College,12.9,96.7,84.3,No,Yes,No,Yes,Fair,3,0,82.5,Pass,Good
+STU_2461,Male,15,Some College,14.5,88.9,80.5,Yes,Yes,Yes,No,Good,5,0,87.9,Pass,Excellent
+STU_2462,Female,17,Some College,6.7,98.6,73.9,No,Yes,No,Yes,Good,0,1,69.7,Pass,Satisfactory
+STU_2463,Male,17,Bachelor,20.3,85.6,88.3,No,Yes,No,No,Good,7,0,93.7,Pass,Excellent
+STU_2464,Male,17,Bachelor,4.9,94.3,82.3,Yes,Yes,No,No,Good,3,0,74.8,Pass,Good
+STU_2465,Female,16,Bachelor,3.1,90.7,67.8,Yes,No,No,Yes,Good,4,0,69.7,Pass,Satisfactory
+STU_2466,Male,15,High School,22.2,74.2,82.0,Yes,Yes,No,No,Excellent,10,0,83.3,Pass,Good
+STU_2467,Female,20,Bachelor,2.4,76.1,57.8,Yes,Yes,No,Yes,Excellent,9,1,53.1,Fail,At Risk
+STU_2468,Male,16,Bachelor,6.3,84.6,77.9,Yes,Yes,No,Yes,Good,6,0,76.2,Pass,Good
+STU_2469,Male,17,Bachelor,10.8,77.9,78.2,Yes,Yes,Yes,Yes,Fair,9,0,77.0,Pass,Good
+STU_2470,Male,18,High School,6.8,84.0,74.6,Yes,Yes,No,Yes,Poor,7,0,72.4,Pass,Good
+STU_2471,Male,17,Bachelor,5.6,93.0,68.8,No,Yes,No,No,Fair,5,0,71.5,Pass,Good
+STU_2472,Male,16,Bachelor,8.3,90.1,76.2,Yes,No,No,Yes,Good,4,0,83.9,Pass,Good
+STU_2473,Female,16,High School,8.0,88.4,77.8,Yes,No,Yes,Yes,Poor,6,0,72.5,Pass,Good
+STU_2474,Female,17,Some College,8.8,77.3,76.8,Yes,Yes,No,Yes,Good,9,0,73.5,Pass,Good
+STU_2475,Male,18,Master/Doctorate,15.2,88.8,93.8,Yes,Yes,No,Yes,Excellent,6,0,90.7,Pass,Excellent
+STU_2476,Male,19,None,11.2,74.7,73.5,Yes,Yes,No,Yes,Fair,12,1,64.9,Pass,Satisfactory
+STU_2477,Male,16,Master/Doctorate,7.3,88.3,79.8,Yes,Yes,No,Yes,Excellent,5,0,78.6,Pass,Good
+STU_2478,Male,16,Bachelor,9.4,74.2,80.3,Yes,Yes,Yes,No,Good,10,0,76.8,Pass,Good
+STU_2479,Female,19,Some College,1.0,92.3,69.3,No,Yes,Yes,Yes,Fair,5,0,68.0,Pass,Satisfactory
+STU_2480,Male,18,High School,7.5,88.1,72.4,No,Yes,Yes,No,Good,5,0,75.7,Pass,Good
+STU_2481,Female,19,High School,9.8,70.6,81.1,Yes,Yes,Yes,Yes,Good,11,0,74.5,Pass,Good
+STU_2482,Male,16,Master/Doctorate,5.3,68.4,65.3,Yes,Yes,No,No,Good,12,1,59.4,Fail,Satisfactory
+STU_2483,Female,17,High School,6.4,96.4,74.1,No,No,No,No,Fair,3,0,74.2,Pass,Good
+STU_2484,Female,18,Bachelor,12.9,91.6,80.1,No,Yes,No,Yes,Good,4,0,79.6,Pass,Good
+STU_2485,Female,17,High School,4.3,93.1,77.1,Yes,Yes,No,Yes,Excellent,3,0,75.9,Pass,Good
+STU_2486,Female,17,High School,13.1,89.7,83.5,No,Yes,Yes,No,Good,6,0,80.4,Pass,Good
+STU_2487,Male,15,None,18.0,79.4,78.8,No,Yes,Yes,Yes,Fair,9,0,80.8,Pass,Good
+STU_2488,Female,17,Some College,6.5,81.0,73.9,Yes,Yes,Yes,No,Good,9,0,73.8,Pass,Good
+STU_2489,Female,16,Master/Doctorate,4.4,86.6,81.5,No,Yes,Yes,Yes,Good,5,0,80.1,Pass,Good
+STU_2490,Female,17,High School,5.4,77.9,60.5,No,Yes,No,Yes,Good,10,1,51.9,Fail,At Risk
+STU_2491,Female,19,High School,17.3,94.1,84.4,No,Yes,Yes,Yes,Good,4,0,87.6,Pass,Excellent
+STU_2492,Female,17,High School,4.2,77.9,52.3,Yes,Yes,Yes,No,Good,8,2,45.2,Fail,At Risk
+STU_2493,Female,18,Some College,4.4,88.3,78.6,Yes,Yes,Yes,Yes,Excellent,6,0,76.2,Pass,Good
+STU_2494,Male,16,Some College,2.4,75.9,68.4,Yes,Yes,No,No,Good,10,0,66.0,Pass,Satisfactory
+STU_2495,Male,17,Bachelor,6.3,78.1,66.2,Yes,Yes,No,No,Good,13,0,64.6,Pass,Satisfactory
+STU_2496,Male,20,Some College,8.9,81.5,76.3,No,Yes,No,Yes,Fair,7,0,77.9,Pass,Good
+STU_2497,Female,16,Some College,16.1,97.4,91.4,No,Yes,No,Yes,Excellent,3,0,92.1,Pass,Excellent
+STU_2498,Female,15,High School,6.6,74.8,64.7,No,Yes,No,No,Excellent,12,0,64.0,Pass,Satisfactory
+STU_2499,Male,17,Master/Doctorate,10.6,96.5,89.2,No,No,Yes,Yes,Fair,1,0,93.9,Pass,Excellent
+STU_2500,Female,15,High School,5.5,62.5,56.9,Yes,Yes,No,No,Good,14,1,54.0,Fail,At Risk
+STU_2501,Female,18,None,3.9,87.8,67.5,No,Yes,No,Yes,Fair,5,0,60.7,Pass,Satisfactory
+STU_2502,Female,19,Bachelor,15.0,71.8,77.9,No,Yes,No,Yes,Excellent,12,0,74.3,Pass,Good
+STU_2503,Female,17,Some College,8.8,51.1,48.9,Yes,Yes,No,No,Good,20,2,39.7,Fail,At Risk
+STU_2504,Female,16,Some College,11.1,55.1,63.9,No,Yes,Yes,Yes,Fair,18,1,60.4,Pass,Satisfactory
+STU_2505,Female,17,Some College,8.7,63.9,52.5,Yes,No,No,Yes,Excellent,13,1,50.4,Fail,At Risk
+STU_2506,Male,18,Bachelor,3.0,81.6,67.1,No,Yes,Yes,Yes,Fair,7,0,68.0,Pass,Satisfactory
+STU_2507,Male,15,High School,12.9,80.6,67.7,Yes,Yes,No,Yes,Excellent,8,1,68.3,Pass,Satisfactory
+STU_2508,Male,17,Bachelor,5.3,69.6,56.8,Yes,Yes,Yes,Yes,Good,12,2,50.4,Fail,At Risk
+STU_2509,Male,17,Some College,10.3,77.0,72.0,No,Yes,Yes,No,Good,9,0,71.4,Pass,Good
+STU_2510,Male,17,Some College,4.0,78.2,59.0,No,No,No,Yes,Fair,9,1,56.8,Fail,Satisfactory
+STU_2511,Male,16,Some College,4.2,91.5,69.3,Yes,Yes,No,Yes,Fair,4,0,77.0,Pass,Good
+STU_2512,Male,18,High School,5.5,93.0,82.9,Yes,Yes,Yes,Yes,Good,3,0,80.5,Pass,Good
+STU_2513,Female,15,Bachelor,4.7,81.3,72.3,Yes,Yes,No,Yes,Good,7,0,68.0,Pass,Satisfactory
+STU_2514,Female,16,Some College,3.8,88.6,64.0,No,Yes,No,Yes,Fair,6,0,62.8,Pass,Satisfactory
+STU_2515,Female,18,High School,21.9,69.1,73.8,No,Yes,Yes,No,Fair,12,0,75.5,Pass,Good
+STU_2516,Male,18,Some College,8.1,67.7,51.5,No,Yes,No,No,Poor,12,2,50.2,Fail,At Risk
+STU_2517,Male,15,Master/Doctorate,2.8,64.2,65.5,Yes,Yes,No,Yes,Good,15,2,51.8,Fail,At Risk
+STU_2518,Female,16,Some College,3.9,74.1,65.2,No,Yes,No,Yes,Good,11,1,58.8,Fail,Satisfactory
+STU_2519,Male,16,Master/Doctorate,4.9,98.0,80.2,Yes,Yes,No,Yes,Poor,2,0,80.2,Pass,Good
+STU_2520,Female,16,High School,6.0,70.3,67.2,No,Yes,Yes,Yes,Good,10,1,56.9,Fail,Satisfactory
+STU_2521,Male,16,None,11.6,83.4,74.1,Yes,Yes,No,Yes,Fair,8,0,70.5,Pass,Good
+STU_2522,Female,15,High School,9.0,83.1,73.9,Yes,Yes,No,Yes,Excellent,6,1,60.1,Pass,Satisfactory
+STU_2523,Female,17,Some College,8.0,98.3,92.2,No,Yes,No,Yes,Excellent,3,0,88.1,Pass,Excellent
+STU_2524,Female,18,High School,3.2,96.8,64.7,Yes,No,Yes,Yes,Good,1,1,66.5,Pass,Satisfactory
+STU_2525,Female,17,None,10.5,95.6,75.4,No,Yes,No,Yes,Excellent,3,0,72.6,Pass,Good
+STU_2526,Female,17,Master/Doctorate,3.0,73.7,64.1,No,No,No,No,Excellent,11,0,60.8,Pass,Satisfactory
+STU_2527,Female,15,Bachelor,7.1,84.0,70.7,Yes,No,Yes,Yes,Excellent,8,1,64.5,Pass,Satisfactory
+STU_2528,Male,19,Bachelor,9.3,63.4,63.2,Yes,Yes,No,Yes,Good,14,2,46.9,Fail,At Risk
+STU_2529,Male,18,High School,9.5,73.4,66.7,No,Yes,No,Yes,Good,9,0,60.1,Pass,Satisfactory
+STU_2530,Female,18,High School,8.6,79.1,80.5,No,Yes,Yes,Yes,Fair,8,0,79.0,Pass,Good
+STU_2531,Male,18,None,8.8,88.5,76.1,Yes,Yes,No,No,Good,4,0,72.4,Pass,Good
+STU_2532,Male,19,Bachelor,8.4,87.9,73.9,Yes,Yes,Yes,Yes,Good,9,1,72.6,Pass,Good
+STU_2533,Female,17,Master/Doctorate,3.5,93.9,75.8,No,Yes,No,Yes,Fair,2,0,82.8,Pass,Good
+STU_2534,Female,16,Some College,3.4,95.6,70.0,No,Yes,No,Yes,Fair,3,0,73.5,Pass,Good
+STU_2535,Female,17,High School,12.2,75.7,71.5,Yes,Yes,No,No,Good,10,0,71.3,Pass,Good
+STU_2536,Female,18,Some College,12.3,83.9,86.1,Yes,Yes,No,Yes,Fair,6,0,81.1,Pass,Good
+STU_2537,Male,18,High School,4.2,80.4,69.1,No,Yes,No,Yes,Good,9,0,69.8,Pass,Satisfactory
+STU_2538,Female,17,High School,8.7,82.4,71.4,No,Yes,Yes,Yes,Excellent,6,1,72.3,Pass,Good
+STU_2539,Male,15,Some College,9.7,80.4,77.1,No,Yes,No,Yes,Good,8,1,73.3,Pass,Good
+STU_2540,Male,17,Bachelor,8.0,83.1,80.9,No,Yes,Yes,Yes,Good,7,0,79.8,Pass,Good
+STU_2541,Female,19,High School,13.1,61.1,58.5,No,Yes,Yes,Yes,Good,17,2,48.8,Fail,At Risk
+STU_2542,Male,17,None,6.2,56.1,62.4,Yes,No,Yes,Yes,Good,16,0,61.4,Pass,Satisfactory
+STU_2543,Female,17,Master/Doctorate,6.5,90.0,73.6,No,Yes,No,No,Fair,6,0,77.3,Pass,Good
+STU_2544,Male,16,High School,13.2,68.2,66.4,Yes,Yes,Yes,Yes,Excellent,15,1,61.8,Pass,Satisfactory
+STU_2545,Female,17,None,3.6,80.4,71.5,No,Yes,Yes,Yes,Fair,9,0,66.2,Pass,Satisfactory
+STU_2546,Male,19,High School,12.0,92.7,85.1,Yes,Yes,Yes,Yes,Fair,5,0,80.8,Pass,Good
+STU_2547,Male,17,None,16.5,86.9,77.8,Yes,Yes,Yes,No,Excellent,7,0,82.0,Pass,Good
+STU_2548,Female,18,High School,10.4,67.5,53.2,No,No,No,Yes,Fair,12,2,47.7,Fail,At Risk
+STU_2549,Male,17,Bachelor,7.6,72.7,67.8,No,Yes,No,No,Good,10,1,63.9,Pass,Satisfactory
+STU_2550,Male,17,High School,3.7,48.2,42.2,Yes,No,Yes,Yes,Poor,19,2,36.5,Fail,At Risk
+STU_2551,Male,16,Some College,8.7,96.8,78.5,No,Yes,No,Yes,Fair,1,1,77.9,Pass,Good
+STU_2552,Male,18,Bachelor,5.2,79.9,59.7,Yes,Yes,No,Yes,Fair,7,2,51.5,Fail,At Risk
+STU_2553,Male,17,Some College,6.7,93.3,77.0,Yes,Yes,No,Yes,Poor,4,0,76.0,Pass,Good
+STU_2554,Female,17,Bachelor,9.6,77.7,66.4,No,No,No,No,Good,10,0,68.6,Pass,Satisfactory
+STU_2555,Female,17,Bachelor,4.8,96.6,80.6,Yes,Yes,No,No,Excellent,2,0,81.0,Pass,Good
+STU_2556,Male,19,None,4.0,93.6,70.3,No,Yes,Yes,Yes,Good,2,0,65.7,Pass,Satisfactory
+STU_2557,Female,15,Bachelor,5.8,82.9,67.4,Yes,Yes,No,Yes,Excellent,7,0,64.5,Pass,Satisfactory
+STU_2558,Male,18,Some College,15.5,84.8,75.3,No,Yes,No,No,Fair,6,1,75.8,Pass,Good
+STU_2559,Male,16,Master/Doctorate,9.7,89.6,78.3,No,Yes,No,Yes,Good,4,0,81.9,Pass,Good
+STU_2560,Female,17,Some College,5.1,56.1,50.9,Yes,No,No,Yes,Fair,17,1,49.7,Fail,At Risk
+STU_2561,Female,15,Master/Doctorate,5.4,58.5,62.4,Yes,Yes,Yes,Yes,Good,17,1,51.9,Fail,At Risk
+STU_2562,Male,16,Bachelor,14.1,89.9,75.9,No,Yes,No,Yes,Good,8,0,81.2,Pass,Good
+STU_2563,Female,17,High School,3.4,83.7,60.5,No,Yes,No,Yes,Good,6,0,61.5,Pass,Satisfactory
+STU_2564,Male,15,Some College,15.4,60.0,73.2,Yes,Yes,Yes,Yes,Excellent,14,1,64.7,Pass,Satisfactory
+STU_2565,Female,17,Master/Doctorate,4.7,80.6,76.2,Yes,Yes,Yes,Yes,Good,10,0,69.2,Pass,Satisfactory
+STU_2566,Male,19,Bachelor,15.1,80.9,85.7,Yes,Yes,No,Yes,Good,7,0,87.1,Pass,Excellent
+STU_2567,Female,16,High School,12.2,84.8,82.4,Yes,Yes,No,Yes,Excellent,7,0,75.8,Pass,Good
+STU_2568,Male,18,Bachelor,4.3,71.4,73.6,Yes,Yes,No,Yes,Fair,10,0,64.0,Pass,Satisfactory
+STU_2569,Female,17,High School,11.2,71.0,63.7,Yes,No,No,No,Good,11,0,64.4,Pass,Satisfactory
+STU_2570,Male,17,None,2.9,97.9,60.1,No,No,No,Yes,Good,4,0,61.4,Pass,Satisfactory
+STU_2571,Female,16,Some College,13.4,95.4,79.0,No,Yes,Yes,Yes,Good,3,1,81.6,Pass,Good
+STU_2572,Male,16,High School,4.3,92.5,64.3,No,Yes,Yes,No,Fair,5,1,64.7,Pass,Satisfactory
+STU_2573,Male,16,Bachelor,13.4,91.1,80.0,No,No,Yes,No,Good,4,0,95.0,Pass,Excellent
+STU_2574,Female,15,High School,3.5,87.0,68.7,No,Yes,No,Yes,Good,5,0,68.8,Pass,Satisfactory
+STU_2575,Female,16,Bachelor,4.4,76.8,70.1,No,Yes,Yes,Yes,Good,10,0,71.2,Pass,Good
+STU_2576,Female,17,None,17.4,73.2,46.9,No,No,No,No,Fair,11,3,40.1,Fail,At Risk
+STU_2577,Male,19,High School,10.2,83.8,76.4,No,Yes,No,No,Excellent,6,0,79.2,Pass,Good
+STU_2578,Male,18,High School,4.7,89.5,72.7,No,Yes,Yes,No,Excellent,6,0,70.4,Pass,Good
+STU_2579,Male,17,High School,9.1,94.7,80.8,Yes,Yes,Yes,No,Good,5,0,77.8,Pass,Good
+STU_2580,Female,16,None,9.0,72.0,62.5,No,Yes,Yes,Yes,Good,12,0,61.2,Pass,Satisfactory
+STU_2581,Female,16,High School,6.9,54.4,57.7,No,Yes,No,Yes,Excellent,18,0,53.4,Fail,At Risk
+STU_2582,Male,16,Some College,9.0,60.1,46.7,No,Yes,Yes,Yes,Fair,16,2,41.6,Fail,At Risk
+STU_2583,Female,16,High School,14.2,67.0,74.0,No,Yes,Yes,Yes,Fair,12,1,65.8,Pass,Satisfactory
+STU_2584,Male,17,Some College,12.0,55.1,67.6,No,Yes,No,Yes,Good,21,1,54.7,Fail,At Risk
+STU_2585,Female,17,High School,10.5,93.6,74.0,No,Yes,No,Yes,Excellent,2,0,76.2,Pass,Good
+STU_2586,Male,17,Bachelor,4.6,90.0,82.1,Yes,Yes,Yes,Yes,Poor,4,0,82.7,Pass,Good
+STU_2587,Female,17,Master/Doctorate,3.5,72.7,66.1,No,Yes,No,No,Excellent,11,0,65.9,Pass,Satisfactory
+STU_2588,Female,18,Some College,7.6,97.3,77.3,Yes,Yes,Yes,Yes,Good,2,0,75.0,Pass,Good
+STU_2589,Male,18,High School,12.1,74.3,63.6,No,Yes,No,Yes,Good,9,1,58.0,Fail,Satisfactory
+STU_2590,Male,16,High School,2.1,95.2,70.5,No,Yes,No,Yes,Fair,3,1,68.0,Pass,Satisfactory
+STU_2591,Male,19,Master/Doctorate,6.0,59.0,63.6,Yes,Yes,Yes,Yes,Fair,18,1,56.3,Fail,Satisfactory
+STU_2592,Female,19,None,10.1,71.3,63.7,Yes,Yes,No,No,Excellent,11,0,61.8,Pass,Satisfactory
+STU_2593,Female,16,High School,15.2,93.2,84.5,No,Yes,No,Yes,Excellent,2,0,93.2,Pass,Excellent
+STU_2594,Male,17,High School,1.5,75.3,57.0,Yes,Yes,Yes,No,Good,12,1,45.0,Fail,At Risk
+STU_2595,Male,17,High School,7.6,78.2,74.2,Yes,Yes,Yes,Yes,Excellent,8,0,71.7,Pass,Good
+STU_2596,Female,19,High School,5.8,85.8,72.3,No,Yes,No,Yes,Excellent,9,0,70.9,Pass,Good
+STU_2597,Female,18,Bachelor,8.0,75.2,77.6,Yes,Yes,Yes,Yes,Good,9,0,72.7,Pass,Good
+STU_2598,Female,16,High School,10.5,91.6,75.1,Yes,No,Yes,Yes,Good,3,0,77.4,Pass,Good
+STU_2599,Male,17,Some College,2.7,89.8,76.4,No,Yes,No,No,Good,4,0,69.0,Pass,Satisfactory

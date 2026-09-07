@@ -1,0 +1,634 @@
+{
+  "trained_at": "2026-08-28 18:28:07",
+  "dataset_records": 1600,
+  "features_used": [
+    "age",
+    "study_time",
+    "attendance_rate",
+    "previous_grades",
+    "absences",
+    "failures",
+    "academic_risk_index",
+    "study_efficiency",
+    "socioeconomic_support_score",
+    "study_attendance_interaction",
+    "gender_Female",
+    "gender_Male",
+    "parental_education_Bachelor",
+    "parental_education_High School",
+    "parental_education_Master/Doctorate",
+    "parental_education_Some College",
+    "extracurricular_activities_No",
+    "extracurricular_activities_Yes",
+    "internet_access_No",
+    "internet_access_Yes",
+    "tutoring_No",
+    "tutoring_Yes",
+    "family_support_No",
+    "family_support_Yes",
+    "health_Excellent",
+    "health_Fair",
+    "health_Good",
+    "health_Poor",
+    "attendance_tier_Critical (<70%)",
+    "attendance_tier_Excellent (>95%)",
+    "attendance_tier_Good (85-95%)",
+    "attendance_tier_Moderate (70-85%)",
+    "previous_grade_tier_Average (55-70)",
+    "previous_grade_tier_High (70-85)",
+    "previous_grade_tier_Low (<55)",
+    "previous_grade_tier_Superior (>85)"
+  ],
+  "best_regression_model": "Lasso Regression",
+  "best_regression_metrics": {
+    "RMSE": 3.307,
+    "MAE": 2.667,
+    "R2_Score": 0.9216,
+    "MAPE_Percent": 3.97,
+    "CV_R2_Mean": 0.9261
+  },
+  "best_pass_fail_model": "Logistic Regression",
+  "best_pass_fail_metrics": {
+    "Accuracy": 0.9563,
+    "Precision": 0.9555,
+    "Recall": 0.9563,
+    "F1_Score": 0.9553,
+    "ROC_AUC": 0.9844,
+    "Confusion_Matrix": [
+      [
+        47,
+        10
+      ],
+      [
+        4,
+        259
+      ]
+    ],
+    "CV_F1_Mean": 0.9557
+  },
+  "best_category_model": "Logistic Regression",
+  "best_category_metrics": {
+    "Accuracy": 0.8438,
+    "Precision": 0.8492,
+    "Recall": 0.8438,
+    "F1_Score": 0.8439,
+    "ROC_AUC": 0.9509,
+    "Confusion_Matrix": [
+      [
+        26,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        21,
+        8,
+        0
+      ],
+      [
+        0,
+        6,
+        130,
+        16
+      ],
+      [
+        0,
+        0,
+        12,
+        93
+      ]
+    ],
+    "CV_F1_Mean": 0.8372
+  },
+  "regression_leaderboard": {
+    "Linear Regression": {
+      "RMSE": 3.295,
+      "MAE": 2.663,
+      "R2_Score": 0.9222,
+      "MAPE_Percent": 3.96,
+      "CV_R2_Mean": 0.9249
+    },
+    "Ridge Regression": {
+      "RMSE": 3.293,
+      "MAE": 2.66,
+      "R2_Score": 0.9223,
+      "MAPE_Percent": 3.96,
+      "CV_R2_Mean": 0.925
+    },
+    "Lasso Regression": {
+      "RMSE": 3.307,
+      "MAE": 2.667,
+      "R2_Score": 0.9216,
+      "MAPE_Percent": 3.97,
+      "CV_R2_Mean": 0.9261
+    },
+    "Decision Tree": {
+      "RMSE": 4.19,
+      "MAE": 3.313,
+      "R2_Score": 0.8742,
+      "MAPE_Percent": 4.97,
+      "CV_R2_Mean": 0.87
+    },
+    "Random Forest": {
+      "RMSE": 3.668,
+      "MAE": 2.933,
+      "R2_Score": 0.9035,
+      "MAPE_Percent": 4.39,
+      "CV_R2_Mean": 0.9053
+    },
+    "Gradient Boosting": {
+      "RMSE": 3.594,
+      "MAE": 2.884,
+      "R2_Score": 0.9074,
+      "MAPE_Percent": 4.32,
+      "CV_R2_Mean": 0.9117
+    },
+    "XGBoost": {
+      "RMSE": 3.565,
+      "MAE": 2.861,
+      "R2_Score": 0.9089,
+      "MAPE_Percent": 4.26,
+      "CV_R2_Mean": 0.9102
+    },
+    "LightGBM": {
+      "RMSE": 3.588,
+      "MAE": 2.87,
+      "R2_Score": 0.9077,
+      "MAPE_Percent": 4.34,
+      "CV_R2_Mean": 0.9073
+    },
+    "Support Vector Regressor (SVR)": {
+      "RMSE": 4.019,
+      "MAE": 3.101,
+      "R2_Score": 0.8842,
+      "MAPE_Percent": 4.88,
+      "CV_R2_Mean": 0.8891
+    },
+    "Multi-Layer Perceptron (MLP)": {
+      "RMSE": 3.507,
+      "MAE": 2.822,
+      "R2_Score": 0.9118,
+      "MAPE_Percent": 4.25,
+      "CV_R2_Mean": 0.9187
+    }
+  },
+  "pass_fail_leaderboard": {
+    "Logistic Regression": {
+      "Accuracy": 0.9563,
+      "Precision": 0.9555,
+      "Recall": 0.9563,
+      "F1_Score": 0.9553,
+      "ROC_AUC": 0.9844,
+      "Confusion_Matrix": [
+        [
+          47,
+          10
+        ],
+        [
+          4,
+          259
+        ]
+      ],
+      "CV_F1_Mean": 0.9557
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9406,
+      "Precision": 0.9392,
+      "Recall": 0.9406,
+      "F1_Score": 0.9395,
+      "ROC_AUC": 0.8975,
+      "Confusion_Matrix": [
+        [
+          45,
+          12
+        ],
+        [
+          7,
+          256
+        ]
+      ],
+      "CV_F1_Mean": 0.9287
+    },
+    "Random Forest": {
+      "Accuracy": 0.9563,
+      "Precision": 0.9555,
+      "Recall": 0.9563,
+      "F1_Score": 0.9553,
+      "ROC_AUC": 0.9867,
+      "Confusion_Matrix": [
+        [
+          47,
+          10
+        ],
+        [
+          4,
+          259
+        ]
+      ],
+      "CV_F1_Mean": 0.951
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.9563,
+      "Precision": 0.9555,
+      "Recall": 0.9563,
+      "F1_Score": 0.9553,
+      "ROC_AUC": 0.9839,
+      "Confusion_Matrix": [
+        [
+          47,
+          10
+        ],
+        [
+          4,
+          259
+        ]
+      ],
+      "CV_F1_Mean": 0.9497
+    },
+    "XGBoost": {
+      "Accuracy": 0.9594,
+      "Precision": 0.9587,
+      "Recall": 0.9594,
+      "F1_Score": 0.9586,
+      "ROC_AUC": 0.986,
+      "Confusion_Matrix": [
+        [
+          48,
+          9
+        ],
+        [
+          4,
+          259
+        ]
+      ],
+      "CV_F1_Mean": 0.9531
+    },
+    "LightGBM": {
+      "Accuracy": 0.95,
+      "Precision": 0.9491,
+      "Recall": 0.95,
+      "F1_Score": 0.9493,
+      "ROC_AUC": 0.9854,
+      "Confusion_Matrix": [
+        [
+          47,
+          10
+        ],
+        [
+          6,
+          257
+        ]
+      ],
+      "CV_F1_Mean": 0.9529
+    },
+    "Support Vector Classifier (SVC)": {
+      "Accuracy": 0.9563,
+      "Precision": 0.9555,
+      "Recall": 0.9563,
+      "F1_Score": 0.9556,
+      "ROC_AUC": 0.9833,
+      "Confusion_Matrix": [
+        [
+          48,
+          9
+        ],
+        [
+          5,
+          258
+        ]
+      ],
+      "CV_F1_Mean": 0.945
+    },
+    "Multi-Layer Perceptron (MLP)": {
+      "Accuracy": 0.9375,
+      "Precision": 0.9367,
+      "Recall": 0.9375,
+      "F1_Score": 0.9371,
+      "ROC_AUC": 0.9735,
+      "Confusion_Matrix": [
+        [
+          46,
+          11
+        ],
+        [
+          9,
+          254
+        ]
+      ],
+      "CV_F1_Mean": 0.9393
+    }
+  },
+  "category_leaderboard": {
+    "Logistic Regression": {
+      "Accuracy": 0.8438,
+      "Precision": 0.8492,
+      "Recall": 0.8438,
+      "F1_Score": 0.8439,
+      "ROC_AUC": 0.9509,
+      "Confusion_Matrix": [
+        [
+          26,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          21,
+          8,
+          0
+        ],
+        [
+          0,
+          6,
+          130,
+          16
+        ],
+        [
+          0,
+          0,
+          12,
+          93
+        ]
+      ],
+      "CV_F1_Mean": 0.8372
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8187,
+      "Precision": 0.8258,
+      "Recall": 0.8187,
+      "F1_Score": 0.8194,
+      "ROC_AUC": 0.89,
+      "Confusion_Matrix": [
+        [
+          27,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          21,
+          8,
+          0
+        ],
+        [
+          0,
+          6,
+          122,
+          24
+        ],
+        [
+          2,
+          0,
+          11,
+          92
+        ]
+      ],
+      "CV_F1_Mean": 0.7738
+    },
+    "Random Forest": {
+      "Accuracy": 0.8438,
+      "Precision": 0.8473,
+      "Recall": 0.8438,
+      "F1_Score": 0.842,
+      "ROC_AUC": 0.9437,
+      "Confusion_Matrix": [
+        [
+          26,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          18,
+          11,
+          0
+        ],
+        [
+          0,
+          3,
+          136,
+          13
+        ],
+        [
+          1,
+          0,
+          14,
+          90
+        ]
+      ],
+      "CV_F1_Mean": 0.8023
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.8187,
+      "Precision": 0.8228,
+      "Recall": 0.8187,
+      "F1_Score": 0.8189,
+      "ROC_AUC": 0.9407,
+      "Confusion_Matrix": [
+        [
+          26,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          20,
+          9,
+          0
+        ],
+        [
+          0,
+          7,
+          125,
+          20
+        ],
+        [
+          3,
+          0,
+          11,
+          91
+        ]
+      ],
+      "CV_F1_Mean": 0.7985
+    },
+    "XGBoost": {
+      "Accuracy": 0.8406,
+      "Precision": 0.8449,
+      "Recall": 0.8406,
+      "F1_Score": 0.8411,
+      "ROC_AUC": 0.9486,
+      "Confusion_Matrix": [
+        [
+          28,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          22,
+          7,
+          0
+        ],
+        [
+          0,
+          5,
+          127,
+          20
+        ],
+        [
+          2,
+          0,
+          11,
+          92
+        ]
+      ],
+      "CV_F1_Mean": 0.7981
+    },
+    "LightGBM": {
+      "Accuracy": 0.8375,
+      "Precision": 0.8425,
+      "Recall": 0.8375,
+      "F1_Score": 0.8373,
+      "ROC_AUC": 0.9439,
+      "Confusion_Matrix": [
+        [
+          26,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          20,
+          9,
+          0
+        ],
+        [
+          0,
+          4,
+          129,
+          19
+        ],
+        [
+          2,
+          0,
+          10,
+          93
+        ]
+      ],
+      "CV_F1_Mean": 0.7956
+    },
+    "Support Vector Classifier (SVC)": {
+      "Accuracy": 0.825,
+      "Precision": 0.8261,
+      "Recall": 0.825,
+      "F1_Score": 0.8246,
+      "ROC_AUC": 0.9398,
+      "Confusion_Matrix": [
+        [
+          27,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          20,
+          9,
+          0
+        ],
+        [
+          0,
+          6,
+          132,
+          14
+        ],
+        [
+          2,
+          0,
+          18,
+          85
+        ]
+      ],
+      "CV_F1_Mean": 0.8177
+    },
+    "Multi-Layer Perceptron (MLP)": {
+      "Accuracy": 0.7781,
+      "Precision": 0.7839,
+      "Recall": 0.7781,
+      "F1_Score": 0.7793,
+      "ROC_AUC": 0.8952,
+      "Confusion_Matrix": [
+        [
+          26,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          18,
+          11,
+          0
+        ],
+        [
+          0,
+          13,
+          118,
+          21
+        ],
+        [
+          2,
+          0,
+          16,
+          87
+        ]
+      ],
+      "CV_F1_Mean": 0.7943
+    }
+  },
+  "feature_importances": {
+    "previous_grades": 35.25,
+    "study_time": 11.8,
+    "failures": 11.43,
+    "attendance_rate": 9.04,
+    "parental_education_High School": 8.47,
+    "tutoring_No": 7.67,
+    "parental_education_Master/Doctorate": 4.96,
+    "academic_risk_index": 4.43,
+    "absences": 3.04,
+    "parental_education_Bachelor": 1.88,
+    "socioeconomic_support_score": 1.27,
+    "health_Excellent": 0.61,
+    "parental_education_Some College": 0.08,
+    "extracurricular_activities_No": 0.07,
+    "age": 0.0,
+    "study_efficiency": 0.0,
+    "study_attendance_interaction": 0.0,
+    "gender_Female": 0.0,
+    "gender_Male": 0.0,
+    "extracurricular_activities_Yes": 0.0,
+    "internet_access_No": 0.0,
+    "internet_access_Yes": 0.0,
+    "tutoring_Yes": 0.0,
+    "family_support_No": 0.0,
+    "family_support_Yes": 0.0,
+    "health_Fair": 0.0,
+    "health_Good": 0.0,
+    "health_Poor": 0.0,
+    "attendance_tier_Critical (<70%)": 0.0,
+    "attendance_tier_Excellent (>95%)": 0.0,
+    "attendance_tier_Good (85-95%)": 0.0,
+    "attendance_tier_Moderate (70-85%)": 0.0,
+    "previous_grade_tier_Average (55-70)": 0.0,
+    "previous_grade_tier_High (70-85)": 0.0,
+    "previous_grade_tier_Low (<55)": 0.0,
+    "previous_grade_tier_Superior (>85)": 0.0
+  }
+}
